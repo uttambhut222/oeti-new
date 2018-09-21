@@ -30,14 +30,49 @@
 					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="team_name">
 							<div class="inner_team">
-								<div class="title">Bhautik Modi</div>
-								<p>Wordpress Developer</p>
-								<a href="https://www.linkedin.com/in/bhautikmodi8" target="_blank"><i class="flaticon-linkedin"></i></a>
+								<div class="title">Aakash More</div>
+								<p>Business Development Executive</p>
+								<a href="https://www.linkedin.com/in/aakashmanseasky/" target="_blank"><i class="flaticon-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="team_image"> <img src="images/bhautik.png" alt="" class="img-responsive" /></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6 small_mobile">
+				<div class="team_box">
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="team_name">
+							<div class="inner_team">
+								<div class="title">Anand Yadav</div>
+								<p>Front-End Developer</p>
+								<a href="https://www.linkedin.com/in/anand-yadav-95079868/" target="_blank"><i class="flaticon-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="team_image"> <img src="images/dharti.png" alt="" class="img-responsive" /></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="clearfix visible-md"></div>
+			<div class="col-md-4 col-sm-6 col-xs-6 small_mobile">
+				<div class="team_box">
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="team_name">
+							<div class="inner_team">
+								<div class="title">Bhautik Modi</div>
+								<p>Wordpress Developer</p>
+								<a href="https://www.linkedin.com/in/bhautikmodi8/" target="_blank"><i class="flaticon-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="team_image"> <img src="images/jaxi.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -54,25 +89,42 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/dharti.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/krupali.png" alt="" class="img-responsive" /></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6 small_mobile">
+				<div class="team_box">
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="team_name">
+							<div class="inner_team">
+								<div class="title">Gopal Makwana</div>
+								<p>Office Administrator</p>
+								<a href="https://www.linkedin.com/in/gopal-makwana-28561516b/" target="_blank"><i class="flaticon-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="team_image"> <img src="images/mayank.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 			</div>
 			<div class="clearfix visible-md"></div>
-			<div class="col-md-4 col-sm-6 col-xs-6 small_mobile">
+			<div class="col-md-4 col-sm-6 col-md-offset-2 col-xs-6 small_mobile">
 				<div class="team_box">
 					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="team_name">
 							<div class="inner_team">
 								<div class="title">Jaxi Chawda</div>
 								<p>PHP Developer</p>
-								<a href="https://www.linkedin.com/in/jaxi-chawda-091a05165" target="_blank"><i class="flaticon-linkedin"></i></a>
+								<a href="https://www.linkedin.com/in/jaxi-chawda-091a05165/" target="_blank"><i class="flaticon-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/jaxi.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/mitesh.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -89,11 +141,12 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/krupali.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/nirav.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 			</div>
+			<div class="clearfix visible-md"></div>
 			<div class="col-md-4 col-sm-6 col-xs-6 small_mobile">
 				<div class="team_box">
 					<div class="col-md-6 col-sm-6 col-xs-6">
@@ -106,13 +159,12 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/mayank.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/pooja.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 			</div>
-			<div class="clearfix visible-md"></div>
-			<div class="col-md-4 col-sm-6 col-md-offset-2 col-xs-6 small_mobile">
+			<div class="col-md-4 col-sm-6 col-xs-6 small_mobile">
 				<div class="team_box">
 					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="team_name">
@@ -124,7 +176,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/mitesh.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/swar.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -141,13 +193,13 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/nirav.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/tm.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 			</div>
 			<div class="clearfix visible-md"></div>
-			<div class="col-md-4 col-sm-6 col-xs-6 small_mobile">
+			<div class="col-md-4 col-sm-6 col-md-offset-2 col-xs-6 small_mobile">
 				<div class="team_box">
 					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="team_name">
@@ -159,7 +211,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/pooja.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/uttam.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -176,11 +228,12 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/swar.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/vidhi.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 			</div>
+			<div class="clearfix visible-md"></div>
 			<div class="col-md-4 col-sm-6 col-xs-6 small_mobile">
 				<div class="team_box">
 					<div class="col-md-6 col-sm-6 col-xs-6">
@@ -193,13 +246,12 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/tm.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/jaxi.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 			</div>
-			<div class="clearfix visible-md"></div>
-			<div class="col-md-4 col-sm-6 col-md-offset-2 col-xs-6 small_mobile">
+			<div class="col-md-4 col-sm-6 col-xs-6 small_mobile">
 				<div class="team_box">
 					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="team_name">
@@ -211,7 +263,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/uttam.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/krupali.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -228,7 +280,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/vidhi.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/krupali.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
