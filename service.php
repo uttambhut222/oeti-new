@@ -28,7 +28,7 @@
 				  <div class="service_inner">
 					  <div class="img_icon"><img src="images/development.png" alt="" class="img-responsive" /></div>
 					  <h4>WEB DEVELOPMENT</h4>
-					  <p class="padding_15">We render web development services that combine technology with business concepts to help make your website user friendly. With expertise in PHP, MySQL, JavaScript, AJAX, CodeIgnitor, Wordpress, MODX and Joomla, our web developers create for you the website.<br><!--<a href="web_development" class="more_details">More details</a>--></p>
+					  <p class="padding_30">We render web development services that combine technology with business concepts to help make your website user friendly. With expertise in PHP, MySQL, JavaScript, AJAX, CodeIgnitor, Wordpress, MODX and Joomla, our web developers create for you the website.<br><!--<a href="web_development" class="more_details">More details</a>--></p>
 					  <ul class="skill_icon">
 						  <li title="Angular" data-toggle="tooltip" data-placement="top"><img src="images/angular.png" alt="" class="img-responsive" /></li>
           				  <li title="Codeigniter" data-toggle="tooltip" data-placement="top"><img src="images/codeigniter.png" alt="" class="img-responsive" /></li>

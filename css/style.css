@@ -17,7 +17,7 @@ ul {list-style:none; padding: 0; margin: 0;}
 li {list-style:none;}
 h1{ font-size:35px; line-height: 35px; font-weight: 300; margin:0 0 15px 0; color:#222; text-transform:uppercase;}
 h2{ font-size:35px; line-height: 35px; font-weight: 300; margin:0 0 15px 0; color:#222; text-transform:uppercase;}
-h3{ font-size:30px; color:#0061AF; margin:0 0 10px 0; font-weight: 400; line-height:30px; text-transform:none;}
+h3{ font-size:27px; color:#0061AF; margin:0 0 10px 0; font-weight: 400; line-height:30px; text-transform:none;}
 h4{ font-size:22px; color:#0061AF; display:block; margin:0 0 10px 0; font-weight: 500; line-height:22px; }
 h5{color:#2e2d31; display:block; font:normal 18px/18px; margin:0 0 15px 0; text-transform:uppercase; font-weight: 600;}
 /* ========== Do Not Touch In Css End ========== */
@@ -271,7 +271,7 @@ footer{ background:#f2f2f2; padding:14px 0; font-size:15px; font-weight: 400; li
 .bottom_content .contentbox .read_more{ color: #fff; border-color: #fff;}
 
 .inner_block{ padding:2px 0 30px 0; position: relative; z-index: 9; margin-top: -2px; background: #fff;}
-.list_li li{ display: block; line-height:24px; color: #222; font-weight: normal; font-size: 16px; font-family: 'Titillium Web', sans-serif; background: url(../images/circle.png) left 8px no-repeat; background-size: 10px; padding: 0 0 5px 17px;}
+.list_li li{ display: block; line-height:24px; color: #222; font-weight: normal; font-size: 16px; font-family: 'Titillium Web', sans-serif; background: url(../images/circle.png) left 7px no-repeat; background-size: 10px; padding: 0 0 5px 17px;}
 .margin_li{margin-bottom: 30px;}
 .img_class{width: 30%; margin: 0 0 10px 10px;}
 /*-------------End Common for all Inner page----------------------*/
@@ -556,7 +556,10 @@ footer{ background:#f2f2f2; padding:14px 0; font-size:15px; font-weight: 400; li
 	header.header_fixed .screen_menu ul.menu_ul li a + span{display: none;}
 	header.header_fixed .screen_menu ul.menu_ul ul.dropdown-menu li a:before{content: ''; position: absolute; left: -10px; top: 8px; height: 1px; background: #ccc; width: 15px;}
 	.navigation ul li ul.dropdown-menu li a,.navigation ul li ul.dropdown-menu li:hover a, .navigation ul li ul.dropdown-menu li.active a, .navigation ul li ul.dropdown-menu li:focus a { background:transparent!important;  border-left: 0;}
-	header.header_fixed .screen_menu{padding: 15px 0 0 0;}
+	header.header_fixed .screen_menu{padding: 15px 0 0 0; overflow-y:auto;}
+	.portfolio_block .filter_tabs .filter{margin-bottom:0;}
+	.bottom_content{ margin: -3px 0 0 0;}
+	body.overflow_body{overflow: hidden; height:100%;}
 }
 @media (max-width:700px){
 	.small_mobile{margin-left: 15%; width: 70%;}

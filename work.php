@@ -23,7 +23,7 @@
 		  <div class="clearfix"></div>
 		  <div class="separator inner_separator"><span class="dott"></span><span class="dott"></span><span class="dott"></span></div>
 		  <div class="clearfix"></div>   
-		  <p class="padding_15">We are proud to offer both customers and our employees with the most up-to-date and cutting-edge technologies and partnerships.</p>
+		  <p class="padding_30">We are proud to offer both customers and our employees with the most up-to-date and cutting-edge technologies and partnerships.</p>
           <div class="clearfix"></div>         
 
 		 <ul class="filter_tabs pull-right">

@@ -158,9 +158,11 @@ $(document).ready(function() {
 // Inquiry Form
 $(".inquire_now").click(function() {
 	$('.form_widget').addClass("active");
+	$('body').addClass("overflow_body");
 });
 $(".form_widget .glyphicon-remove").click(function() {
 	$('.form_widget').removeClass("active");
+	$('body').removeClass("overflow_body");
 });
 //End Inquiry Form
 
