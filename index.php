@@ -102,19 +102,19 @@ tactics result in the client’s desired success.
             <div class="full-row">
                 <div class="service_left">
                     <div class="service-item mb-40">
-						<a href="web_development">
+						<a>
 							<div class="service_icon circle bg-secondary"><img src="images/development.png" alt="" class="img-responsive margin-auto" /></div>
 							<h5 class="inner-title color-secondary">WEB DEVELOPMENT</h5>
                         </a>
 					</div>
                     <div class="service-item mb-40 pr-50"> 
-						<a href="app_development">
+						<a>
 							<div class="service_icon circle bg-secondary"><img src="images/mobile.png" alt="" class="img-responsive margin-auto" /></div>
 							<h5 class="inner-title color-secondary">MOBILE APP DEVELOPMENT</h5>
                         </a>
 					</div>
                     <div class="service-item mb-40"> 
-						<a href="ux_design">
+						<a>
 							<div class="service_icon circle bg-secondary"><img src="images/ui.png" alt="" class="img-responsive margin-auto" /></div>
 							<h5 class="inner-title color-secondary">UI/UX DESIGN STRATEGIES</h5>
                         </a>
@@ -123,19 +123,19 @@ tactics result in the client’s desired success.
                 <div class="service_middle circle margin-auto"> <img class="circle img-responsive" src="images/service.jpg" alt=""> </div>
                 <div class="service_right">
                     <div class="service-item pull-left mb-40"> 
-						<a href="customer_service">
+						<a>
 							<div class="service_icon circle bg-secondary"><img src="images/cs.png" alt="" class="img-responsive margin-auto" /></div>
 							<h5 class="inner-title color-secondary">CUSTOMER SERVICE</h5>
                         </a>
 					</div>
                     <div class="service-item pull-left mb-40 pl-50"> 
-						<a href="quality_analysis">
+						<a>
 							<div class="service_icon circle bg-secondary"><img src="images/analysis.png" alt="" class="img-responsive margin-auto" /></div>
 							<h5 class="inner-title color-secondary">QUALITY ANALYSIS</h5>
                         </a>
 					</div>
                     <div class="service-item pull-left mb-40"> 
-						<a href="financial_services">
+						<a>
 							<div class="service_icon circle bg-secondary"><img src="images/finance.png" alt="" class="img-responsive margin-auto" /></div>
 							<h5 class="inner-title color-secondary">FINANCIAL SERVICES</h5>
                         </a>

@@ -73,39 +73,33 @@
                 <li title="HTML" data-toggle="tooltip" data-placement="top"><img src="images/html.png" alt="" class="img-responsive" /></li>
                 <li title="Bootstrap" data-toggle="tooltip" data-placement="top"><img src="images/bootstrap.png" alt="" class="img-responsive" /></li>
                 <li title="CSS" data-toggle="tooltip" data-placement="top"><img src="images/css.png" alt="" class="img-responsive" /></li>
+				<li title="GitHub" data-toggle="tooltip" data-placement="top"><img src="images/github.png" alt="" class="img-responsive" /></li>
+                <li title="NodeJS" data-toggle="tooltip" data-placement="top"><img src="images/node.png" alt="" class="img-responsive" /></li>
+                <li title="JIRA Software" data-toggle="tooltip" data-placement="top"><img src="images/jiratool.png" alt="" class="img-responsive" /></li>
+                <li title="Dreamweaver" data-toggle="tooltip" data-placement="top"><img src="images/dreamweaver.png" alt="" class="img-responsive" /></li>
               </ul>
             </div>
             <div role="tabpanel" class="tab-pane" id="step4">
               <h3>Integration and Testing</h3>
               <p class="padding_15">All the units developed in the implementation phase are integrated into a system after testing of each unit. Post integration the entire system is tested for any faults and failures.</p>
               <ul class="skill_icon">
-                <li title="Angular" data-toggle="tooltip" data-placement="top"><img src="images/angular.png" alt="" class="img-responsive" /></li>
-                <li title="Codeigniter" data-toggle="tooltip" data-placement="top"><img src="images/codeigniter.png" alt="" class="img-responsive" /></li>
-                <li title="HTML" data-toggle="tooltip" data-placement="top"><img src="images/html.png" alt="" class="img-responsive" /></li>
-                <li title="Bootstrap" data-toggle="tooltip" data-placement="top"><img src="images/bootstrap.png" alt="" class="img-responsive" /></li>
-                <li title="CSS" data-toggle="tooltip" data-placement="top"><img src="images/css.png" alt="" class="img-responsive" /></li>
+                <li title="JIRA Software" data-toggle="tooltip" data-placement="top"><img src="images/jiratool.png" alt="" class="img-responsive" /></li>
               </ul>
             </div>
             <div role="tabpanel" class="tab-pane" id="step5">
               <h3>Deployment of system</h3>
               <p class="padding_15">Once the functional and non-functional testing is done; the product is deployed in the customer environment or released into the market.</p>
               <ul class="skill_icon">
-                <li title="Angular" data-toggle="tooltip" data-placement="top"><img src="images/angular.png" alt="" class="img-responsive" /></li>
-                <li title="Codeigniter" data-toggle="tooltip" data-placement="top"><img src="images/codeigniter.png" alt="" class="img-responsive" /></li>
-                <li title="HTML" data-toggle="tooltip" data-placement="top"><img src="images/html.png" alt="" class="img-responsive" /></li>
-                <li title="Bootstrap" data-toggle="tooltip" data-placement="top"><img src="images/bootstrap.png" alt="" class="img-responsive" /></li>
-                <li title="CSS" data-toggle="tooltip" data-placement="top"><img src="images/css.png" alt="" class="img-responsive" /></li>
+                <li title="inmotion" data-toggle="tooltip" data-placement="top"><img src="images/inmotion.png" alt="" class="img-responsive" /></li>
+                <li title="GoDaddy" data-toggle="tooltip" data-placement="top"><img src="images/godaddy.png" alt="" class="img-responsive" /></li>
               </ul>
             </div>
             <div role="tabpanel" class="tab-pane" id="step6">
               <h3>Maintenance</h3>
               <p class="padding_15">There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment.</p>
               <ul class="skill_icon">
-                <li title="Angular" data-toggle="tooltip" data-placement="top"><img src="images/angular.png" alt="" class="img-responsive" /></li>
-                <li title="Codeigniter" data-toggle="tooltip" data-placement="top"><img src="images/codeigniter.png" alt="" class="img-responsive" /></li>
-                <li title="HTML" data-toggle="tooltip" data-placement="top"><img src="images/html.png" alt="" class="img-responsive" /></li>
-                <li title="Bootstrap" data-toggle="tooltip" data-placement="top"><img src="images/bootstrap.png" alt="" class="img-responsive" /></li>
-                <li title="CSS" data-toggle="tooltip" data-placement="top"><img src="images/css.png" alt="" class="img-responsive" /></li>
+                <li title="Slack" data-toggle="tooltip" data-placement="top"><img src="images/slack.png" alt="" class="img-responsive" /></li>
+                <li title="JIRA Software" data-toggle="tooltip" data-placement="top"><img src="images/jiratool.png" alt="" class="img-responsive" /></li>
               </ul>
             </div>
           </div>

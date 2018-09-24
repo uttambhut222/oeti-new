@@ -93,7 +93,7 @@
 				  </li>
                   <li id="what_inner"><a href="service"><span>W</span>hat</a><span>What we do <i class="flaticon-right-arrows-couple"></i></span>
 					<ul class="dropdown-menu">
-						<li><a href="work1">Development</a></li>
+						<!--<li><a href="work1">Development</a></li>-->
 						<!--<li id="staff1"><a href="staff">Augmentation</a></li>-->
 					</ul>
 				  </li>

@@ -29,10 +29,21 @@
 					  <div class="left_box">
 						<h3>Job Description</h3>
 						<ul class="list_li">
-						  <li>Proven work experience as a Front-end developer with extensive hands on experience with HTML5, CSS3, JavaScript, Bootstrap and related markup coding support tools.</li>
-						  <li>Proficient understanding with browser testing and debugging, cross-browser compatibility issues and ways to work around them.</li>
-						  <li>Expert knowledge of optimizing client side performance, through CSS.</li>
-						  <li>Basic knowledge of Search Engine Optimization process.</li>
+						  <li>At least 6+ years of experience in software graphics manipulation and web programming</li>
+						  <li>Strong knowledge of PHP object orientated and MySQL</li>
+						  <li>Experience with Drupal and WordPress</li>
+						  <li>Experience of MVC frameworks/architecture such as <strong>Symfony</strong>, <strong>Codeigniter</strong> and <strong>Laravel</strong></li>
+						  <li>Ability to scope and estimate technical builds</li>
+						  <li>Ability to code and debug in HTML, CSS(responsive design framework), JavaScript/jQuery.</li>
+						  <li>Experience of implementing Google Analytics code and debugging</li>
+						  <li>Experience of using version control using <strong>Github</strong>, <strong>Subversion</strong></li>
+						  <li>Must be able to stay on top of advancing internet and computer technology and its effects to the business environment</li>
+						  <li>Be willing to work in a research capacity – to find and test and critically review open-source frameworks and technologies.</li>
+						  <li>Uses a rigorous risk identification and mitigation process on an ongoing basis.</li>
+						  <li>Ensures that risk related costs are included in project budgets and forecasts.</li>
+						  <li>Demonstrates project control internally through disciplined measurement, assessment, planning, and reporting.</li>
+						  <li>Assesses problem causes and implications; recommends solutions and costs, and encourages shared problem solving.</li>
+						  <li>Demonstrate each of these, both internally and externally with the client.</li>
 						</ul>
 					  </div>
 					</div>
