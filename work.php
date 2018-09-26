@@ -35,64 +35,64 @@
 		  <div class="separator inner_separator hidden-xs hidden-lg hidden-sm hidden-md"><span class="dott"></span><span class="dott"></span><span class="dott"></span></div> 
           <div class="clearfix"></div>
           <div class="filter-list row">
-			   <div class="mix all Product col-md-3 col-sm-4 col-xs-6">
+			   <div class="mix all Project col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/afp.jpg" class="img-responsive" alt="" />
-                       <div class="overlay_box">
-						   <a href="afp_detail"><i class="flaticon-external-link-symbol"></i>
+                       <a href="afp_detail"><div class="overlay_box">
+						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>AFP</h3><div class="category">Assessment Tool</div></div>
-						   </a>
-                       </div>
+						   
+                       </div></a>
                     </div>
 			   </div>
-			  <div class="mix all Project col-md-3 col-sm-4 col-xs-6">
+			  <div class="mix all Product col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/atd.jpg" class="img-responsive" alt="" />
-                       <div class="overlay_box">
-						   <a href="atd_detail"><i class="flaticon-external-link-symbol"></i>
+                       <a href="atd_detail"><div class="overlay_box">
+						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>ATD</h3><div class="category">Assessment Tool</div></div>
-						   </a>
-                       </div>
+						   
+                       </div></a>
                     </div>
 			   </div>
 			  <div class="mix all Product col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/lfb.jpg" class="img-responsive" alt="" />
-                       <div class="overlay_box">
-						   <a href="learnfeedback_detail"><i class="flaticon-external-link-symbol"></i>
-                           	<div class="content"><h3>Learn Feedback</h3><div class="category">Assessment Tool</div></div>
-						   </a>
-                       </div>
+                       <a href="learnfeedback_detail"><div class="overlay_box">
+						   <i class="flaticon-external-link-symbol"></i>
+                           	<div class="content"><h3>Learn Feedback</h3><div class="category">Straehle Feedback Inventory</div></div>
+						   
+                       </div></a>
                     </div>
 			   </div>
-			  <div class="mix all Project col-md-3 col-sm-4 col-xs-6">
+			  <div class="mix all Product col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/alli.jpg" class="img-responsive" alt="" />
-                       <div class="overlay_box">
-						   <a href="allinstitute_detail"><i class="flaticon-external-link-symbol"></i>
+                       <a href="allinstitute_detail"><div class="overlay_box">
+						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>All Institute</h3><div class="category">Coaching Services</div></div>
-						   </a>
-                       </div>
+						   
+                       </div></a>
                     </div>
 			   </div>
 			  <div class="mix all Project col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/tedx.jpg" class="img-responsive" alt="" />
-                       <div class="overlay_box">
-						   <a href="tedxtysons_detail"><i class="flaticon-external-link-symbol"></i>
+                       <a href="tedxtysons_detail"><div class="overlay_box">
+						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>TedxTysons</h3><div class="category">Coaching Services</div></div>
-						   </a>
-                       </div>
+						  
+                       </div> </a>
                     </div>
 			   </div>
-			  <div class="mix all Product col-md-3 col-sm-4 col-xs-6">
+			  <div class="mix all Project col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/aere.jpg" class="img-responsive" alt="" />
-                       <div class="overlay_box">
-						   <a href="aere_detail"><i class="flaticon-external-link-symbol"></i>
-                           	<div class="content"><h3>AERE</h3><div class="category">Coaching Services</div></div>
-						   </a>
-                       </div>
+                       <a href="aere_detail"><div class="overlay_box">
+						   <i class="flaticon-external-link-symbol"></i>
+                           	<div class="content"><h3>AERE</h3><div class="category">Event</div></div>
+						   
+                       </div></a>
                     </div>
 			   </div>
            </div>

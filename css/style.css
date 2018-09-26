@@ -508,6 +508,20 @@ footer{ background:#f2f2f2; padding:14px 0; font-size:15px; font-weight: 400; li
 	.team_box .team_name .title{font-size: 14px!important;}
 	.team_box .team_name{padding: 15px 20px; height: 130px; width: 115%; float: right;}
 	.team_box .team_name a{ opacity: 1; transition: all .3s ease-out; visibility: visible;}
+	.client_section .col-md-2 .client_box img,.about_project .skill_used li,.about_project .feature_block img{filter:none;opacity:1;}
+}
+@media (min-width:768px) and (max-width:1024px){
+	.career_box{height:185px;padding:15px;margin-bottom:20px;}
+	.career_box:hover{padding:10px 15px;}
+	.career_box:hover a.read_more{bottom:20px;}
+	.work_banner.inner_banner .innerbanner_text{padding:8% 0 0 0;}
+	.about_project .feature_block .right_box, .about_project .feature_block .left_box {height: auto;}
+	.about_project .feature_block .right_box{padding:10px 0px;}
+	.border_left {border: 0;border-bottom: 1px solid #ccc;}
+	.career_detail_section .border_div .col-md-6,.career_detail_section .border_div .col-sm-6{width:100%;}
+	header.header_fixed .screen_menu ul.menu_ul li span{margin-left:10px;}
+	.career_detail_section .border_div .right_box{padding:30px 0px 30px 30px;}
+	.client_section .col-md-2 .client_box img,.about_project .skill_used li,.about_project .feature_block img{filter:none;opacity:1;}	
 }
 @media (max-width:767px){
 	.container{padding:0 20px;}
@@ -563,6 +577,19 @@ footer{ background:#f2f2f2; padding:14px 0; font-size:15px; font-weight: 400; li
 }
 @media (max-width:700px){
 	.small_mobile{margin-left: 15%; width: 70%;}
+}
+@media (max-width:640px){	
+	.bottom_content .contentbox .read_more{margin-top:10px;}
+	.bottom_content .contentbox{font-size:20px;}
+	.number_content .number_box {text-align: center;}
+	.work_banner.inner_banner .innerbanner_text{line-height:30px;}
+	.inner_banner .innerbanner_text {font-size: 18px;}
+	.read_more {padding: 8px 12px;font-size: 14px;line-height: 14px;}
+	.about_project .img_computer img{width:100%;}
+	.about_project .img_computer{margin:50px auto 25px;}
+	.career_box{height:185px;padding:15px;}
+	.career_box a.read_more{opacity:1;visibility:visible;}
+	.career_box:hover{padding:10px;}
 }
 @media (max-width:600px){
 	.timeline > li .timeline-panel{width: 70%!important;}
