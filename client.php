@@ -50,7 +50,7 @@
       		<div class="client_box"><a href="http://allinstitute.aerexperts.com" target="_blank"><img src="images/all.png" alt="" class="img-responsive" /></a></div>
     	</div>
     	<div class="col-md-2 col-sm-3 col-xs-4">
-      		<div class="client_box"><a href="#"><img src="images/atd.png" alt="" class="img-responsive" /></a></div>
+      		<div class="client_box"><a><img src="images/atd.png" alt="" class="img-responsive" /></a></div>
     	</div>
     	<div class="col-md-2 col-sm-3 col-xs-4">
       		<div class="client_box"><a href="http://learnfeedback.com" target="_blank"><img src="images/lf.png" alt="" class="img-responsive" /></a></div>

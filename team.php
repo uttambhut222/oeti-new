@@ -37,7 +37,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/bhautik.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/aakash.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -54,7 +54,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/dharti.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/anand.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -72,7 +72,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/jaxi.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/bhautik.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -89,7 +89,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/krupali.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/dharti.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -106,7 +106,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/mayank.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/gopal.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -124,7 +124,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/mitesh.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/jaxi.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -141,7 +141,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/nirav.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/krupali.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -159,7 +159,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/pooja.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/mayank.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -176,7 +176,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/swar.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/mitesh.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -193,7 +193,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/tm.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/nirav.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -211,7 +211,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/uttam.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/pooja.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -228,7 +228,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/vidhi.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/swar.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -246,7 +246,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/jaxi.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/tm.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -263,7 +263,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/krupali.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/uttam.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -280,7 +280,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6">
-						<div class="team_image"> <img src="images/krupali.png" alt="" class="img-responsive" /></div>
+						<div class="team_image"> <img src="images/vidhi.png" alt="" class="img-responsive" /></div>
 					</div>
 					<div class="clearfix"></div>
 				</div>

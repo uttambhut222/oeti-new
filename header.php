@@ -50,7 +50,7 @@
 					  	<nav>
 							<div class="menu">
 							  <ul>
-								<li id="who"><a href="history" class="dropdown-toggle"><span>W</span>ho <i class="flaticon-down-arrow" aria-hidden="true"></i></a>
+								<li id="who"><a class="dropdown-toggle"><span>W</span>ho <i class="flaticon-down-arrow" aria-hidden="true"></i></a>
 								  <ul class="dropdown-menu">
 									<li id="history"><a href="history">History<p>We keep moving forward, opening new doors, and doing new things.</p></a></li>
 									<li id="visionmission"><a href="visionmission">Vision &amp; Mission<p>Gain insight and find opportunities together with OpenEyes as your trusted advisor.</p></a></li>
@@ -84,7 +84,7 @@
             <div class="row">
               <div class="col-md-5 col-md-offset-2 col-sm-5">
                 <ul class="menu_ul">
-                  <li id="who_inner"><a href="history"><span>W</span>ho</a><span>Who we are <i class="flaticon-right-arrows-couple"></i></span>
+                  <li id="who_inner"><a><span>W</span>ho</a><span>Who we are <i class="flaticon-right-arrows-couple"></i></span>
 					<ul class="dropdown-menu">
 						<li id="history1"><a href="history">History</a></li>
 						<li id="visionmission1"><a href="visionmission">Vision &amp; Mission</a></li>

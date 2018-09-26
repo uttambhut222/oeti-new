@@ -27,7 +27,8 @@
           	<h2>About Project</h2>
 			<div class="separator text-center"><span class="dott"></span><span class="dott"></span><span class="dott"></span></div>
 			<div class="clearfix"></div>
-          <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <!--
+		  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 			<ul class="skill_used">
 			  <li title="Angular" data-toggle="tooltip" data-placement="top"><img src="images/angular.png" alt="" class="img-responsive" /></li>
@@ -36,13 +37,16 @@
 			  <li title="Bootstrap" data-toggle="tooltip" data-placement="top"><img src="images/bootstrap.png" alt="" class="img-responsive" /></li>
 			  <li title="CSS" data-toggle="tooltip" data-placement="top"><img src="images/css.png" alt="" class="img-responsive" /></li>
           </ul>
+		  -->
         </div>
         <div class="clearfix"></div>
         <div class="feature_block">
           <div class="row">
-            <div class="col-md-8 col-sm-8"><img src="images/laptop03.jpg" alt="" class="img-responsive" /></div>
-            <div class="col-md-4 col-sm-4">
-              <div class="right_box">
+            <div class="col-md-2 col-sm-2"></div>
+			<div class="col-md-8 col-sm-8"><img src="images/laptop03.jpg" alt="" class="img-responsive" /></div>
+            <div class="col-md-2 col-sm-2"></div>
+              <!--<div class="col-md-4 col-sm-4">
+			  <div class="right_box">
                 <h3>Features</h3>
                 <ul class="list_li">
                   <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
@@ -51,7 +55,7 @@
                   <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
                 </ul>
               </div>
-            </div>
+            </div>-->
           </div>
         </div>
         <div class="clearfix"></div>
@@ -64,7 +68,8 @@
           </div>
         </div>
         <div class="clearfix"></div>
-        <div class="feature_block">
+        <!--
+		<div class="feature_block">
           <div class="row">
             <div class="col-md-6 col-sm-6 border_left">
               <div class="left_box">
@@ -90,6 +95,7 @@
             </div>
           </div>
         </div>
+		-->
       </div>
     </div>
   </div>
