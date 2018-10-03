@@ -2,12 +2,12 @@
 
 //Database
 
-/*
+
 $servername = "DevAERECourses.db.11797364.2d8.hostedresource.net";
 $username = "DevAERECourses";
 $password = "W3lc0m3@2018";
 $databasename = "DevAERECourses";
-*/
+
 
 /*
 $servername = "localhost";
@@ -16,12 +16,12 @@ $password = "";
 $databasename = "oeti";
 */
 
-///*
+/*
 $servername = "localhost";
 $username = "devbyo5_OETIWebsite";
 $password = "])Mz5*u[8W1]";
 $databasename = "devbyo5_OETIWebsite";
-//*/
+*/
 
 /*
 $servername = "localhost";
@@ -54,8 +54,8 @@ define('SETFROM', 'no-replylfb@uatbyopeneyes.com');
 */
 
 //To Email
-define('INQUIRETO', 'uttam.bhut@theopeneyes.in');
-define('CAREERTO', 'uttam.bhut@theopeneyes.in');
+define('INQUIRETO', 'tmehta@theopeneyes.com');
+define('CAREERTO', 'tmehta@theopeneyes.com');
 
 // Check connection
 if ($conn->connect_error) {

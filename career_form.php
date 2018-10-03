@@ -267,7 +267,7 @@ if(isset($_POST['career_apply'])){
 								</div>
 							</div>
 						<div class="form-group">
-						  <div class="g-recaptcha" data-sitekey="6LdbVl0UAAAAAItsfOcYJA-e5xhYuvSyW_RJ4tuo"></div>
+						<div class="g-recaptcha" data-sitekey="6LeGjHIUAAAAAJuV7KL2aoMQpKbgpdpR46TsWLJL"></div>
 						</div>
 						<button type="submit" name="career_apply" class="read_more">Apply</button>
 					</form>

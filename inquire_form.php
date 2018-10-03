@@ -143,7 +143,7 @@ if(isset($_POST['inquire_submit'])){
       <textarea name="ProjectBrief" placeholder="*Brief about the project" required oninvalid="this.setCustomValidity('Please enter Brief about the project')" oninput="setCustomValidity('')"></textarea>
       <i class="flaticon-chat-comment-oval-speech-bubble-with-text-lines"></i> </div>
     <div class="form-group">
-      <div class="g-recaptcha" data-sitekey="6LdbVl0UAAAAAItsfOcYJA-e5xhYuvSyW_RJ4tuo"></div>
+	<div class="g-recaptcha" data-sitekey="6LeGjHIUAAAAAJuV7KL2aoMQpKbgpdpR46TsWLJL"></div>
     </div>
     <button type="submit" id="" name="inquire_submit" class="read_more">Submit</button>
 	</form>
