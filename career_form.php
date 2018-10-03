@@ -177,10 +177,10 @@ if(isset($_POST['career_apply'])){
 							<div class="form-group">
 							  <select name="Position" required>
 								<option value="" selected="">*Position Applied For</option>
-								<option value="Wordpress Developer">Sr. PHP Developer</option>
-								<option value="Front-End Developer" >Content Writer</option>
-								<option value="PHP Developer">US IT Recruiter</option>
-								<option value="HR Executive">Lead Co-ordinator</option>
+								<option value="Sr. PHP Developer">Sr. PHP Developer</option>
+								<option value="Content Writer" >Content Writer</option>
+								<option value="US IT Recruiter">US IT Recruiter</option>
+								<option value="Lead Co-ordinator">Lead Co-ordinator</option>
 							  </select>
 							</div>
 						   </div>
@@ -221,6 +221,7 @@ if(isset($_POST['career_apply'])){
 										<option value="B.E Graduate">B.E Graduate</option>
 										<option value="M. Tech">M.Tech</option>
 										<option value="M C A">M C A</option>
+										<option value="B C A">B C A</option>
 										<option value="B A">B A</option>
 										<option value="B Com">B Com</option>
 										<option value="B.Sc">B.Sc</option>
