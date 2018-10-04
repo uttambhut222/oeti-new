@@ -71,7 +71,7 @@ if(isset($_POST['career_apply'])){
 				$mail->Host = HOST;
 				$mail->Port = PORT;
 				$mail->IsHTML(true);
-				$mail->FromName = FROMNAME; 
+				//$mail->FromName = FROMNAME; 
 				$mail->Username = USERNAME;
 				$mail->Password = USERPASSWORD;
 				$mail->SetFrom('no-reply@theopeneyes.com','OpenEyes Technologies Inc.');
@@ -126,7 +126,18 @@ if(isset($_POST['career_apply'])){
 				
 				if(!$mail->Send())
 				{
-					echo "Mailer Error: " . $mail->ErrorInfo;
+					?><script>
+						setTimeout(function() {
+							swal({
+								title: "Something went wrong. Try again later.",
+								type: "error",
+								showConfirmButton: true,
+							}, function() {
+								window.location = "";
+							});
+						}, 0);
+					</script>
+				<?php
 				}
 				
 				//------------------------------------------------
@@ -171,14 +182,25 @@ if(isset($_POST['career_apply'])){
 			
 			if(!$mail->Send())
 			{
-				echo "Mailer Error: " . $mail->ErrorInfo;
+				?><script>
+						setTimeout(function() {
+							swal({
+								title: "Something went wrong. Try again later.",
+								type: "error",
+								showConfirmButton: true,
+							}, function() {
+								window.location = "";
+							});
+						}, 0);
+					</script>
+				<?php
 			}
 			else
 			{	
 				?><script>
 						setTimeout(function() {
 							swal({
-								title: "Inquire Sent Sucessfully",
+								title: "Career Inquire Sent Sucessfully",
 								type: "success",
 								showConfirmButton: false,
 								timer: 2000,
@@ -188,37 +210,22 @@ if(isset($_POST['career_apply'])){
 						}, 0);
 					</script>
 				<?php
-				?>
-				<!--<script>
-				alert("Thank You! Your Inquire sent successfully!");	
-				</script>-->
-				<?php
-			}
-				
-				
-				
+			}	
 		} else {
 			?><script>
-						setTimeout(function() {
-							swal({
-								title: "Something went wrong. Try again later.",
-								type: "error",
-								showConfirmButton: false,
-								timer: 2000,
-							}, function() {
-								window.location = "";
-							});
-						}, 0);
-					</script>
-				<?php
+					setTimeout(function() {
+						swal({
+							title: "Something went wrong. Try again later.",
+							type: "error",
+							showConfirmButton: true,
+						}, function() {
+							window.location = "";
+						});
+					}, 0);
+				</script>
+			<?php
 		}
 	}
-	
-	/*echo '
-	<script>
-		alert("'.$FirstName.'");
-	</script>
-	';*/
 }
 ?>
 

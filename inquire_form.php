@@ -28,7 +28,7 @@ if(isset($_POST['inquire_submit'])){
 				//$mail->FromName = FROMNAME; 
 				$mail->Username = USERNAME;
 				$mail->Password = USERPASSWORD;
-				$mail->SetFrom('no-reply@theopeneyes.com','No-Reply');
+				$mail->SetFrom('no-reply@theopeneyes.com','OpenEyes Technologies Inc.');
 									
 			$mail->Subject = "Inquire Generated - OpenEyes Technologies";
 			$mail->Body = '
@@ -69,7 +69,18 @@ if(isset($_POST['inquire_submit'])){
 			
 			if(!$mail->Send())
 			{
-				echo "Mailer Error: " . $mail->ErrorInfo;
+				?><script>
+						setTimeout(function() {
+							swal({
+								title: "Something went wrong. Try again later.",
+								type: "error",
+								showConfirmButton: true,
+							}, function() {
+								window.location = "";
+							});
+						}, 0);
+					</script>
+				<?php
 			}
 			
 			
@@ -86,7 +97,7 @@ if(isset($_POST['inquire_submit'])){
 				//$mail->FromName = FROMNAME; 
 				$mail->Username = USERNAME;
 				$mail->Password = USERPASSWORD;
-				$mail->SetFrom('no-reply@theopeneyes.com','No-Reply');
+				$mail->SetFrom('no-reply@theopeneyes.com','OpenEyes Technologies Inc.');
 									
 			$mail->Subject = "Thank You for Send us Inquire - OpenEyes Technologies Inc.";
 			$mail->Body = '
@@ -115,7 +126,18 @@ if(isset($_POST['inquire_submit'])){
 			
 			if(!$mail->Send())
 			{
-				echo "Mailer Error: " . $mail->ErrorInfo;
+				?><script>
+						setTimeout(function() {
+							swal({
+								title: "Something went wrong. Try again later.",
+								type: "error",
+								showConfirmButton: true,
+							}, function() {
+								window.location = "";
+							});
+						}, 0);
+					</script>
+				<?php
 			}
 			else
 			{	
@@ -132,34 +154,22 @@ if(isset($_POST['inquire_submit'])){
 						}, 0);
 					</script>
 				<?php
-				?>
-				<!--<script>
-				alert("Thank You! Your Inquire sent successfully!");	
-				</script>-->
-				<?php
 			}
 			
 	} else {
 		?><script>
-						setTimeout(function() {
-							swal({
-								title: "Something went wrong. Try again later.",
-								type: "error",
-								showConfirmButton: false,
-								timer: 2000,
-							}, function() {
-								window.location = "";
-							});
-						}, 0);
-					</script>
-				<?php
+				setTimeout(function() {
+					swal({
+						title: "Something went wrong. Try again later.",
+						type: "error",
+						showConfirmButton: true,
+					}, function() {
+						window.location = "";
+					});
+				}, 0);
+			</script>
+		<?php
 	}
-	
-	/*echo '
-	<script>
-		alert("'.$FirstName.'");
-	</script>
-	';*/
 }
 ?>
 <div class="form_widget">
