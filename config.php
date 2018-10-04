@@ -55,7 +55,6 @@ define('PORT', 465);
 define('FROMNAME', 'OpenEyes Software Solutions Pvt.Ltd');
 define('USERNAME', 'myopeneyes3937@gmail.com');
 define('USERPASSWORD', 'W3lc0m3@2018');
-define('SETFROM', 'no-reply@theopeneyes.com');
 
 
 //To Email

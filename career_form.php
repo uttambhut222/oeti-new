@@ -292,7 +292,7 @@ if(isset($_POST['career_apply'])){
 								  <input type="text" name="Salary" placeholder="*Present Salary (per Year)" pattern="[0-9\-.\s]+" maxlength=8  oninvalid="this.setCustomValidity('Please enter your current salary')" oninput="setCustomValidity('')" required/>
 								  <i class="flaticon-money-1"></i> </div>
 							  </div>
-								 <div class="col-md-4 col-sm-4">
+								<div class="col-md-4 col-sm-4">
 								<div class="form-group">
 								    <select name="EmploymentType" required>
 										<option value="" selected="">*Type Of Employment seeking</option>
@@ -302,7 +302,8 @@ if(isset($_POST['career_apply'])){
 										<option value="Consulting">Consulting</option>
 										<option value="Freelancing">Freelancing</option>
 										<option value="Night Shift">Night Shift</option>
-							  </select></div>
+									</select>
+								</div>
 							  </div>
 							</div>
 							<h3>Resume (PDF or Word File)</h3>
