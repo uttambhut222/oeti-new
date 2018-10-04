@@ -198,7 +198,19 @@ if(isset($_POST['career_apply'])){
 				
 				
 		} else {
-			echo "Error: " . $sql . "<br>" . $conn->error;
+			?><script>
+						setTimeout(function() {
+							swal({
+								title: "Something went wrong. Try again later.",
+								type: "error",
+								showConfirmButton: false,
+								timer: 2000,
+							}, function() {
+								window.location = "";
+							});
+						}, 0);
+					</script>
+				<?php
 		}
 	}
 	
@@ -219,7 +231,7 @@ if(isset($_POST['career_apply'])){
 					<div class="form_section">
 						<h2>Apply Now</h2>
 						<div class="separator inner_separator"><span class="dott"></span><span class="dott"></span><span class="dott"></span></div>
-						<form action="" method="post" enctype="multipart/form-data">
+						<form action="" method="post" enctype="multipart/form-data" id="careerform">
 						<div class="row">
 						  <div class="col-md-4 col-sm-4">
 							<div class="form-group">
@@ -317,8 +329,9 @@ if(isset($_POST['career_apply'])){
 							</div>
 						<div class="form-group">
 							<div class="g-recaptcha" data-sitekey="6LeGjHIUAAAAAJuV7KL2aoMQpKbgpdpR46TsWLJL"></div>
+							<span class='career_error' style="display:none; font-size:12px; color:red;">Captcha is Required.</span>  
 						</div>
-						<button type="submit" name="career_apply" class="read_more">Apply</button>
+						<button type="submit" name="career_apply" id="career_submit" class="read_more">Apply</button>
 					</form>
 					</div>
 				</div>
@@ -328,6 +341,3 @@ if(isset($_POST['career_apply'])){
 </div>
 <div class="clearfix"></div>
 <!-- End Form Section -->
-<script>
-
-</script>

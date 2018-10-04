@@ -140,7 +140,19 @@ if(isset($_POST['inquire_submit'])){
 			}
 			
 	} else {
-		echo "Error: " . $sql . "<br>" . $conn->error;
+		?><script>
+						setTimeout(function() {
+							swal({
+								title: "Something went wrong. Try again later.",
+								type: "error",
+								showConfirmButton: false,
+								timer: 2000,
+							}, function() {
+								window.location = "";
+							});
+						}, 0);
+					</script>
+				<?php
 	}
 	
 	/*echo '
@@ -155,7 +167,7 @@ if(isset($_POST['inquire_submit'])){
   <div class="content">
     <h2>Inquire Now</h2>
 	  <div class="separator inner_separator"><span class="dott"></span><span class="dott"></span><span class="dott"></span></div>
-	  	<form action="" method="post">
+	  	<form action="" method="post" id="inquireform">
         <div class="form-group">
           <input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')"/>
           <i class="flaticon-avatar"></i> </div>
@@ -190,8 +202,9 @@ if(isset($_POST['inquire_submit'])){
       <i class="flaticon-chat-comment-oval-speech-bubble-with-text-lines"></i> </div>
     <div class="form-group">
 	<div class="g-recaptcha" data-sitekey="6LeGjHIUAAAAAJuV7KL2aoMQpKbgpdpR46TsWLJL"></div>
+	<span class='inquire_error' style="display:none; font-size:12px; color:red;">Captcha is Required.</span>
     </div>
-    <button type="submit" id="" name="inquire_submit" class="read_more">Submit</button>
+    <button type="submit" id="inquiry_submit" name="inquire_submit" class="read_more">Submit</button>
 	</form>
   </div>
 </div>
