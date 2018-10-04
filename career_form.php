@@ -1,14 +1,22 @@
 <?php 
 if(isset($_POST['career_apply'])){
 	
-	$target_dir = "resume/";
-	$newfilename= round(microtime(true)).str_replace(" ", "", basename($_FILES["fileToUpload"]["name"]));
+	$dirname = $_POST["Position"];
+	$dirname = str_replace(' ', '_', $dirname);
+	$directoryName = "doc/resume/" . $dirname . "/";
+ 
+	if(!is_dir($directoryName)){
+		mkdir($directoryName, 0755, true);
+	}
+	
+	$target_dir = $directoryName;
+	$newfilename= round(microtime(true)) ."_". str_replace(" ", "_", basename($_FILES["fileToUpload"]["name"]));
 	$target_file = $target_dir . $newfilename;
 	$uploadOk = 1;
-	$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+	$docFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 		
 	// Allow certain file formats
-	if($imageFileType != "pdf" && $imageFileType != "doc" && $imageFileType != "docx") {
+	if($docFileType != "pdf" && $docFileType != "doc" && $docFileType != "docx") {
 		$uploadOk = 0;
 		?><script>
 			setTimeout(function() {

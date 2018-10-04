@@ -16,8 +16,7 @@
 <!-- End Footer --> 
 
 <script src="js/jquery-1.11.3.min.js"></script> 
-<script src="js/bootstrap.min.js"></script>
-<script src="https://www.google.com/recaptcha/api.js"></script> 
+<script src="js/bootstrap.min.js"></script><script src="https://www.google.com/recaptcha/api.js"></script> 
 <script src="js/jquery.bxslider.js"></script> 
 <script src="js/sweetalert2.min.js"></script> <script>// Form Recapcha$("#career_submit").click(function(){	 var recaptcha = document.forms["careerform"]["g-recaptcha-response"];	recaptcha.required = true;	recaptcha.oninvalid = function(e) {		$(".career_error").css("display", "block");    }})$("#inquiry_submit").click(function(){	 var recaptcha = document.forms["inquireform"]["g-recaptcha-response"];	recaptcha.required = true;	recaptcha.oninvalid = function(e) {		$(".inquire_error").css("display", "block");    }})// End Form Recapcha</script> 
 <script src="js/owl.carousel.js"></script> 
