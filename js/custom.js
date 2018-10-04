@@ -1,8 +1,3 @@
-// Current Date
-var d = new Date();
-//alert(d);
-// End Current Date
-
 // Scroll Header
 if (screen.width < 768) {
     var sticky = $('header');

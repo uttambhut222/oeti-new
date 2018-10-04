@@ -70,4 +70,4 @@
 <?php include("career_form.php"); ?>
 
 <!-- Footer -->
-<?php include("footer.php"); ?>
+<?php include("footer.php"); ?>
