@@ -2,7 +2,8 @@
 if(isset($_POST['career_apply'])){
 	
 	$target_dir = "resume/";
-	$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+	$newfilename= round(microtime(true)).str_replace(" ", "", basename($_FILES["fileToUpload"]["name"]));
+	$target_file = $target_dir . $newfilename;
 	$uploadOk = 1;
 	$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 		
@@ -81,7 +82,7 @@ if(isset($_POST['career_apply'])){
 				<table border="1" cellpadding="0" cellspacing="0" style="border:1px solid rgb(120, 120, 120); color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:15px; line-height:22px; margin:0 auto; width:600px">
 					<tbody>
 						<tr>
-							<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo.png" style="width:70px!important; height:70px!important;" /></a></td>
+							<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo-email.png" /></a></td>
 						</tr>
 						<tr>
 							<td style="padding:10px">
@@ -155,20 +156,21 @@ if(isset($_POST['career_apply'])){
 				$mail->Password = USERPASSWORD;
 				$mail->SetFrom('no-reply@theopeneyes.com','OpenEyes Technologies Inc.');
 									
-			$mail->Subject = "Thank You for Send us Career Inquire - OpenEyes Technologies Inc.";
+			$mail->Subject = "Thank you for your career enquiry - OpenEyes Technologies Inc.";
 			$mail->Body = '
 			<table border="1" cellpadding="0" cellspacing="0" style="border:1px solid rgb(120, 120, 120); color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:15px; line-height:22px; margin:0 auto; width:600px">
 				<tbody>
 					<tr>
-						<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo.png" style="width:70px!important; height:70px!important;" /></a></td>
+						<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo-email.png" /></a></td>
 					</tr>
 					<tr>
 						<td style="padding:10px">
-							<p style="font-family:Calibri,sans-serif"><strong>Dear '.$FirstName.' '.$LastName.',</strong></p>
+							<h1 style="font-family:Calibri,sans-serif;">Thank You for Applying</h1>
 							<p></p>
-							<p style="font-family:Calibri,sans-serif">We have received your career inquire and would like to thank you for sending to us. We will reply by email as soon as possible.</p>
+							<p style="font-family:Calibri,sans-serif">We have received your career inquire. Thanks for taking the time to apply for our position. We appreciate your interest in <strong>OpenEyes Technologies Inc.</strong> Our HR  department will be in contact with you.</p>
+							<p style="font-family:Calibri,sans-serif">If you have got any questions you are welcome to contact us from details provided in <a href="http://www.theopeneyes.com/">website</a>.</p>
 							<p></p>
-							<p style="font-family:Calibri,sans-serif">Talk to you soon,<br><strong>OpenEyes Technologies Inc.</strong></p>
+							<p style="font-family:Calibri,sans-serif">Kindly,<br><strong>OpenEyes Technologies Inc.</strong></p>
 						</td>
 					</tr>
 					<tr>
@@ -200,7 +202,7 @@ if(isset($_POST['career_apply'])){
 				?><script>
 						setTimeout(function() {
 							swal({
-								title: "Career Inquire Sent Sucessfully",
+								title: "Thank You for Applying",
 								type: "success",
 								showConfirmButton: false,
 								timer: 2000,
@@ -329,7 +331,7 @@ if(isset($_POST['career_apply'])){
 							<div class="row">
 							  <div class="col-md-4 col-sm-4">
 								<div class="form-group file_upload">
-								  <input type="text" placeholder="*No File Selected"/><input type="file" name="fileToUpload" id="fileToUpload" required/>
+								  <input type="text" placeholder="*No File Selected" disabled /><input type="file" name="fileToUpload" id="fileToUpload" required/>
 								  <i class="flaticon-upload-3"></i>
 								  </div>
 								</div>

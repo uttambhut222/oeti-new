@@ -35,7 +35,7 @@ if(isset($_POST['inquire_submit'])){
 			<table border="1" cellpadding="0" cellspacing="0" style="border:1px solid rgb(120, 120, 120); color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:15px; line-height:22px; margin:0 auto; width:600px">
 				<tbody>
 					<tr>
-						<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo.png" style="width:70px" /></a></td>
+						<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo-email.png" /></a></td>
 					</tr>
 					<tr>
 						<td style="padding:10px">
@@ -99,20 +99,21 @@ if(isset($_POST['inquire_submit'])){
 				$mail->Password = USERPASSWORD;
 				$mail->SetFrom('no-reply@theopeneyes.com','OpenEyes Technologies Inc.');
 									
-			$mail->Subject = "Thank You for Send us Inquire - OpenEyes Technologies Inc.";
+			$mail->Subject = "Thank you for enquiry - OpenEyes Technologies Inc.";
 			$mail->Body = '
 			<table border="1" cellpadding="0" cellspacing="0" style="border:1px solid rgb(120, 120, 120); color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:15px; line-height:22px; margin:0 auto; width:600px">
 				<tbody>
 					<tr>
-						<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo.png" style="width:70px!important; height:70px!important;" /></a></td>
+						<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo-email.png" /></a></td>
 					</tr>
 					<tr>
 						<td style="padding:10px">
-							<p style="font-family:Calibri,sans-serif"><strong>Dear '.$FirstName.' '.$LastName.',</strong></p>
+							<h1 style="font-family:Calibri,sans-serif;">Thank you for your enquiry</h1>
+							<h3 style="font-family:Calibri,sans-serif;">Your message has been sent successfully.</h3>
 							<p></p>
-							<p style="font-family:Calibri,sans-serif">We have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the telephone number which is in website to talk to us. Otherwise, we will reply by email as soon as possible.</p>
+							<p style="font-family:Calibri,sans-serif">Thank you for your enquiry. It has been forwarded to the relevant department and will be dealt with as soon as possible. If your inquiry is urgent, please use the contact number provided in <a href="http://www.theopeneyes.com/">website</a>.</p>
 							<p></p>
-							<p style="font-family:Calibri,sans-serif">Talk to you soon,<br><strong>OpenEyes Technologies Inc.</strong></p>
+							<p style="font-family:Calibri,sans-serif">Kindly,<br><strong>OpenEyes Technologies Inc.</strong></p>
 						</td>
 					</tr>
 					<tr>
@@ -144,7 +145,7 @@ if(isset($_POST['inquire_submit'])){
 				?><script>
 						setTimeout(function() {
 							swal({
-								title: "Inquire Sent Sucessfully",
+								title: "Thank you for your enquiry",
 								type: "success",
 								showConfirmButton: false,
 								timer: 2000,
