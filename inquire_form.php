@@ -188,13 +188,13 @@ if(isset($_POST['inquire_submit'])){
     <div class="form-group">
       <select name="Topic" required>
         <option value="" selected="">*Select a Topic</option>
-        <option value="Mobile App">Mobile Apps</option>
+        <option value="Mobile Apps">Mobile Apps</option>
         <option value="Mobile Games">Mobile Games</option>
-        <option value="Custom Web Development">Web Development</option>
-        <option value="E-Commerce">Ecommerce</option>
-        <option value="Ui-ux">UI / UX</option>
+        <option value="Web Development">Web Development</option>
+        <option value="E-Commerce">E-Commerce</option>
+        <option value="UI / UX">UI / UX</option>
         <option value="Wearables">Wearables</option>
-        <option value="Iot">IOT</option>
+        <option value="IOT">IOT</option>
         <option value="Cloud Consulting">Cloud Consulting</option>
         <option value="Other">Other</option>
       </select>
