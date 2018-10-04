@@ -74,14 +74,14 @@ if(isset($_POST['career_apply'])){
 				$mail->FromName = FROMNAME; 
 				$mail->Username = USERNAME;
 				$mail->Password = USERPASSWORD;
-				$mail->SetFrom(USERNAME);
+				$mail->SetFrom('no-reply@theopeneyes.com','OpenEyes Technologies Inc.');
 										
-				$mail->Subject = "Inquire Generated - OpenEyes Technologies";
+				$mail->Subject = "Inquire Generated for Career - OpenEyes Technologies";
 				$mail->Body = '
 				<table border="1" cellpadding="0" cellspacing="0" style="border:1px solid rgb(120, 120, 120); color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:15px; line-height:22px; margin:0 auto; width:600px">
 					<tbody>
 						<tr>
-							<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/img/logo.png" style="width:70px" /></a></td>
+							<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo.png" style="width:70px!important; height:70px!important;" /></a></td>
 						</tr>
 						<tr>
 							<td style="padding:10px">
@@ -128,27 +128,74 @@ if(isset($_POST['career_apply'])){
 				{
 					echo "Mailer Error: " . $mail->ErrorInfo;
 				}
-				else
-				{	
-					?><script>
-							setTimeout(function() {
-								swal({
-									title: "Form Submit Sucessfully",
-									type: "success",
-									showConfirmButton: false,
-									timer: 2000,
-								}, function() {
-									window.location = "";
-								});
-							}, 0);
-						</script>
-					<?php
-					?>
-					<!--<script>
-					alert("Thank You! Your Inquire sent successfully!");	
-					</script>-->
-					<?php
-				}
+				
+				//------------------------------------------------
+			
+			$mail = new PHPMailer(); // create a new object
+			$mail->IsSMTP(); // enable SMTP
+			$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
+			$mail->SMTPAuth = true; // authentication enabled
+			$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
+			$mail->Host = HOST;
+				$mail->Port = PORT;
+				$mail->IsHTML(true);
+				//$mail->FromName = FROMNAME; 
+				$mail->Username = USERNAME;
+				$mail->Password = USERPASSWORD;
+				$mail->SetFrom('no-reply@theopeneyes.com','OpenEyes Technologies Inc.');
+									
+			$mail->Subject = "Thank You for Send us Career Inquire - OpenEyes Technologies Inc.";
+			$mail->Body = '
+			<table border="1" cellpadding="0" cellspacing="0" style="border:1px solid rgb(120, 120, 120); color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:15px; line-height:22px; margin:0 auto; width:600px">
+				<tbody>
+					<tr>
+						<td style="background-color:rgba(180, 180, 180, 0.5); border-bottom:5px solid #0061af; padding:10px"><a href="http://www.theopeneyes.com" target="_blank"><img alt="The OpenEyes Technologies Logo" src="http://www.theopeneyes.com/images/logo.png" style="width:70px!important; height:70px!important;" /></a></td>
+					</tr>
+					<tr>
+						<td style="padding:10px">
+							<p style="font-family:Calibri,sans-serif"><strong>Dear '.$FirstName.' '.$LastName.',</strong></p>
+							<p></p>
+							<p style="font-family:Calibri,sans-serif">We have received your career inquire and would like to thank you for sending to us. We will reply by email as soon as possible.</p>
+							<p></p>
+							<p style="font-family:Calibri,sans-serif">Talk to you soon,<br><strong>OpenEyes Technologies Inc.</strong></p>
+						</td>
+					</tr>
+					<tr>
+						<td style="background-color:#a6ce39; background:#a6ce39; color:#333; padding:10px; text-align:center">Copyright &copy; 2018 OpenEyes Technologies - All rights reserved.</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			';
+			$mail->AddAddress($Email);
+			
+			if(!$mail->Send())
+			{
+				echo "Mailer Error: " . $mail->ErrorInfo;
+			}
+			else
+			{	
+				?><script>
+						setTimeout(function() {
+							swal({
+								title: "Inquire Sent Sucessfully",
+								type: "success",
+								showConfirmButton: false,
+								timer: 2000,
+							}, function() {
+								window.location = "";
+							});
+						}, 0);
+					</script>
+				<?php
+				?>
+				<!--<script>
+				alert("Thank You! Your Inquire sent successfully!");	
+				</script>-->
+				<?php
+			}
+				
+				
 				
 		} else {
 			echo "Error: " . $sql . "<br>" . $conn->error;
@@ -162,6 +209,7 @@ if(isset($_POST['career_apply'])){
 	';*/
 }
 ?>
+
 <!-- Form Section -->
 <div class="career_form" id="apply_online">
 	<div class="white_bg">
@@ -190,28 +238,28 @@ if(isset($_POST['career_apply'])){
 							<div class="row">
 							  <div class="col-md-4 col-sm-4">
 								<div class="form-group">
-								  <input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')" />
+								  <input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}"  maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')" required/>
 								  <i class="flaticon-avatar"></i> </div>
 							  </div>
 								<div class="col-md-4 col-sm-4">
 								<div class="form-group">
-								  <input type="text" name="LastName" placeholder="*Last Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid Last Name')" oninput="setCustomValidity('')"/>
+								  <input type="text" name="LastName" placeholder="*Last Name" pattern="[A-Za-z\/\s\.']{2,50}"  maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid Last Name')" oninput="setCustomValidity('')" required/>
 								  <i class="flaticon-avatar"></i> </div>
 							  </div>
 								 <div class="col-md-4 col-sm-4">
 								<div class="form-group">
-								  <input type="text" name="CurrentLocation" placeholder="*Current Location" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid Current Location')" oninput="setCustomValidity('')" />
+								  <input type="text" name="CurrentLocation" placeholder="*Current Location" pattern="[A-Za-z\/\s\.']{2,50}"  maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid Current Location')" oninput="setCustomValidity('')" required/>
 								  <i class="flaticon-placeholder"></i> </div>
 							  </div>
 								<div class="clearfix"></div>
 						  	  <div class="col-md-4 col-sm-4">
 								 <div class="form-group">
-      								<input type="text" name="Email" placeholder="*Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxlength=50 required oninvalid="this.setCustomValidity('Please enter your Email Address in valid format')" oninput="setCustomValidity('')"/>
+      								<input type="text" name="Email" placeholder="*Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxlength=50  oninvalid="this.setCustomValidity('Please enter your Email Address in valid format')" oninput="setCustomValidity('')" required/>
       								<i class="flaticon-mail"></i> </div>
 							  </div>
 								<div class="col-md-4 col-sm-4">
 								  <div class="form-group">
-								  <input type="text" name="Phone" placeholder="*Phone Number" pattern="[0-9\-.\s]+" maxlength=13 required oninvalid="this.setCustomValidity('Please enter your Phone Number in xxx.xxx.xxxx format')" oninput="setCustomValidity('')" />
+								  <input type="text" name="Phone" placeholder="*Phone Number" pattern="[0-9\-.\s]+" maxlength=13  oninvalid="this.setCustomValidity('Please enter your Phone Number in xxx.xxx.xxxx format')" oninput="setCustomValidity('')" required/>
 								  <i class="flaticon-phone-call"></i> </div>
 								</div>
 						 <div class="col-md-4 col-sm-4">
@@ -236,12 +284,12 @@ if(isset($_POST['career_apply'])){
 							<div class="row">
 							  <div class="col-md-4 col-sm-4">
 								<div class="form-group">
-								  <input type="text" name="Experience" placeholder="*Years Of Experience" pattern="[0-9\-.\s]+" maxlength=2 required oninvalid="this.setCustomValidity('Please enter year of Experience')" oninput="setCustomValidity('')" required />
+								  <input type="text" name="Experience" placeholder="*Years Of Experience" pattern="[0-9\-.\s]+" maxlength=2  oninvalid="this.setCustomValidity('Please enter year of Experience')" oninput="setCustomValidity('')" required/>
 								  <i class="flaticon-calendar-1"></i> </div>
 							  </div>
 								<div class="col-md-4 col-sm-4">
 								<div class="form-group">
-								  <input type="text" name="Salary" placeholder="*Present Salary (per Year)" pattern="[0-9\-.\s]+" maxlength=8 required oninvalid="this.setCustomValidity('Please enter your current salary')" oninput="setCustomValidity('')" required />
+								  <input type="text" name="Salary" placeholder="*Present Salary (per Year)" pattern="[0-9\-.\s]+" maxlength=8  oninvalid="this.setCustomValidity('Please enter your current salary')" oninput="setCustomValidity('')" required/>
 								  <i class="flaticon-money-1"></i> </div>
 							  </div>
 								 <div class="col-md-4 col-sm-4">
@@ -261,13 +309,13 @@ if(isset($_POST['career_apply'])){
 							<div class="row">
 							  <div class="col-md-4 col-sm-4">
 								<div class="form-group file_upload">
-								  <input type="text" placeholder="*No File Selected" /><input type="file" name="fileToUpload" id="fileToUpload" required/>
+								  <input type="text" placeholder="*No File Selected"/><input type="file" name="fileToUpload" id="fileToUpload" required/>
 								  <i class="flaticon-upload-3"></i>
 								  </div>
 								</div>
 							</div>
 						<div class="form-group">
-						<div class="g-recaptcha" data-sitekey="6LeGjHIUAAAAAJuV7KL2aoMQpKbgpdpR46TsWLJL"></div>
+							<div class="g-recaptcha" data-sitekey="6LeGjHIUAAAAAJuV7KL2aoMQpKbgpdpR46TsWLJL"></div>
 						</div>
 						<button type="submit" name="career_apply" class="read_more">Apply</button>
 					</form>
@@ -279,3 +327,6 @@ if(isset($_POST['career_apply'])){
 </div>
 <div class="clearfix"></div>
 <!-- End Form Section -->
+<script>
+
+</script>

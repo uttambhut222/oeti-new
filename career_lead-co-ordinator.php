@@ -9,7 +9,7 @@
 <!-- Inner Section -->
 <div class="inner_banner">
     <img src="images/inner_banner.jpg" alt="" class="img-responsive" />
-  	<div class="innerbanner_text">Why to Choose us<span><a href="index">Home</a> / <i>Careers</i></span></div>
+  	<div class="innerbanner_text">Why to Choose us<span><a href="index">Home</a> / <a href="career">Career</a> / <i>Lead Co-Ordinator</i></span></div>
 </div>
 <div class="clearfix"></div>
 <!-- End Inner Section --> 

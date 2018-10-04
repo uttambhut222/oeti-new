@@ -9,7 +9,7 @@
 <!-- Inner Section -->
 <div class="inner_banner">
     <img src="images/inner_banner.jpg" alt="" class="img-responsive" />
-  	<div class="innerbanner_text">Why to Choose us<span><a href="index">Home</a> / <i>Careers</i></span></div>
+  	<div class="innerbanner_text">Why to Choose us<span><a href="index">Home</a> / <i>Career</i></span></div>
 </div>
 <div class="clearfix"></div>
 <!-- End Inner Section --> 
@@ -19,7 +19,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
-		  <h2>Careers</h2>
+		  <h2>Career</h2>
 		  <div class="separator inner_separator"><span class="dott"></span><span class="dott"></span><span class="dott"></span></div>
         <h3 class="margin_li">
          Create impact. Build success. For your career and for the world.</h3>
