@@ -2,7 +2,6 @@
 include("config.php");
 
 if(isset($_POST['inquire_submit'])){
-	
 	$FirstName = $_POST['FirstName'];
 	$LastName = $_POST['LastName'];
 	$Topic = $_POST['Topic'];
@@ -181,6 +180,7 @@ if(isset($_POST['inquire_submit'])){
 	  	<form action="" method="post" id="inquireform">
         <div class="form-group">
           <input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')"/>
+		  <input type="text" name="MiddleName" id="MiddleName"/>
           <i class="flaticon-avatar"></i> </div>
         <div class="form-group">
           <input type="text" name="LastName" placeholder="*Last Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid Last Name')" oninput="setCustomValidity('')"/>

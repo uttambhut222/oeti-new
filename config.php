@@ -39,23 +39,23 @@ if ($conn->connect_error) {
 }
 
 //SMTP Details for inmotion
-///*
+/*
 define('HOST', 'mail.uatbyopeneyes.com');
 define('PORT', 465);
 define('FROMNAME', 'OpenEyes Software Solutions Pvt.Ltd');
 define('USERNAME', 'noreply.allinstitute@uatbyopeneyes.com');
 define('USERPASSWORD', '@ere1234');
 define('SETFROM', 'noreply.allinstitute@uatbyopeneyes.com');
-//*/
+*/
 
 //SMTP Details for local & godaddy
-/*
+///*
 define('HOST', 'smtp.gmail.com');
 define('PORT', 465);
 define('FROMNAME', 'OpenEyes Software Solutions Pvt.Ltd');
 define('USERNAME', 'myopeneyes3937@gmail.com');
 define('USERPASSWORD', 'W3lc0m3@2018');
-*/
+//*/
 
 //To Email
 //define('INQUIRETO', 'tmehta@theopeneyes.com');

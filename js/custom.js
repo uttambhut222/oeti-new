@@ -159,6 +159,11 @@ $(".form_widget .glyphicon-remove").click(function() {
 	$('.form_widget').removeClass("active");
 	$('body').removeClass("overflow_body");
 });
+$(document).ready(
+  function() {
+    $('#MiddleNamem').hide()
+  }
+);
 //End Inquiry Form
 
 // Menu 
