@@ -127,7 +127,7 @@ select option{ background:#fff!important; padding:0 5px!important; color:#222!im
 textarea{resize: none; height: 100px;}
 .read_more{ padding:9px 15px 10px 15px; font-size: 16px; display: inline-block; line-height: 16px; position: relative; background: transparent; border:2px solid #0061af; color: #111; transition:all 0.3s ease-in 0s; min-width: 100px; text-align: center; font-weight: 500; border-radius:15px;}
 .read_more:hover{ color: #000; transition:all 0.3s ease-in 0s; font-weight: 600;}
-#MiddleNamem{display:none;}
+#MiddleName{display:none;}
 /*--------------End Inquire Form----------------------*/
 
 /*=================Home page======================*/

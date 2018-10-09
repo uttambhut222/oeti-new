@@ -159,11 +159,13 @@ $(".form_widget .glyphicon-remove").click(function() {
 	$('.form_widget').removeClass("active");
 	$('body').removeClass("overflow_body");
 });
+//Hide field - For bot spammer
 $(document).ready(
   function() {
-    $('#MiddleNamem').hide()
+    $('#MiddleName').hide()
   }
 );
+
 //End Inquiry Form
 
 // Menu 

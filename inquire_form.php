@@ -2,6 +2,9 @@
 include("config.php");
 
 if(isset($_POST['inquire_submit'])){
+	$MiddleName = $_POST['MiddleName'];
+	if($MiddleName == NULL)
+	{
 	$FirstName = $_POST['FirstName'];
 	$LastName = $_POST['LastName'];
 	$Topic = $_POST['Topic'];
@@ -170,7 +173,7 @@ if(isset($_POST['inquire_submit'])){
 			</script>
 		<?php
 	}
-}
+}}
 ?>
 <div class="form_widget">
 	<i class="glyphicon glyphicon-remove"></i>
