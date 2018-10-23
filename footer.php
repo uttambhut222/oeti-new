@@ -1,7 +1,7 @@
 <div class="go_top"><i class="flaticon-up-arrow"></i></div>
 
 <footer>
-<div class="partnership_footer">Partnership with : <img src="images/microsoft.png" alt="" class="img-responsive" /></div>
+<div class="partnership_footer"><img src="images/microsoft.png" alt="" class="img-responsive" /></div>
 	<div class="container"> 
 
 		<div class="row">
