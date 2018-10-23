@@ -246,6 +246,9 @@ textarea{resize: none; height: 100px;}
 
 /* ------- Footer ------- */
 footer{ background:#f2f2f2; padding:14px 0; font-size:15px; font-weight: 400; line-height: 15px; width:100%; color:#111111; border-top:10px solid #a6ce39; }
+footer .partnership_footer{border-bottom:1px solid #ccc; text-align:center; font-size:18px; font-weight: 600; padding-bottom:15px; margin-bottom:15px;}
+footer .partnership_footer img{display:inline-block; width:200px;}
+
 .go_top { position:fixed; bottom: 50px; right:20px; padding:0px; display:none; cursor: pointer; z-index: 99; height: 45px; width: 45px; text-align: center; background: rgba(0,0,0,0.5); color: #fff; font-size: 25px; line-height: 45px; border-radius: 5px; transition: all .3s ease-in-out;}
 .go_top:hover{background: rgba(0,0,0,0.8); transition: all .3s ease-in-out;}
 #colorPickerFrameCanvas{display:none!important;}
