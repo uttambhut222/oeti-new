@@ -1,4 +1,4 @@
-<?php include("header.php");?>
+﻿<?php include("header.php");?>
 
 <!-- Inquire Form -->
 <?php include("inquire_form.php"); ?>
@@ -21,10 +21,12 @@
 		<div class="col-md-12 col-sm-12">
 		<h2>Meet Our Team</h2>
 			<div class="separator inner_separator"><span class="dott"></span><span class="dott"></span><span class="dott"></span></div>
-			<p class="padding_30">Meet our team and discover the diverse experience, services, and commitment we bring to solve our client’s challenges.</p>
+<h3 class="margin_li">The people who work at OpenEyes share the vision and values of our community.</h3>
+<p class="padding_30">We’re driven by the idea that the best work is born from diligence, craftsmanship and fun. We brought together smart, talented thinkers and unleashed their combined creativity on the world. </p>			
+<!--<p class="padding_30">Meet our team and discover the diverse experience, services, and commitment we bring to solve our client’s challenges.</p>-->
 		</div>
 	  </div>
-		<div class="row">
+		<!--<div class="row">
 			<div class="col-md-4 col-sm-6 col-md-offset-2 col-xs-6 small_mobile">
 				<div class="team_box">
 					<div class="col-md-6 col-sm-6 col-xs-6">
@@ -285,7 +287,7 @@
 					<div class="clearfix"></div>
 				</div>
 			</div>
-		</div>
+		</div>-->
     </div>
 </div>
 <div class="clearfix"></div>

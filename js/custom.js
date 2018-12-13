@@ -67,22 +67,22 @@ $(document).ready(function() {
 	case '/work':
         $('#work').addClass('active');
 	break;
-	case '/afp_detail':
+	case '/afp':
         $('#work').addClass('active');
 	break;
-	case '/atd_detail':
+	case '/atd':
         $('#work').addClass('active');
 	break;
-	case '/learnfeedback_detail':
+	case '/learnfeedback':
         $('#work').addClass('active');
 	break;
-	case '/aere_detail':
+	case '/aere':
         $('#work').addClass('active');
 	break;
-	case '/allinstitute_detail':
+	case '/allinstitute':
         $('#work').addClass('active');
 	break;
-	case '/tedxtysons_detail':
+	case '/tedxtysons':
         $('#work').addClass('active');
 	break;
 			

@@ -42,7 +42,7 @@
     	<div class="col-md-2 col-sm-3 col-xs-4">
       		<div class="client_box"><a href="http://tedxtysons.com"><img src="images/ted.png" alt="" class="img-responsive" /></a></div>
     	</div> -->
-		<div class="clearfix visible-md"></div>
+		<div class="clearfix visible-md visible-lg"></div>
 		<div class="col-md-2 col-sm-3 col-xs-4 col-md-offset-2">
       		<div class="client_box"><a href="http://assessment.afponline.org" target="_blank"><img src="images/afp.png" alt="" class="img-responsive" /></a></div>
     	</div>
@@ -51,17 +51,17 @@
     	</div>
     	<div class="col-md-2 col-sm-3 col-xs-4">
       		<div class="client_box"><a><img src="images/atd.png" alt="" class="img-responsive" /></a></div>
-    	</div>
-    	<div class="col-md-2 col-sm-3 col-xs-4">
+    	</div>		<div class="col-md-2 col-sm-3 col-xs-4">      		<div class="client_box"><a href="https://www.hrci.org/" target="_blank"><img src="images/hrci.jpg" alt="" class="img-responsive" /></a></div>    	</div>
+    	<!--<div class="col-md-2 col-sm-3 col-xs-4">
       		<div class="client_box"><a href="http://learnfeedback.com" target="_blank"><img src="images/lf.png" alt="" class="img-responsive" /></a></div>
-    	</div>
-		<div class="clearfix visible-md"></div>
+    	</div>-->
+		<div class="clearfix visible-md visible-lg"></div>
     	<div class="col-md-2 col-sm-3 col-xs-4 col-md-offset-4">
       		<div class="client_box"><a href="http://www.aerexperts.com" target="_blank"><img src="images/aere.png" alt="" class="img-responsive" /></a></div>
     	</div>
     	<div class="col-md-2 col-sm-3 col-xs-4">
       		<div class="client_box"><a href="https://www.tedxtysons.com" target="_blank"><img src="images/ted.png" alt="" class="img-responsive" /></a></div>
-    	</div>
+    	</div>				<div class="clearfix visible-md visible-lg"></div>				<div class="col-md-2 col-sm-3 col-xs-4 col-md-offset-5">      		<div class="client_box"><a href="http://jtaexperts.com/" target="_blank"><img src="images/jta.png" alt="" class="img-responsive" /></a></div>    	</div>
     </div>
   </div>
 </div>
