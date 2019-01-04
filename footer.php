@@ -1,3 +1,12 @@
+<div class="footer_bottom footer_fixed boxed">
+	<div class="col-md-9 col-sm-9 text-left">Copyrights &copy; 2018 OpenEyes Technologies Inc.</div>
+	<div class="col-md-3 col-sm-3 text-right">
+		<ul class="social_links">
+			<li><a href="https://twitter.com/OpenEyesTech" target="_blank"><i class="flaticon-twitter-logo-silhouette"></i></a></li>
+			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a></li>
+		</ul>
+	</div>
+</div>
 
 
 <script src="assets/js/jquery.min.js"></script>

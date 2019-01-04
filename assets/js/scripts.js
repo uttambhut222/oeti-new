@@ -7,8 +7,9 @@ $(document).ready(
 
 ( function($) {
   'use strict';
+  
 
-
+  
 	var navbar=$('.js-navbar:not(.navbar-fixed)');
 
 
@@ -217,4 +218,21 @@ $(function () {
 		});
 	}
 
+	
+	//for hide pipeline
+	/* var url = window.location.pathname;
+	url = url.replace(".php","");
+	if ( url === '/' || url === '/index'){ 
+    	$("#pp-nav").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#contact").offset().top
+			}, 2000);
+		});
+	}
+	else{
+		
+	}; */
+	//for hide pipeline
+	
+	
 })(jQuery);

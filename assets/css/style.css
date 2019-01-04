@@ -8,7 +8,6 @@
 @import url('owl.carousel.css');
 
 
-
 html{
   font-size: 12px;
   -webkit-font-smoothing: antialiased;
@@ -61,7 +60,8 @@ body{
 
 
 
-
+.carousel-control{width:5%;}
+.carousel-control.right,.carousel-control.left{background-image:none;}
 
 h1,
 .h1{ 
@@ -550,6 +550,15 @@ label.error{
 }
 
 
+/*====== start work section css =====*/
+.pagepiling #myCarousel .carousel-inner .carousel-caption{box-shadow:0 0 3px #f5f5f5;position: absolute;text-shadow:none;color:#000;top: 33%;transform: translateY(-33%);text-align: left;background: rgba(255, 255, 255, 0.85);width: 40%;padding: 25px;height: 65vh;left: 10%;}
+.pagepiling #myCarousel .carousel-inner .technology_used ul li{display: inline-block;margin: 0px 0px 0px 8px;background: #fff;width: 32px;height: 32px;padding: 7px;border-radius: 50%;text-align: center;border: 1px dashed;}
+.pagepiling #myCarousel .carousel-inner .carousel-caption h3{margin: 0px 0px 15px 0px;font-size: 24px;color: #000;letter-spacing: 1px;}
+.pagepiling #myCarousel .carousel-inner .carousel-caption p{margin-bottom: 15px;color: #000;}
+.pagepiling #myCarousel .carousel-inner .carousel-caption .project_desc ul li{border-bottom:1px solid #000;padding: 8px 0px;}
+.pagepiling #myCarousel .carousel-inner .carousel-caption .project_desc ul li span{font-weight: 600;color:#000}
+.pagepiling #myCarousel .carousel-inner .carousel-caption .technology_used{padding: 25px 0px;}
+/*====== end work section css =====*/
 
 
 /*======= start common css ========*/
@@ -579,7 +588,7 @@ video {background-size: cover;display: table-cell;vertical-align: middle;width: 
 .video_desc p{margin-bottom:15px;}
 .banner_btn{color:#0061AF; position:relative; z-index:9999; font-size:18px; line-height:18px; background:#fff; border:2px solid #fff; transition:all 0.4s linear 0s; text-decoration:none; padding:10px 15px; margin-bottom:30px; display:inline-block;}
 .banner_btn:hover{text-decoration:none; background:transparent; color:#fff; transition:all 0.4s linear 0s;}
-
+.view_all_btn .banner_btn{margin-top:15px}
 .read_more{color:#0061AF; position:relative; z-index:9999; font-size:15px; line-height:15px; background:transparent; border:2px solid #0061AF; transition:all 0.4s linear 0s; text-decoration:none; padding:10px 15px; margin:15px 0 30px 0; display:inline-block;}
 .read_more:hover{text-decoration:none; background:#0061AF; color:#fff; transition:all 0.4s linear 0s;}
 
@@ -593,9 +602,10 @@ video {background-size: cover;display: table-cell;vertical-align: middle;width: 
     line-height: 25px;
     position: absolute;
     left: 0;
-    bottom: 20px; color:#fff; font-size:14px;
+    bottom: 0px; color:#fff; font-size:14px;
+	z-index:9;
 }
-
+.footer_bottom.footer_fixed{position: fixed;}
 .next-section {
     background: #0061AF;
     color: #fff;
@@ -708,7 +718,6 @@ video {background-size: cover;display: table-cell;vertical-align: middle;width: 
 /*-------------------------------------------------------------------------------
   2. Navbar
 -------------------------------------------------------------------------------*/
-
 
 
 .navbar{ 
@@ -1081,6 +1090,7 @@ a.brand:focus{
   overflow-x:hidden;
 }
 
+.boxed.work_box{height:435px;overflow:scroll;}
 .boxed{
   padding-left: 1.7rem;
   padding-right: 1.7rem;

@@ -140,6 +140,13 @@
 													</a>
 												</div>
 											</div>
+											<div class="clearfix"></div>
+											<div class="row">
+												<div class="col-md-12 text-center view_all_btn">
+													<a href="history" class="banner_btn">View All</a>												
+												</div>
+											</div>
+											<div class="clearfix"></div>
 										</div>
 									</div>
 								</div>
