@@ -16,13 +16,17 @@
 										<div class="col-md-12 visible-xs visible-sm">
 											<h2 class="title-uppercase">What we have done</h2>
 										</div>
+										<div class="row ourwork_head">
+											<p>We are proud to offer both customers and our employees with the most up-to-date and cutting-edge technologies and partnerships.</p>
+										</div>
+										<div class="clearfix"></div>
 										<!-- work Section -->
 										<div class="work_wrapper_content">
 											<div class="col-md-12">
 											<h2 class="title-uppercase text-white visible-xs visible-sm">What we have done</h2>
 											<div class="row-project-box row">
 												<div class="afp col-project-box col-sm-6 col-md-3 col-lg-3">
-													<a href="http://theopeneyes.com/afp" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/afp.png">
 															<!--<i class="fa fa-wrench" aria-hidden="true"></i>-->
@@ -34,7 +38,7 @@
 													</a>
 												</div>
 												<div class="atd col-project-box col-sm-6 col-md-3 col-lg-3">
-													<a href="http://theopeneyes.com/atd" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/atd.png">
 															<!--<i class="fa fa-wrench" aria-hidden="true"></i>-->
@@ -46,7 +50,7 @@
 													</a>
 												</div>
 												<div class="lfb col-project-box col-sm-6 col-md-3 col-lg-3">
-													<a href="http://theopeneyes.com/learnfeedback" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/lf.png">
 															<!--<i class="fa fa-book" aria-hidden="true"></i>-->
@@ -58,7 +62,7 @@
 													</a>
 												</div>
 												<div class="alli col-project-box col-sm-6 col-md-3 col-lg-3">
-													<a href="http://theopeneyes.com/allinstitute" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/all.png">
 															<!--<i class="fa fa-user" aria-hidden="true"></i>-->
@@ -70,7 +74,7 @@
 													</a>
 												</div>
 												<div class="ted col-project-box col-sm-6 col-md-3 col-lg-3">
-													<a href="http://theopeneyes.com/tedxtysons" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/ted.png">
 															<!--<i class="fa fa-user" aria-hidden="true"></i>-->
@@ -82,7 +86,7 @@
 													</a>
 												</div>
 												<div class="aere col-project-box col-sm-6 col-md-3 col-lg-3">
-													<a href="http://theopeneyes.com/aere" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/aere.png">
 															<!--<i class="fa fa-wrench" aria-hidden="true"></i>-->
@@ -94,7 +98,7 @@
 													</a>
 												</div>
 												<div class="afp col-project-box col-sm-6 col-md-3 col-lg-3">
-													<a href="http://theopeneyes.com/afp" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/afp.png">
 															<!--<i class="fa fa-plus"></i>-->
@@ -106,7 +110,7 @@
 													</a>
 												</div>
 												<div class="atd col-project-box col-sm-6 col-md-3 col-lg-3">
-													<a href="http://theopeneyes.com/atd" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/atd.png">
 															<!--<i class="fa fa-wrench" aria-hidden="true"></i>-->

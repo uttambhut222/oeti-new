@@ -1,7 +1,7 @@
 <?php include("header.php");?>
 <?php include("inquire_form.php"); ?>
 <div class="pagepiling">
-	<div class="pp-scrollable">
+	<div class="pp-scrollable our_process">
 		<div class="scroll-wrap">
 			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(assets/images/bg/processbg.png);background-attachment: fixed;"></div>
 			<div class="scrollable-content position_contact">
@@ -16,6 +16,10 @@
 										<div class="col-md-12 visible-xs visible-sm">
 											<h2 class="title-uppercase">How we Work</h2>
 										</div>
+										<div class="row ourprocess_head">
+											<!--<p>Project Scope Defining the scope of the project is a critical step. One of the most common frustrations with Web projects is scope creep. By creating a well-defined project scope plan that outlines specific activities and deliverables, along with specific timelines, you will be able to clearly set expectations for your clients.</p>-->
+										</div>
+										<div class="clearfix"></div>
 										<!-- process Section -->
 										<section class="design-process-section" id="process-tab">
 											  <div class="container">

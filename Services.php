@@ -16,6 +16,10 @@
 										<div class="col-md-12">
 											<h2 class="title-uppercase text-white visible-xs visible-sm">what we do</h2>
 										</div>
+										<div class="row ourservices_head">
+											<p>All our services are customized according to the requirement of our client's. At OpenEyes Technologies we continuously evaluate the services along the way, ensuring that our tactics result in the client’s desired success.</p>
+										</div>
+										<div class="clearfix"></div>
 									</div>
 									<div class="row">
 										<div class="our_service_wrapper">
