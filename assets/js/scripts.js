@@ -1,4 +1,30 @@
-﻿//Hide field - For bot spammer
+﻿// Back to Top 
+$(function(){
+  $(window).scroll(function(){
+    var scrolled = $(window).scrollTop();
+    if (scrolled > 200){ $('.go_top').fadeIn('slow');}
+    if (scrolled < 200){ $('.go_top').fadeOut('slow');}
+  });
+  
+  $('.go_top').click(function () {
+    $("html, body").animate({ scrollTop: "0" },  500);
+  });
+
+});
+// End Back to Top
+
+//portfolio script
+setInterval(function(){ 
+	$(".col-project-box.active").next().addClass('active');  
+    $(".col-project-box.active").prev().removeClass('active');   
+	$(".section-bg.active").next().addClass('active');  
+    $(".section-bg.active").prev().removeClass('active');   
+}, 10000);
+
+
+
+
+//Hide field - For bot spammer
 $(document).ready(
   function() {
     $('#MiddleName').hide()
@@ -18,7 +44,74 @@ $(document).ready(
 		$('.loader').fadeOut(1000);
 	});
 
+	//for bootstrap carousel
+	$('.carousel').carousel()
 
+	
+	//owl-carousel
+	$('.owl-carousel_services').owlCarousel({
+        loop:true,
+        autoPlay: true,
+        nav:true,
+        dots: false,
+        margin: 0,
+		/* animateOut: 'fadeOut', */
+        stopOnHover : true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1
+            },
+
+            300:{
+                items:1
+            },
+            479:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            768:{
+                items:1
+            },
+            979:{
+                items:1
+            },
+            1024:{
+                items:1
+            },
+            1199:{
+                items:1
+            }
+        }
+    })
+
+	// career form 			
+		$('.applynow').click(function(){
+		$('.screen_menu').addClass("active");
+		$('body').addClass("overflow_body");
+		});
+	
+		$(".screen_menu #close_career").click(function() {
+		$('.screen_menu').removeClass("active");
+		$('body').removeClass("overflow_body");
+	   });
+	// End career form
+	
+	// contact form 			
+		$('header .content_form .inquire_now').click(function(){
+		$('.contcact_form').addClass("active");
+		$('body').addClass("overflow_body");
+		});
+	
+		$(".contcact_form .close-menu").click(function() {
+		$('.contcact_form').removeClass("active");
+		$('body').removeClass("overflow_body");
+	   });
+	// End contact form
+	
+	
 	/*-------------------------------------------------------------------------------
 	  Navbar 
 	-------------------------------------------------------------------------------*/
@@ -119,7 +212,7 @@ $(function () {
         loopTop: false,
 		verticalCentered: true,
 		direction: 'vertical',
-		    anchors: ['welcomeoess', 'aboutoess', 'ourwork', 'ourservices', 'ourclients', 'contactus'],
+		    anchors: ['WelcomeOpenEyes', 'AboutOpenEyes', 'OurPortfolio', 'OurServices', 'OurClients', 'ContactUs'],
 			 navigation: {
           'position': 'right',
           'tooltips': ['Welcome', 'Who we are', 'What we have done', 'What we do', 'Whom we serve', 'Where we are']
@@ -233,6 +326,20 @@ $(function () {
 		
 	}; */
 	//for hide pipeline
+	
+	// script for tab steps
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+
+        var href = $(e.target).attr('href');
+        var $curr = $(".process-model  a[href='" + href + "']").parent();
+
+        $('.process-model li').removeClass();
+
+        $curr.addClass("active");
+        $curr.prevAll().addClass("visited");
+    });
+// end  script for tab steps
+	
 	
 	
 })(jQuery);
