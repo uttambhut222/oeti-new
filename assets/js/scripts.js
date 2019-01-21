@@ -88,7 +88,7 @@ $(document).ready(
     })
 
 	// career form 			
-		$('.applynow').click(function(){
+		$('.apply_now').click(function(){
 		$('.screen_menu').addClass("active");
 		$('body').addClass("overflow_body");
 		});

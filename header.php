@@ -29,7 +29,7 @@
       <span class="close-menu icon-cross2 right-boxed"></span>	  
       <ul class="menu-list right-boxed">
         <li>
-			<a>Who</a>
+			<a href="AboutUs">Who</a>
 			<ul class="sub-menu">
 				<li><a href="Milestones">Milestones</a></li>
 				<li><a href="VisionMission">Vision & Mission</a></li>

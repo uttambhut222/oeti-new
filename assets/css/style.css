@@ -688,6 +688,7 @@ body.overflow_body{overflow: hidden;}
 .screen_menu .form_section h3{color:#222;font-size:18px;}
 .career .intro .career_section{position:relative;padding: 50px 0px 50px 0px;}
 .career .intro .career_section .career_heading h2{position: relative;margin-bottom:0;}
+.career .intro .career_position_content .career_types{margin:25px 0px;}
 .career .intro .career_section .career_heading h2 span{ position: relative;
     z-index: 3;
     display: inline-block;
@@ -727,7 +728,7 @@ body.overflow_body{overflow: hidden;}
 .career .intro .career_position_content{    position: relative;
     padding: 50px 0px;
     margin: 75px 0px;}
-.career .intro .career_position_content h2{position:relative;margin:15px;}
+.career .intro .career_position_content h2{position:relative;margin:15px 0px;}
 .career .intro .career_position_content h2 span {
     position: relative;
     z-index: 3;
@@ -762,9 +763,10 @@ body.overflow_body{overflow: hidden;}
     background: #fff;
     color: #222;
     padding: 15px;}
-.career .intro .career_position_content	.apply_btn .apply_now{transition: all .3s ease; margin-top:18px;   position: relative;
+.career .intro .career_position_content	.apply_btn .apply_now{transition: all .3s ease; margin-top:0px;   position: relative;
     display: block;
-    padding: 40px;
+	cursor:pointer;
+    padding: 38px 40px;
     color: #fff;    background-color: #0061af;}
 .career .intro .career_position_content	.apply_btn .apply_now:hover,.career .intro .career_position_content	.apply_btn .apply_now:hover p{background:#fff;color:#0061af;}
 .career .intro .career_position_content	.apply_btn .apply_now:after, .career .intro .career_position_content	.apply_btn .apply_now:before {
@@ -819,7 +821,7 @@ video {background-size: cover;display: table-cell;vertical-align: middle;width: 
 .pagepiling .video_content h2{margin-bottom: 10px;font-size: 42px;color: #fff;letter-spacing: 1px; text-shadow: 5px 5px 20px #000;}
 .pagepiling .video_content p{text-transform: capitalize;font-size: 18px;letter-spacing: 1px; text-shadow: 5px 5px 20px #000; }
 .pagepiling .video_content{position: absolute;width: 100%;top: 35%;}
-
+.padding_left_0{padding-left:0px;}
 .footer .title_sponser{float: left;width: 100%;text-align: center;}
 .footer .title_sponser img{margin: 0 auto;width:350px;height:auto;background: #ffffffc7;padding: 10px;border-radius: 10px;}
 .video_desc p{margin-bottom:15px;}
