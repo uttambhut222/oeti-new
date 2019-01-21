@@ -23,7 +23,7 @@
 												<div class="row">
 												<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/12.jpg">
+															<img alt="" src="assets/images/team/8.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Anand Yadav</h4>
 																<span class="employee_designation">Front End Developer</span>
@@ -32,7 +32,7 @@
 													</div>
 													<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/12.jpg">
+															<img alt="" src="assets/images/team/2.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Dharti Desai</h4>
 																<span class="employee_designation">HR Executive</span>
@@ -41,7 +41,7 @@
 													</div>
 													<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/12.jpg">
+															<img alt="" src="assets/images/team/6.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Jaxi Chawda</h4>
 																<span class="employee_designation">Php Developer</span>
@@ -50,7 +50,7 @@
 													</div>
 													<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/11.jpg">
+															<img alt="" src="assets/images/team/1.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Kamlesh Solanki</h4>
 																<span class="employee_designation">Office Administrator</span>
@@ -62,7 +62,7 @@
 												<div class="row">
 													<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/12.jpg">
+															<img alt="" src="assets/images/team/4.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Krupali Mistry</h4>
 																<span class="employee_designation">Front End Developer</span>
@@ -80,7 +80,7 @@
 													</div>
 													<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/11.jpg">
+															<img alt="" src="assets/images/team/9.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Mitesh Patel</h4>
 																<span class="employee_designation">Php Developer</span>
@@ -101,7 +101,7 @@
 												<div class="row">													
 													<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/11.jpg">
+															<img alt="" src="assets/images/team/3.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Pooja Patel</h4>
 																<span class="employee_designation">Project Lead</span>
@@ -110,7 +110,7 @@
 													</div>
 													<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/12.jpg">
+															<img alt="" src="assets/images/team/10.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Swar Pandya</h4>
 																<span class="employee_designation">HR Executive</span>
@@ -119,7 +119,7 @@
 													</div>													
 													<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/11.jpg">
+															<img alt="" src="assets/images/team/7.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Uttam Bhut</h4>
 																<span class="employee_designation">Php Developer</span>
@@ -128,7 +128,7 @@
 													</div>
 													<div class="col-md-3">
 														<div class="team_member_box">
-															<img alt="" src="assets/images/team/11.jpg">
+															<img alt="" src="assets/images/team/5.jpg">
 															<div class="employee_details">
 																<h4 class="employee_name">Vidhi Bathani</h4>
 																<span class="employee_designation">Php Developer</span>

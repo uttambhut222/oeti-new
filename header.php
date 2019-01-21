@@ -29,33 +29,33 @@
       <span class="close-menu icon-cross2 right-boxed"></span>	  
       <ul class="menu-list right-boxed">
         <li>
-			<a href="">Who</a>
+			<a>Who</a>
 			<ul class="sub-menu">
-				<li>History</li>
-				<li>Vision & Mission</li>
-				<li>Team</li>
+				<li><a href="Milestones">Milestones</a></li>
+				<li><a href="VisionMission">Vision & Mission</a></li>
+				<li><a href="Family">Family</a></li>
 			</ul>
         </li>
         <li>
-			<a href="">What</a>
+			<a href="Services">What</a>
         </li>
         <li>
-			<a href="">Work</a>
+			<a href="Portfolio">Work</a>
         </li>
         <li>
-			<a href="">How</a>
+			<a href="Process">How</a>
         </li>
         <li>
-			<a href="">Whom</a>
+			<a href="OurClients">Whom</a>
         </li>
         <li>
-			<a href="">Why</a>
+			<a href="WhyUs">Why</a>
 			<ul class="sub-menu">
-				<li>Career</li>
+				<li><a href="Career">Career</a></li>
 			</ul>
         </li>
 		<li>
-			<a href="">Where</a>
+			<a href="Index#ContactUs">Where</a>
 		</li>
       </ul>
     </div>
@@ -78,7 +78,7 @@
 			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a>
 			</li>
 		</ul>
-		<a class="brand" href="/oeti-new/index" target="_blank">
+		<a class="brand" href="/oeti-new/Index">
         <img class="brand-img" alt="" src="assets/images/brand.png">
       </a>
 	</header>

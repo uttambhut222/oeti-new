@@ -3,7 +3,7 @@
 <div class="pagepiling">
 <div class="slider">
   <div class="view_all_services">
-	<a href="/oeti-new/work" class="banner_btn">View All</a>
+	<a href="Portfolio" class="banner_btn">View All</a>
   </div>
 <div class="owl-carousel_services">
   <div class="owl-item">

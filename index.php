@@ -86,7 +86,7 @@
 											<h2 class="title-uppercase text-white visible-xs visible-sm">What we have done</h2>
 											<div class="row-project-box row">
 												<div class="afp col-project-box col-sm-6 col-md-4 col-lg-4 active">
-													<a href="http://theopeneyes.com/afp" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 															<h5>Corporate Training Skills Assessment</h5>
 															<div class="project-category">Assessment Tool</div>
@@ -96,7 +96,7 @@
 													</a>
 												</div>
 												<div class="atd col-project-box col-sm-6 col-md-4 col-lg-4">
-													<a href="http://theopeneyes.com/atd" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 															<h5>Assessment Tool</h5>
 															<div class="project-category">Scoring Tool for Assessing Team </div>
@@ -106,7 +106,7 @@
 													</a>
 												</div>
 												<div class="lfb col-project-box col-sm-6 col-md-4 col-lg-4">
-													<a href="http://theopeneyes.com/learnfeedback" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 															<h5>Learn Feedback</h5>
 															<div class="project-category">Straehle Feedback Inventory</div>
@@ -116,7 +116,7 @@
 													</a>
 												</div>
 												<div class="alli col-project-box col-sm-6 col-md-4 col-lg-4">
-													<a href="http://theopeneyes.com/allinstitute" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 															<h5>All Institute</h5>
 															<div class="project-category">Coaching Services</div>
@@ -126,7 +126,7 @@
 													</a>
 												</div>
 												<div class="ted col-project-box col-sm-6 col-md-4 col-lg-4">
-													<a href="http://theopeneyes.com/tedxtysons" target="_blank" class="project-box">
+													<a href="PortfolioDetail" class="project-box">
 														<div class="project-box-inner">
 															<h5>TEDxTysons</h5>
 															<div class="project-category">Coaching Services</div>
@@ -145,7 +145,7 @@
 													</a>
 												</div> -->
 												<div class="view_more_box col-sm-6 col-md-4 col-lg-4">
-													<a href="timeline" class="view_all_works project-box">
+													<a href="Portfolio" class="view_all_works project-box">
 														<h5>For Complete Portfolio</h5>
 														<div class="project-category">Click here</div>
 														<div class="banner_btn"><i class="fa fa-plus"></i></div>
@@ -344,7 +344,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-12 text-center"><a href="service" class="view_more">View More</a>
+										<div class="col-md-12 text-center"><a href="Services" class="view_more">View More</a>
 										</div>
 									</div>
 								</div>
@@ -392,7 +392,7 @@
 												</div>
 												<div class="col-partner view_more_clients">
 													<div class="partner-inner view_all_clients">
-														<a href="http://www.aerexperts.com" target="_blank">
+														<a href="OurClients">
 															<h5>For Complete list of Clients</h5>
 															<div class="project-category">Click here</div>
 															<div class="banner_btn"><i class="fa fa-plus"></i></div>
