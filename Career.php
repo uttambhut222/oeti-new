@@ -73,11 +73,11 @@
 												</div>
 												<div class="clearfix"></div>
 												<div class="career_position_content">
-													<div class="content_writer">
+													<div class="content_writer career_types">
 														<h2><span>Content Writer</span></h2>
 													
 													<p>OpenEyes is hiring Content writer with potential to Work with technical staff to make products easier to use and thus need fewer instructions.</p>
-													<div class="col-lg-6 col-md-6">
+													<div class="col-lg-6 col-md-6 padding_left_0">
 														<div class="left_list_box">
 															<h3>Job Description</h3>
 															<ul class="list_li">
@@ -124,19 +124,256 @@
 														</div>														
 													</div>
 													<div class="clearfix"></div>
-													<div class="col-lg-6 col-md-6">
+													<div class="col-lg-6 col-md-6 padding_left_0">
 														<div class="apply_detail">
 															<p>Send your resume to <a href="mailto:hr@theopeneyes.com">hr@theopeneyes.com</a> with below subject line. e.g. Your subject line should be like (Your Name)(Expertise)(Experience)(Currecnt Location) if your name is John Davis and you are applying for the post of Front-End Developer with 2 years of experience, your subject line should be (john davis)(Front-End Developer)(2-Yrs)(Vadodara).</p>
 														</div>
 													</div>
 													<div class="col-lg-6 col-md-6">
 														<div class="apply_btn">
-															<a href="" class="apply_now"><div class="apply_head">Apply Now</div><p>Send your resume to hr@theopeneyes.com with subject line.</p></a>	
+															<a class="apply_now"><div class="apply_head">Apply Now</div><p>Send your resume to hr@theopeneyes.com with subject line.</p></a>	
 														</div>
 													</div>
 													<div class="clearfix"></div>
 													</div>
 													<div class="clearfix"></div>
+													
+													<div class="us_it_recruiter career_types">
+														<h2><span>US IT RECRUITER</span></h2>
+													
+													<p>OpenEyes is hiring couple of IT Recruiters with potential of becoming lead within short period of time. Should have and able to maintain dynamic environment.</p>
+													<div class="col-lg-6 col-md-6 padding_left_0">
+														<div class="left_list_box">
+															<h3>Job Description</h3>
+															<ul class="list_li">
+
+						  <li>Ability to demonstrate Full Recruiting Lifecycle (gathering requirements, candidate prospecting, candidate screening, Negotiations, candidate submission, follow-up, Interview &amp; on Boarding etc.)</li>
+
+						  <li>Proficient in sourcing right candidates through extensive portal search and Vendors.</li>
+
+						  <li>Should have excellent communication, convincing skills and negotiation skills</li>
+
+						  <li>Excellent understanding of technology and associated technical skill sets</li>
+
+						  <li>Candidate shall be self-motivated &amp; high on achievement orientation, Should have the ability to deliver results and handle pressure</li>
+
+						  <li>Comfortable to work in night shift and must be able to commute by self</li>
+
+						  <li>Posting vacancies on portals. Match the profile of the candidate on technical grounds</li>
+
+						  <li>Responsible for negotiation, paper work validation and closed candidates for assigned requisitions.</li>
+
+						  <li>Preferably should have experience of working with Non Direct &amp; Direct Clients</li>
+
+						  <li>Working experience with W2, 1099 and Corp2corp Candidates</li>
+
+						  <li>Should be well versed with various tax terms (W2, C2C, 1099)</li>
+
+						</ul>
+														</div>														
+													</div>
+													<div class="col-lg-6 col-md-6">
+														<div class="right_list_box">
+															<h3>Benefits</h3>
+															<ul class="list_li">
+
+						  <li><strong>Positions </strong> : 3</li>
+
+						  <li><strong>Job Type </strong> : Full Time</li>
+
+						  <li><strong>Location </strong> :  Vadodara (India)</li>
+
+						  <li><strong>Experience </strong> : 0 to 2 Years</li>
+
+						  <li><strong>Salary </strong> : Depends on Experience</li>
+
+						  <li><strong>Qualification </strong> : Any Graduate</li>
+
+						</ul>
+														</div>														
+													</div>
+													<div class="clearfix"></div>
+													<div class="col-lg-6 col-md-6 padding_left_0">
+														<div class="apply_detail">
+															<p>Send your resume to <a href="mailto:hr@theopeneyes.com">hr@theopeneyes.com</a> with below subject line. e.g. Your subject line should be like (Your Name)(Expertise)(Experience)(Currecnt Location) if your name is John Davis and you are applying for the post of Front-End Developer with 2 years of experience, your subject line should be (john davis)(Front-End Developer)(2-Yrs)(Vadodara).</p>
+														</div>
+													</div>
+													<div class="col-lg-6 col-md-6">
+														<div class="apply_btn">
+															<a class="apply_now"><div class="apply_head">Apply Now</div><p>Send your resume to hr@theopeneyes.com with subject line.</p></a>	
+														</div>
+													</div>
+													<div class="clearfix"></div>
+													</div>
+													<div class="clearfix"></div>
+													
+													<div class="php_developer career_types">
+														<h2><span>SR. PHP DEVELOPER</span></h2>
+													
+													<p>OpenEyes is hiring Team Lead / Sr. PHP Developer for product and project development in Web, Mobile & Cloud App Development.</p>
+													<div class="col-lg-6 col-md-6 padding_left_0">
+														<div class="left_list_box">
+															<h3>Job Description</h3>
+															<ul class="list_li">
+
+						  <li>At least 6+ years of experience in software graphics manipulation and web programming</li>
+
+						  <li>Strong knowledge of PHP object orientated and MySQL</li>
+
+						  <li>Experience with Drupal and WordPress</li>
+
+						  <li>Experience of MVC frameworks/architecture such as <strong>Symfony</strong>, <strong>Codeigniter</strong> and <strong>Laravel</strong></li>
+
+						  <li>Ability to scope and estimate technical builds</li>
+
+						  <li>Ability to code and debug in HTML, CSS(responsive design framework), JavaScript/jQuery.</li>
+
+						  <li>Experience of implementing Google Analytics code and debugging</li>
+
+						  <li>Experience of using version control using <strong>Github</strong>, <strong>Subversion</strong></li>
+
+						  <li>Must be able to stay on top of advancing internet and computer technology and its effects to the business environment</li>
+
+						  <li>Be willing to work in a research capacity – to find and test and critically review open-source frameworks and technologies.</li>
+
+						  <li>Uses a rigorous risk identification and mitigation process on an ongoing basis.</li>
+
+						  <li>Ensures that risk related costs are included in project budgets and forecasts.</li>
+
+						  <li>Demonstrates project control internally through disciplined measurement, assessment, planning, and reporting.</li>
+
+						  <li>Assesses problem causes and implications; recommends solutions and costs, and encourages shared problem solving.</li>
+
+						  <li>Demonstrate each of these, both internally and externally with the client.</li>
+
+						</ul>
+														</div>														
+													</div>
+													<div class="col-lg-6 col-md-6">
+														<div class="right_list_box">
+															<h3>Benefits</h3>
+															<ul class="list_li">
+
+						  <li><strong>Positions </strong> : 1</li>
+
+						  <li><strong>Job Type </strong> : Full Time</li>
+
+						  <li><strong>Location </strong> :  Vadodara (India)</li>
+
+						  <li><strong>Experience </strong> : 3 to 5 Years</li>
+
+						  <li><strong>Salary </strong> : Depends on Experience</li>
+
+						  <li><strong>Qualification </strong> : IT Graduate</li>
+
+						</ul>
+														</div>														
+													</div>
+													<div class="clearfix"></div>
+													<div class="col-lg-6 col-md-6 padding_left_0">
+														<div class="apply_detail">
+															<p>Send your resume to <a href="mailto:hr@theopeneyes.com">hr@theopeneyes.com</a> with below subject line. e.g. Your subject line should be like (Your Name)(Expertise)(Experience)(Currecnt Location) if your name is John Davis and you are applying for the post of Front-End Developer with 2 years of experience, your subject line should be (john davis)(Front-End Developer)(2-Yrs)(Vadodara).</p>
+														</div>
+													</div>
+													<div class="col-lg-6 col-md-6">
+														<div class="apply_btn">
+															<a class="apply_now"><div class="apply_head">Apply Now</div><p>Send your resume to hr@theopeneyes.com with subject line.</p></a>	
+														</div>
+													</div>
+													<div class="clearfix"></div>
+													</div>
+													<div class="clearfix"></div>
+													
+													<div class="lead_coordinator career_types">
+														<h2><span>LEAD CO-ORDINATOR</span></h2>
+													
+													<p>OpenEyes is hiring Lead Coordinator with potential of becoming lead within short period of time. Should have and able to maintain dynamic environment of the entire office.</p>
+													<div class="col-lg-6 col-md-6 padding_left_0">
+														<div class="left_list_box">
+															<h3>Job Description</h3>
+															<ul class="list_li">
+
+						  <li>Design and update job descriptions</li>
+
+						  <li>Source potential candidates from various online channels</li>
+
+						  <li>Craft recruiting emails to attract passive candidates</li>
+
+						  <li>Screen incoming resumes and application forms</li>
+
+						  <li>Interview candidates (via phone, video and in-person)</li>
+
+						  <li>Prepare and distribute assignments and numerical, language and logical reasoning tests</li>
+
+						  <li>Advertise job openings on company’s careers page, social media, job boards and internally</li>
+
+						  <li>Provide shortlists of qualified candidates to hiring managers</li>
+
+						  <li>Send job offer emails and answer queries about compensation and benefits</li>
+
+						  <li>Monitor key HR metrics, including time-to-fill, time-to-hire and source of hire</li>
+
+						  <li>Participate in job fairs and host in-house recruitment events</li>
+
+						  <li>Collaborate with managers to identify future hiring needs</li>
+
+						  <li>Act as a consultant to new hires and help them onboard</li>
+
+						  <li>Proven work experience as an HR Recruiter or similar role</li>
+
+						  <li>Responsible for HR management, Admin, Technical Knowhow (Microsoft)</li>
+
+						  <li>Strong leadership qualities</li>
+
+						  <li>Office management</li>
+
+						  <li>HR Compliances</li>
+
+						  <li>Familiarity with Applicant Tracking Systems and resume databases</li>
+
+						  <li>Experience with sourcing techniques</li>
+
+						  <li>Understanding of referral programs</li>
+
+						</ul>
+														</div>														
+													</div>
+													<div class="col-lg-6 col-md-6">
+														<div class="right_list_box">
+															<h3>Benefits</h3>
+															<ul class="list_li">
+
+						  <li><strong>Positions </strong> : 1</li>
+
+						  <li><strong>Job Type </strong> : Full Time</li>
+
+						  <li><strong>Location </strong> :  Vadodara (India)</li>
+
+						  <li><strong>Experience </strong> : 3 to 5 Years</li>
+
+						  <li><strong>Salary </strong> : Depends on Experience</li>
+
+						  <li><strong>Qualification </strong> : Any Graduate</li>
+
+						</ul>
+														</div>														
+													</div>
+													<div class="clearfix"></div>
+													<div class="col-lg-6 col-md-6 padding_left_0">
+														<div class="apply_detail">
+															<p>Send your resume to <a href="mailto:hr@theopeneyes.com">hr@theopeneyes.com</a> with below subject line. e.g. Your subject line should be like (Your Name)(Expertise)(Experience)(Currecnt Location) if your name is John Davis and you are applying for the post of Front-End Developer with 2 years of experience, your subject line should be (john davis)(Front-End Developer)(2-Yrs)(Vadodara).</p>
+														</div>
+													</div>
+													<div class="col-lg-6 col-md-6">
+														<div class="apply_btn">
+															<a class="apply_now"><div class="apply_head">Apply Now</div><p>Send your resume to hr@theopeneyes.com with subject line.</p></a>	
+														</div>
+													</div>
+													<div class="clearfix"></div>
+													</div>
+													<div class="clearfix"></div>
+													
+													
 												</div>
 											</div>
 										</div>
