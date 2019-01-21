@@ -70,7 +70,6 @@ $(document).ready(
             0:{
                 items:1
             },
-
             300:{
                 items:1
             },
@@ -93,7 +92,15 @@ $(document).ready(
                 items:1
             }
         }
-    })
+	})
+	$.urlParam = function(name){
+		var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+		return results[1] || 0;
+	}
+//	alert($.urlParam('id'));
+	var toIndex = $.urlParam('id');
+	$(".owl-carousel_services").trigger("to.owl.carousel", [toIndex, 1, true]);
+	
 
 	// career form 			
 		$('.applynow').click(function(){
