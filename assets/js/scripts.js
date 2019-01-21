@@ -18,9 +18,17 @@ setInterval(function(){
 	$(".col-project-box.active").next().addClass('active');  
     $(".col-project-box.active").prev().removeClass('active');   
 	$(".section-bg.active").next().addClass('active');  
-    $(".section-bg.active").prev().removeClass('active');   
+	$(".section-bg.active").prev().removeClass('active');
+	if($("#last_block").hasClass("active")){
+		setTimeout(function(){ 
+			//alert("asdfgsafas");
+			$(".col-project-box").removeClass('active');   
+			$(".col-project-box:first-child").addClass('active');  
+			$(".section-bg").removeClass('active');
+			$(".section-bg:first-child").addClass('active');  
+		}, 5000);
+	}	
 }, 10000);
-
 
 
 

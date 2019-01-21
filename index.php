@@ -125,7 +125,7 @@
 														</div>
 													</a>
 												</div>
-												<div class="ted col-project-box col-sm-6 col-md-4 col-lg-4">
+												<div class="ted col-project-box col-sm-6 col-md-4 col-lg-4" id="last_block">
 													<a href="http://theopeneyes.com/tedxtysons" target="_blank" class="project-box">
 														<div class="project-box-inner">
 															<h5>TEDxTysons</h5>
