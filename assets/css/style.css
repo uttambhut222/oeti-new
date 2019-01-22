@@ -657,6 +657,108 @@ header .content_form .inquire_now{margin: 30px 30px 0px 0px;cursor:pointer;}
 .event__content {text-transform: uppercase;font-size: 0.9em;font-weight: 600;color: #fff;}
 .event__date {font-size: 18px;}
 .roadmap__events__event .event .event__content small {font-weight: normal;display: block;line-height: 22px;letter-spacing: 1px;text-transform:lowercase;}
+@media only screen and (max-width:992px) {
+    .roadmap {
+        margin: 50px auto 0;
+    }
+    .roadmap .roadmap__events {
+        padding: 0;
+        width: 80%;
+        min-height: 400px;
+    }
+    .roadmap .roadmap__events:after {
+        left: 50%;
+        top: 0;
+        width: 4px;
+        height: -webkit-calc(0% - 0px);
+        height: calc(0% - 0px);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+    .roadmap .roadmap__events__event {
+        position: relative;
+        left: auto !important;
+        top: auto;
+        bottom: auto;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        min-height: 120px;
+    }
+    .roadmap .roadmap__events__event:before {
+        top: -8px;
+        bottom: auto;
+    }
+    .roadmap .roadmap__events__event:after {
+        top: 0;
+        bottom: auto;
+        width: 0;
+        height: 4px !important;
+    }
+    .roadmap .roadmap__events__event .event {
+        top: -15px;
+        bottom: auto;
+        width: 40%;
+    }
+    .roadmap .roadmap__events__event:nth-child(odd):after {
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+@media only screen and (max-width:992px) and (max-width:600px) {
+    .roadmap .roadmap__events__event .event {
+        width: 50%;
+    }
+    .roadmap .roadmap__events__event:nth-child(odd) .event {
+        margin-left: -10%;
+    }
+    .roadmap .roadmap__events__event:nth-child(even) .event {
+        margin-right: -10%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .roadmap .roadmap__events__event:nth-child(even):after {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .roadmap .roadmap__events__event:nth-child(even) .event {
+        right: 0;
+    }
+    .roadmap.roadmap--initialized .roadmap__events:after {
+        width: 4px;
+        height: -webkit-calc(100% - 120px);
+        height: calc(100% - 120px);
+    }
+    .roadmap.roadmap--initialized .roadmap__events .roadmap__events__event:after {
+        width: 48px;
+    }
+    .roadmap.roadmap--initialized .roadmap__events .roadmap__events__event:nth-child(odd):after {
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    .roadmap.roadmap--initialized .roadmap__events .roadmap__events__event:nth-child(even):after {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width:992px) and (max-width:600px) {
+    .roadmap.roadmap--initialized .roadmap__events .roadmap__events__event:after {
+        width: 32px;
+    }
+}
 /*====== end timeline section css =====*/
 
 /*====== start our_services section css =====*/
