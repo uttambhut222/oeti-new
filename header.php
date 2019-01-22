@@ -78,7 +78,7 @@
 			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a>
 			</li>
 		</ul>
-		<a class="brand" href="/oeti-new/Index">
+		<a class="brand" href="Index">
         <img class="brand-img" alt="" src="assets/images/brand.png">
       </a>
 	</header>

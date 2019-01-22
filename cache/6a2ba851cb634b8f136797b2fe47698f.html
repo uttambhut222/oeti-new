@@ -1,28 +1,156 @@
-<?php
-    //settings
-    $cache_ext  = '.html'; //file extension
-    $cache_time     = 3600;  //Cache file expires afere these seconds (1 hour = 3600 sec)
-    $cache_folder   = 'cache/'; //folder to store Cache files
-    $ignore_pages   = array('', '');
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link type="image/x-icon" rel="shortcut icon" href="assets/images/favicon.ico"/>
+	<title>OpenEyes Technologies Inc.</title>
+	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/timeline.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/flaticon.css"/>
+	<link type="text/css" rel="stylesheet" href="assets/css/sweetalert2.min.css"/>
+</head>
+<body class="body-full-page">
+	<div class="loader">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</div>
+	<div class="click-capture"></div>
+	
+	<!-- Sidebar Menu-->
 
-    $dynamic_url    = 'http://'.$_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . $_SERVER['QUERY_STRING']; // requested dynamic page (full url)
-    $cache_file     = $cache_folder.md5($dynamic_url).$cache_ext; // construct a cache file
-    $ignore = (in_array($dynamic_url,$ignore_pages))?true:false; //check if url is in ignore list
+    <div class="menu"> 
+      <span class="close-menu icon-cross2 right-boxed"></span>	  
+      <ul class="menu-list right-boxed">
+        <li>
+			<a href="AboutUs">Who</a>
+			<ul class="sub-menu">
+				<li><a href="Milestones">Milestones</a></li>
+				<li><a href="VisionMission">Vision & Mission</a></li>
+				<li><a href="Family">Family</a></li>
+			</ul>
+        </li>
+        <li>
+			<a href="Services">What</a>
+        </li>
+        <li>
+			<a href="Portfolio">Work</a>
+        </li>
+        <li>
+			<a href="Process">How</a>
+        </li>
+        <li>
+			<a href="OurClients">Whom</a>
+        </li>
+        <li>
+			<a href="WhyUs">Why</a>
+			<ul class="sub-menu">
+				<li><a href="Career">Career</a></li>
+			</ul>
+        </li>
+		<li>
+			<a href="Index#ContactUs">Where</a>
+		</li>
+      </ul>
+    </div>
+	
+	<!-- End Sidebar Menu-->
+	
+	<header class="navbar navbar-2 navbar-white boxed">
+		<div class="navbar-bg"></div>
+		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<div class="content_form">
+			<a class="inquire_now">Contact us</a>
+		</div>
+		<ul class="social_links header_links">
+			<li><a href="https://twitter.com/OpenEyesTech" target="_blank"><i class="flaticon-twitter-logo-silhouette"></i></a>
+			</li>
+			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a>
+			</li>
+		</ul>
+		<a class="brand" href="Index">
+        <img class="brand-img" alt="" src="assets/images/brand.png">
+      </a>
+	</header>
+<div class="contcact_form">
+	<span class="close-menu icon-cross2 right-boxed"></span>
+	<div class="contact-info">
+		<form action="" method="post" id="inquireform">
+				<h2>Say Hi to us!</h2>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')"/>
+						<input type="text" name="MiddleName" id="MiddleName"/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="LastName" placeholder="*Last Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid Last Name')" oninput="setCustomValidity('')"/>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<select name="Topic" required>
+							<option value="" selected="">*Select a Topic</option>
+							<option value="Cloud Consulting">Cloud Consulting</option>
+							<option value="E-Commerce">E-Commerce</option>
+							<option value="IOT">IOT</option>
+							<option value="Mobile Apps">Mobile Apps</option>
+							<option value="Mobile Games">Mobile Games</option>
+							<option value="Other">Other</option>
+							<option value="UI / UX">UI / UX</option>
+							<option value="Wearables">Wearables</option>
+							<option value="Web Development">Web Development</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="Email" placeholder="*Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxlength=50 required oninvalid="this.setCustomValidity('Please enter your Email Address in valid format')" oninput="setCustomValidity('')"/>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="Phone" placeholder="*Phone Number" pattern="[0-9\-.\s]+" maxlength=13 required oninvalid="this.setCustomValidity('Please enter your Phone Number in xxx.xxx.xxxx format')" oninput="setCustomValidity('')"/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="CompanyName" placeholder="Company Name" maxlength=100/>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-lg-12 col-md-12">
+					<div class="form-group">
+						<textarea name="ProjectBrief" placeholder="*Brief about your inquiry" required oninvalid="this.setCustomValidity('Please enter Brief about your inquiry')" oninput="setCustomValidity('')"></textarea>
+					</div>
+				</div>				
+				<div class="clearfix"></div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<div class="g-recaptcha" data-sitekey="6LeGjHIUAAAAAJuV7KL2aoMQpKbgpdpR46TsWLJL"></div>
+						<span class='inquire_error' style="display:none; font-size:12px; color:red;">Captcha is Required.</span>
+					</div>
+				</div>
+				<div class="clearfix"></div>
 
-    if (!$ignore && file_exists($cache_file) && time() - $cache_time < filemtime($cache_file)) { //check Cache exist and it's not expired.
-        ob_start('ob_gzhandler'); //Turn on output buffering, "ob_gzhandler" for the compressed page with gzip.
-        readfile($cache_file); //read Cache file
-        echo '<!-- cached page - '.date('l jS \of F Y h:i:s A', filemtime($cache_file)).', Page : '.$dynamic_url.' -->';
-        ob_end_flush(); //Flush and turn off output buffering
-        exit(); //no need to proceed further, exit the flow.
-    }
-    //Turn on output buffering with gzip compression.
-    ob_start('ob_gzhandler');
-    ######## Your Website Content Starts Below #########
-	?>
-<?php include("header.php");?>
-<?php include("inquire_form.php"); ?>
-<div class="pagepiling">
+				<button type="submit" id="inquiry_submit" name="inquire_submit" class="read_more">Submit</button>
+
+		</form>
+	</div>
+</div><div class="pagepiling">
 	<div data-anchor="welcomeoess" class="pp-scrollable text-white section section-1">
 		<div class="scroll-wrap">
 			<!-- <div class="section-bg" style="background-size: cover!important;background:url(assets/images/bg/bg.jpg);"></div> -->
@@ -507,16 +635,96 @@
 		</div>
 	</div>
 </div>
-<?php include("footer.php"); ?>
-    <?php
-    if (!is_dir($cache_folder)) { //create a new folder if we need to
-        mkdir($cache_folder);
-    }
-    if(!$ignore){
-        $fp = fopen($cache_file, 'w');  //open file for writing
-        fwrite($fp, ob_get_contents()); //write contents of the output buffer in Cache file
-        fclose($fp); //Close file pointer
-    }
-    ob_end_flush(); //Flush and turn off output buffering
 
-    ?>
+<div class="go_top"><i class="flaticon-up-arrow"></i></div>
+
+<div class="footer_bottom footer_fixed boxed">
+	<div class="col-md-9 col-sm-9 text-left">Copyrights &copy; 2019 OpenEyes Technologies Inc.</div>
+	<div class="col-md-3 col-sm-3 text-right">
+		<ul class="social_links">
+			<li><a href="https://twitter.com/OpenEyesTech" target="_blank"><i class="flaticon-twitter-logo-silhouette"></i></a></li>
+			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a></li>
+		</ul>
+	</div>
+</div>
+<div class="clearfix"></div>
+<div id="cookie_directive_container" style="display: none">
+                <div class="container">
+                <div class="row" id="cookie_accept">
+                <div class="col-md-12">
+                    <a href="#" class="view_more pull-right">Close</a>
+                    <p>
+                      By using our website you are consenting to our use of cookies in accordance with our <a href="https://www.unilevercookiepolicy.com/en_gb/policy.aspx" target="_blank">cookie policy</a>.
+                    </p>
+                </div>
+              </div>
+        </div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/sweetalert2.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<!-- <script src="assets/js/jquery-1.12.0.min.js"></script> -->
+<script src="assets/js/jquery.pagepiling.js"></script>
+<script src="assets/js/jquery.roadmap.js"></script>
+<script src="assets/js/cookie-consent.js"></script>
+<script>
+	$( "#inquiry_submit" ).click( function () {
+		var recaptcha = document.forms[ "inquireform" ][ "g-recaptcha-response" ];
+		recaptcha.required = true;
+		recaptcha.oninvalid = function ( e ) {
+			$( ".inquire_error" ).css( "display", "block" );
+		};
+	} )
+	var vids = $( "video" );
+	$.each( vids, function () {
+		this.controls = false;
+	} );
+	
+	//timeline js
+	var events = [{
+                    date: 'Aug 2018',
+                    content: 'New Office Launch <small>We keep moving forward, opening new doors, and doing new things, because we are curious and curiosity keeps leading us down new paths.</small>'
+                },
+                {
+                    date: 'Jan 2017',
+                    content: 'Staffing & Recruting Team <small>Launched staffing and recruitment services. We are highly professional and has expertise in finding the most qualified candidates available.</small>'
+                },
+                {
+                    date: 'Dec 2016',
+                    content: 'OpenEyes Software Solution <small>Launch of child company</small>'
+                },
+                {
+                    date: 'Oct 2013',
+                    content: 'OpenEyes Technologies, Inc <small>With success of OpenEyes in India and in continuation of growth with the changing world, the company renamed one more time</small><strong>- OpenEyes Technologies, Inc.</strong>'
+                },
+                {
+                    date: 'Apr 2009',
+                    content: 'OpenEyes Security Services <small>With the business ingenuity, BIPA has started a new venture in India in Security sector</small><strong>- OpenEyes Security Services.</strong>'
+                },
+                {
+                    date: 'Oct 2005',
+                    content: 'BIPA Systems, Inc  <small>Company got a new face and new name with the same staff and same result. Now its call</small><strong>- BIPA Systems, Inc.</strong>'
+                },
+                {
+                    date: 'Jan 2000',
+                    content: 'Company Startup  <small>New York - A startup has emerged by our mentor and current president with one of his close friends. They called it</small><strong>- Tzar TechnoKraft, Inc.</strong>'
+                }
+            ];
+
+            $('#my-timeline').roadmap(events, {
+                eventsPerSlide: 5,
+                slide: 1,
+                prevArrow: '<i class="fa fa-chevron-left"></i>',
+                nextArrow: '<i class="fa fa-chevron-right"></i>'
+            });
+	
+</script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>    

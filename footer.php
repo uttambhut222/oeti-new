@@ -10,8 +10,19 @@
 		</ul>
 	</div>
 </div>
-
-
+<div class="clearfix"></div>
+<div id="cookie_directive_container" style="display: none">
+                <div class="container">
+                <div class="row" id="cookie_accept">
+                <div class="col-md-12">
+                    <a href="#" class="view_more pull-right">Close</a>
+                    <p>
+                      By using our website you are consenting to our use of cookies in accordance with our <a href="https://www.unilevercookiepolicy.com/en_gb/policy.aspx" target="_blank">cookie policy</a>.
+                    </p>
+                </div>
+              </div>
+        </div>
+</div>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.js"></script>
@@ -23,7 +34,7 @@
 <!-- <script src="assets/js/jquery-1.12.0.min.js"></script> -->
 <script src="assets/js/jquery.pagepiling.js"></script>
 <script src="assets/js/jquery.roadmap.js"></script>
-
+<script src="assets/js/cookie-consent.js"></script>
 <script>
 	$( "#inquiry_submit" ).click( function () {
 		var recaptcha = document.forms[ "inquireform" ][ "g-recaptcha-response" ];

@@ -30,6 +30,37 @@ setInterval(function(){
 	}	
 }, 10000);
 
+if($(".roadmap__events__event:last-child").attr("style")){
+	setTimeout(function(){ 
+		//alert("asdfgsafas");
+		$(".col-project-box").removeClass('active');   
+		$(".col-project-box:first-child").addClass('active');  
+		$(".section-bg").removeClass('active');
+		$(".section-bg:first-child").addClass('active');  
+	}, 5000);
+}	
+
+$(document).ready(function() {
+	$('.roadmap__navigation .next').click(function(){
+		setTimeout(function(){ 
+			var lefttimeline = $(".roadmap__events .roadmap__events__event:last-child").css("left");
+			//alert(lefttimeline);
+			const body = document.querySelector('body');
+			body.style.setProperty('--width-left', lefttimeline);
+
+			$('.roadmap__navigation .prev').click(function(){
+				setTimeout(function(){ 
+					var lefttimeline = $(".roadmap__events .roadmap__events__event:last-child").css("left");
+					body.style.setProperty('--width-left', lefttimeline);
+				}, 300); 
+			});
+		}, 300); 
+	});
+});
+
+
+
+
 
 
 //Hide field - For bot spammer
@@ -93,13 +124,16 @@ $(document).ready(
             }
         }
 	})
-	$.urlParam = function(name){
-		var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-		return results[1] || 0;
-	}
-//	alert($.urlParam('id'));
-	var toIndex = $.urlParam('id');
-	$(".owl-carousel_services").trigger("to.owl.carousel", [toIndex, 1, true]);
+	if(window.location.href.indexOf("?id") > -1) {
+		$.urlParam = function(name){
+			var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+			return results[1] || 0;
+		}
+	//	alert($.urlParam('id'));
+		var toIndex = $.urlParam('id');
+		$(".owl-carousel_services").trigger("to.owl.carousel", [toIndex, 1, true]);
+	 }
+	
 	
 
 	// career form 			
@@ -358,3 +392,8 @@ $(function () {
 	
 	
 })(jQuery);
+
+$('.file_upload input[type="file"]').change(function(e){
+	var fileName = e.target.files[0].name;
+	$('.file_upload input[type="text"]').val(fileName);
+});

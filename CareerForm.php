@@ -1,14 +1,25 @@
 <?php 
 if(isset($_POST['career_apply'])){
 	
-	$target_dir = "resume/";
+	$MiddleName = $_POST[ 'MiddleName' ];
+	
+	if ( $MiddleName == NULL ) {	
+	$dirname = $_POST["Position"];
+	$dirname = str_replace(' ', '_', $dirname);
+	$directoryName = "doc/resume/" . $dirname . "/";
+	
+	if(!is_dir($directoryName)){
+		mkdir($directoryName, 0755, true);
+	}
+	
+	$target_dir = $directoryName;
 	$newfilename= round(microtime(true)).str_replace(" ", "", basename($_FILES["fileToUpload"]["name"]));
 	$target_file = $target_dir . $newfilename;
 	$uploadOk = 1;
-	$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+	$docFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 		
 	// Allow certain file formats
-	if($imageFileType != "pdf" && $imageFileType != "doc" && $imageFileType != "docx") {
+	if($docFileType != "pdf" && $docFileType != "doc" && $docFileType != "docx") {
 		$uploadOk = 0;
 		?><script>
 			setTimeout(function() {
@@ -116,7 +127,7 @@ if(isset($_POST['career_apply'])){
 							</td>
 						</tr>
 						<tr>
-							<td style="background-color:#a6ce39; background:#a6ce39; color:#333; padding:10px; text-align:center">Copyright &copy; 2018 OpenEyes Technologies - All rights reserved.</td>
+							<td style="background-color:#a6ce39; background:#a6ce39; color:#333; padding:10px; text-align:center">Copyright &copy; 2019 OpenEyes Technologies - All rights reserved.</td>
 						</tr>
 					</tbody>
 				</table>
@@ -174,7 +185,7 @@ if(isset($_POST['career_apply'])){
 						</td>
 					</tr>
 					<tr>
-						<td style="background-color:#a6ce39; background:#a6ce39; color:#333; padding:10px; text-align:center">Copyright &copy; 2018 OpenEyes Technologies - All rights reserved.</td>
+						<td style="background-color:#a6ce39; background:#a6ce39; color:#333; padding:10px; text-align:center">Copyright &copy; 2019 OpenEyes Technologies - All rights reserved.</td>
 					</tr>
 				</tbody>
 			</table>
@@ -205,7 +216,7 @@ if(isset($_POST['career_apply'])){
 								title: "Thank You for Applying",
 								type: "success",
 								showConfirmButton: false,
-								timer: 2000,
+								timer: 5000,
 							}, function() {
 								window.location = "";
 							});
@@ -227,6 +238,7 @@ if(isset($_POST['career_apply'])){
 				</script>
 			<?php
 		}
+	}
 	}
 }
 ?>

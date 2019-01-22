@@ -421,6 +421,7 @@
 							  <div class="col-md-4 col-sm-4">
 								<div class="form-group">
 								  <input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}"  maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')" required/>
+								  <input type="text" name="MiddleName" id="MiddleName"/>
 								  </div>
 							  </div>
 								<div class="col-md-4 col-sm-4">

@@ -60,7 +60,7 @@ if ( isset( $_POST[ 'inquire_submit' ] ) ) {
 						</td>
 					</tr>
 					<tr>
-						<td style="background-color:#a6ce39; background:#a6ce39; color:#333; padding:10px; text-align:center">&copy; 2018 OpenEyes Technologies Inc. - All rights reserved.</td>
+						<td style="background-color:#a6ce39; background:#a6ce39; color:#333; padding:10px; text-align:center">&copy; 2019 OpenEyes Technologies Inc. - All rights reserved.</td>
 
 					</tr>
 				</tbody>
@@ -119,7 +119,7 @@ if ( isset( $_POST[ 'inquire_submit' ] ) ) {
 						</td>
 					</tr>
 					<tr>
-						<td style="background-color:#a6ce39; background:#a6ce39; color:#333; padding:10px; text-align:center">&copy; 2018 OpenEyes Technologies Inc. - All rights reserved.</td>
+						<td style="background-color:#a6ce39; background:#a6ce39; color:#333; padding:10px; text-align:center">&copy; 2019 OpenEyes Technologies Inc. - All rights reserved.</td>
 					</tr>
 				</tbody>
 			</table>
