@@ -27,16 +27,16 @@
 
     <div class="menu"> 
       <span class="close-menu icon-cross2 right-boxed"></span>	  
-      <ul class="menu-list right-boxed">
-        <li>
-			<a href="AboutUs">Who</a>
-			<ul class="sub-menu">
-				<li><a href="Milestones">Milestones</a></li>
-				<li><a href="VisionMission">Vision & Mission</a></li>
-				<li><a href="Family">Family</a></li>
-			</ul>
-        </li>
-        <li>
+	  <ul class="nav">
+		<li class="dropdown">
+		  <a href="AboutUs" class="dropdown-toggle" data-toggle="dropdown">Who<b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+			<li><a href="Milestones"><i class="fa fa-angle-right"></i>Milestones</a></li>
+				<li><a href="VisionMission"><i class="fa fa-angle-right"></i>Vision & Mission</a></li>
+				<li><a href="Family"><i class="fa fa-angle-right"></i>Family</a></li>
+		  </ul>
+		</li>		
+		<li>
 			<a href="Services">What</a>
         </li>
         <li>
@@ -45,21 +45,20 @@
         <li>
 			<a href="Process">How</a>
         </li>
-        <li>
+		 <li>
 			<a href="OurClients">Whom</a>
-        </li>
-        <li>
-			<a href="WhyUs">Why</a>
-			<ul class="sub-menu">
-				<li><a href="Career">Career</a></li>
-			</ul>
-        </li>
+        </li>                          
+		<li class="dropdown">
+		  <a href="WhyUs" class="dropdown-toggle" data-toggle="dropdown">Why<b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+			<li><a href="Career"><i class="fa fa-angle-right"></i>Career</a></li>
+		  </ul>
+		</li>  
 		<li>
-			<a href="Index#ContactUs">Where</a>
-		</li>
-      </ul>
-    </div>
-	
+		  <a href="ContactUs">Where</a>
+		</li> 		
+	  </ul> 	  
+    </div>	
 	<!-- End Sidebar Menu-->
 	
 	<header class="navbar navbar-2 navbar-white boxed">

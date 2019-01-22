@@ -93,13 +93,13 @@ $(document).ready(
             }
         }
 	})
-	$.urlParam = function(name){
+	/* $.urlParam = function(name){
 		var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
 		return results[1] || 0;
 	}
 //	alert($.urlParam('id'));
 	var toIndex = $.urlParam('id');
-	$(".owl-carousel_services").trigger("to.owl.carousel", [toIndex, 1, true]);
+	$(".owl-carousel_services").trigger("to.owl.carousel", [toIndex, 1, true]); */
 	
 
 	// career form 			
@@ -358,3 +358,42 @@ $(function () {
 	
 	
 })(jQuery);
+
+
+
+$(document).ready(function(){
+  $(".career_box_content a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+
+//career slider
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        },
+		1280:{
+			items:4
+		}
+    }
+})
+//end career slider
