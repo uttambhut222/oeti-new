@@ -133,8 +133,7 @@ $(document).ready(
 		var toIndex = $.urlParam('id');
 		$(".owl-carousel_services").trigger("to.owl.carousel", [toIndex, 1, true]);
 	 }
-	
-	
+
 
 	// career form 			
 		$('.apply_now').click(function(){
@@ -397,3 +396,40 @@ $('.file_upload input[type="file"]').change(function(e){
 	var fileName = e.target.files[0].name;
 	$('.file_upload input[type="text"]').val(fileName);
 });
+
+$(document).ready(function(){
+  $(".career_box_content a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+
+//career slider
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        },
+		1280:{
+			items:4
+		}
+    }
+})
+//end career slider

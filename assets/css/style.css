@@ -475,6 +475,34 @@ header .content_form .inquire_now{margin: 30px 30px 0px 0px;cursor:pointer;}
 .navbar-white .navbar-toggle .icon-bar {/* background: #0061af!important; */}
 .navbar-toggle{margin-top:40px!important;}
 .section_aboutus .view_more{margin-top:20px;}
+.menu .nav .dropdown.open .caret{border-top: none;border-bottom: 6px solid #0061af;}
+.menu .nav{padding:25px;}
+.menu .nav > li > a{    color: #222;
+    font-size: 24px;
+    font-weight: 600; line-height:25px; padding:20px 15px;}
+.menu .nav .caret	{border-top: 6px dashed;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;}
+	
+	.menu .nav > li > a:hover, .menu .nav > li > a:focus,.menu .nav .open {
+    background-color: transparent!important; color:#0061AF;
+}
+.menu .nav .dropdown-menu {
+    border-radius: 0px;
+    top: -10px;
+    left: 0%;
+    width: 100%;
+    border: 0px;
+    position: relative;
+    background: none;
+    box-shadow: none;
+    padding: 0 0 0 10px;
+    margin: 0 0 20px 0;
+}
+
+.dropdown-menu > li > a{color:#222;font-size:16px;}
+.dropdown-menu > li > a i{margin-right:5px;}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:transparent; color:#0061AF;}
 /*====== end landing page css =====*/
 
 /*====== start process section css =====*/	
@@ -632,6 +660,108 @@ header .content_form .inquire_now{margin: 30px 30px 0px 0px;cursor:pointer;}
 .event__content {text-transform: uppercase;font-size: 0.9em;font-weight: 600;color: #fff;}
 .event__date {font-size: 18px;}
 .roadmap__events__event .event .event__content small {font-weight: normal;display: block;line-height: 22px;letter-spacing: 1px;text-transform:lowercase;}
+@media only screen and (max-width:992px) {
+    .roadmap {
+        margin: 50px auto 0;
+    }
+    .roadmap .roadmap__events {
+        padding: 0;
+        width: 80%;
+        min-height: 400px;
+    }
+    .roadmap .roadmap__events:after {
+        left: 50%;
+        top: 0;
+        width: 4px;
+        height: -webkit-calc(0% - 0px);
+        height: calc(0% - 0px);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+    .roadmap .roadmap__events__event {
+        position: relative;
+        left: auto !important;
+        top: auto;
+        bottom: auto;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        min-height: 120px;
+    }
+    .roadmap .roadmap__events__event:before {
+        top: -8px;
+        bottom: auto;
+    }
+    .roadmap .roadmap__events__event:after {
+        top: 0;
+        bottom: auto;
+        width: 0;
+        height: 4px !important;
+    }
+    .roadmap .roadmap__events__event .event {
+        top: -15px;
+        bottom: auto;
+        width: 40%;
+    }
+    .roadmap .roadmap__events__event:nth-child(odd):after {
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+@media only screen and (max-width:992px) and (max-width:600px) {
+    .roadmap .roadmap__events__event .event {
+        width: 50%;
+    }
+    .roadmap .roadmap__events__event:nth-child(odd) .event {
+        margin-left: -10%;
+    }
+    .roadmap .roadmap__events__event:nth-child(even) .event {
+        margin-right: -10%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .roadmap .roadmap__events__event:nth-child(even):after {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .roadmap .roadmap__events__event:nth-child(even) .event {
+        right: 0;
+    }
+    .roadmap.roadmap--initialized .roadmap__events:after {
+        width: 4px;
+        height: -webkit-calc(100% - 120px);
+        height: calc(100% - 120px);
+    }
+    .roadmap.roadmap--initialized .roadmap__events .roadmap__events__event:after {
+        width: 48px;
+    }
+    .roadmap.roadmap--initialized .roadmap__events .roadmap__events__event:nth-child(odd):after {
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    .roadmap.roadmap--initialized .roadmap__events .roadmap__events__event:nth-child(even):after {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width:992px) and (max-width:600px) {
+    .roadmap.roadmap--initialized .roadmap__events .roadmap__events__event:after {
+        width: 32px;
+    }
+}
 /*====== end timeline section css =====*/
 
 /*====== start our_services section css =====*/
@@ -666,6 +796,8 @@ header .content_form .inquire_now{margin: 30px 30px 0px 0px;cursor:pointer;}
 /*====== end our_clients section css =====*/
 
 /*====== start career section css =====*/
+.career .intro .career_wrapper .owl-carousel .owl-nav{    bottom: -15px;
+    right: 15px;}
 .vertical-tab{ display: table; }
 .vertical-tab .nav-tabs{display: table-cell;width: 25%;min-width: 25%;border: none;position: relative;}
 .vertical-tab .nav-tabs li{float: none;vertical-align: top;margin: 5px 10px;display: inline-block;font-size:14px;}
@@ -702,7 +834,7 @@ body.overflow_body{overflow: hidden;}
 .career .intro .career_boxes .career_box_content{position: relative;padding: 20px 10px 40px;text-align: center;color: #222;background-color: #fff;transition: all .3s ease;}
 .career .intro .career_boxes{position: absolute;
     top: 50%;
-    right: -5%;
+    right: -2%;
     width: 80%;
     transform: translateY(-50%);}
 .career .intro .career_boxes .career_box_content a:after{position: absolute;
@@ -743,7 +875,7 @@ body.overflow_body{overflow: hidden;}
 .career .intro .career_position_type{position:relative;}
 
 .career .intro .career_position_content h2:after { content: "";
-    left: 22%;
+    left: 35%;
     right: 0;
     height: 2px;
 	    position: absolute;
@@ -771,7 +903,8 @@ body.overflow_body{overflow: hidden;}
 	cursor:pointer;
     padding: 38px 40px;
     color: #fff;    background-color: #0061af;}
-.career .intro .career_position_content	.apply_btn .apply_now:hover,.career .intro .career_position_content	.apply_btn .apply_now:hover p{background:#fff;color:#0061af;}
+.career .intro .career_position_content	.apply_btn .apply_now:hover{background:#fff;color:#0061af;}
+.career .intro .career_position_content	.apply_btn .apply_now:hover p{color:#0061af;}
 .career .intro .career_position_content	.apply_btn .apply_now:after, .career .intro .career_position_content	.apply_btn .apply_now:before {
     width: 80px;
     height: 50%;

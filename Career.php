@@ -33,9 +33,59 @@
 															<h2><span>Our Positions</span></h2>
 														</div>
 														<div class="career_boxes">
-															<div class=" col-lg-3 col-md-3">
+														
+														
+														<div class="owl-carousel owl-theme">
+															<div class="item">
 																<div class="career_box_content">
-																	<a href="">
+																	<a href="#contentwriter">
+																		<div class="career_title">Content <span>writer</span></div>
+																		<div class="number">1 Positions</div>
+																		<div class="location"><i class="fa fa-map-marker"></i>Vadodara</div>
+																	</a>
+																</div>
+															</div>
+															<div class="item">
+																<div class="career_box_content">
+																	<a href="#usrecruiter">
+																		<div class="career_title">US IT <span>Recruiter</span></div>
+																		<div class="number">3 Positions</div>
+																		<div class="location"><i class="fa fa-map-marker"></i>Vadodara</div>
+																	</a>
+																</div>
+															</div>
+															<div class="item">
+																<div class="career_box_content">
+																	<a href="#phpdeveloper">
+																		<div class="career_title">Sr. PHP <span>Developer</span></div>
+																		<div class="number">2 Positions</div>
+																		<div class="location"><i class="fa fa-map-marker"></i>Vadodara</div>
+																	</a>
+																</div>
+															</div>
+															<div class="item">
+																<div class="career_box_content">
+																	<a href="#leadcordinator">
+																		<div class="career_title">Lead <span>Co-ordinator</span></div>
+																		<div class="number">1 Positions</div>
+																		<div class="location"><i class="fa fa-map-marker"></i>Vadodara</div>
+																	</a>
+																</div>
+															</div>
+															<div class="item">
+																<div class="career_box_content">
+																	<a href="#usrecruiter">
+																		<div class="career_title">US IT <span>Recruiter</span></div>
+																		<div class="number">3 Positions</div>
+																		<div class="location"><i class="fa fa-map-marker"></i>Vadodara</div>
+																	</a>
+																</div></div>
+														</div>
+														
+														
+															<!--<div class=" col-lg-3 col-md-3">
+																<div class="career_box_content">
+																	<a href="#contentwriter">
 																		<div class="career_title">Content <span>writer</span></div>
 																		<div class="number">1 Positions</div>
 																		<div class="location"><i class="fa fa-map-marker"></i>Vadodara</div>
@@ -44,7 +94,7 @@
 															</div>
 															<div class=" col-lg-3 col-md-3">
 																<div class="career_box_content">
-																	<a href="">
+																	<a href="#usrecruiter">
 																		<div class="career_title">US IT <span>Recruiter</span></div>
 																		<div class="number">3 Positions</div>
 																		<div class="location"><i class="fa fa-map-marker"></i>Vadodara</div>
@@ -53,7 +103,7 @@
 															</div>
 															<div class=" col-lg-3 col-md-3">
 																<div class="career_box_content">
-																	<a href="">
+																	<a href="#phpdeveloper">
 																		<div class="career_title">Sr. PHP <span>Developer</span></div>
 																		<div class="number">2 Positions</div>
 																		<div class="location"><i class="fa fa-map-marker"></i>Vadodara</div>
@@ -62,18 +112,18 @@
 															</div>
 															<div class=" col-lg-3 col-md-3">
 																<div class="career_box_content">
-																	<a href="">
+																	<a href="#leadcordinator">
 																		<div class="career_title">Lead <span>Co-ordinator</span></div>
 																		<div class="number">1 Positions</div>
 																		<div class="location"><i class="fa fa-map-marker"></i>Vadodara</div>
 																	</a>
 																</div>
-															</div>
+															</div>-->
 														</div>
 												</div>
 												<div class="clearfix"></div>
 												<div class="career_position_content">
-													<div class="content_writer career_types">
+													<div class="content_writer career_types" id="contentwriter">
 														<h2><span>Content Writer</span></h2>
 													
 													<p>OpenEyes is hiring Content writer with potential to Work with technical staff to make products easier to use and thus need fewer instructions.</p>
@@ -138,7 +188,7 @@
 													</div>
 													<div class="clearfix"></div>
 													
-													<div class="us_it_recruiter career_types">
+													<div class="us_it_recruiter career_types" id="usrecruiter">
 														<h2><span>US IT RECRUITER</span></h2>
 													
 													<p>OpenEyes is hiring couple of IT Recruiters with potential of becoming lead within short period of time. Should have and able to maintain dynamic environment.</p>
@@ -207,7 +257,7 @@
 													</div>
 													<div class="clearfix"></div>
 													
-													<div class="php_developer career_types">
+													<div class="php_developer career_types" id="phpdeveloper">
 														<h2><span>SR. PHP DEVELOPER</span></h2>
 													
 													<p>OpenEyes is hiring Team Lead / Sr. PHP Developer for product and project development in Web, Mobile & Cloud App Development.</p>
@@ -284,7 +334,7 @@
 													</div>
 													<div class="clearfix"></div>
 													
-													<div class="lead_coordinator career_types">
+													<div class="lead_coordinator career_types" id="leadcordinator">
 														<h2><span>LEAD CO-ORDINATOR</span></h2>
 													
 													<p>OpenEyes is hiring Lead Coordinator with potential of becoming lead within short period of time. Should have and able to maintain dynamic environment of the entire office.</p>
