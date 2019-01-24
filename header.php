@@ -53,7 +53,8 @@
 		<li class="dropdown">
 		  <a href="AboutUs" class="dropdown-toggle" data-toggle="dropdown">Who<b class="caret"></b></a>
 		  <ul class="dropdown-menu">
-			<li><a href="Milestones"><i class="fa fa-angle-right"></i>Milestones</a></li>
+		  <li><a href="Milestones"><i class="fa fa-angle-right"></i>About Us</a></li>
+			<li><a href="AboutUs"><i class="fa fa-angle-right"></i>Milestones</a></li>
 				<li><a href="VisionMission"><i class="fa fa-angle-right"></i>Vision & Mission</a></li>
 				<li><a href="Family"><i class="fa fa-angle-right"></i>Family</a></li>
 		  </ul>
@@ -73,6 +74,7 @@
 		<li class="dropdown">
 		  <a href="WhyUs" class="dropdown-toggle" data-toggle="dropdown">Why<b class="caret"></b></a>
 		  <ul class="dropdown-menu">
+		  <li><a href="WhyUs"><i class="fa fa-angle-right"></i>Choose Us</a></li>
 			<li><a href="Career"><i class="fa fa-angle-right"></i>Career</a></li>
 		  </ul>
 		</li>  

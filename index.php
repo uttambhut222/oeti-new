@@ -453,7 +453,7 @@
 														</p>
 													</div>
 												</div>
-												<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+												<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-offset-0 col-md-offset-0 col-sm-offset-3">
 													<div class="india_add">
 														<div class="country_logo"><img alt="" src="assets/images/india.png">
 														</div><strong>INDIA</strong>

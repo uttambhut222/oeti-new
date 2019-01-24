@@ -174,12 +174,12 @@
 														</div>														
 													</div>
 													<div class="clearfix"></div>
-													<div class="col-lg-6 col-md-6 padding_left_0">
+													<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_left_0">
 														<div class="apply_detail">
 															<p>Send your resume to <a href="mailto:hr@theopeneyes.com">hr@theopeneyes.com</a> with below subject line. e.g. Your subject line should be like (Your Name)(Expertise)(Experience)(Currecnt Location) if your name is John Davis and you are applying for the post of Front-End Developer with 2 years of experience, your subject line should be (john davis)(Front-End Developer)(2-Yrs)(Vadodara).</p>
 														</div>
 													</div>
-													<div class="col-lg-6 col-md-6 padding_left_0">
+													<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_left_0">
 														<div class="apply_btn">
 															<a class="apply_now"><div class="apply_head">Apply Now</div><p>Send your resume to hr@theopeneyes.com with subject line.</p></a>	
 														</div>
@@ -243,12 +243,12 @@
 														</div>														
 													</div>
 													<div class="clearfix"></div>
-													<div class="col-lg-6 col-md-6 padding_left_0">
+													<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_left_0">
 														<div class="apply_detail">
 															<p>Send your resume to <a href="mailto:hr@theopeneyes.com">hr@theopeneyes.com</a> with below subject line. e.g. Your subject line should be like (Your Name)(Expertise)(Experience)(Currecnt Location) if your name is John Davis and you are applying for the post of Front-End Developer with 2 years of experience, your subject line should be (john davis)(Front-End Developer)(2-Yrs)(Vadodara).</p>
 														</div>
 													</div>
-													<div class="col-lg-6 col-md-6 padding_left_0">
+													<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_left_0">
 														<div class="apply_btn">
 															<a class="apply_now"><div class="apply_head">Apply Now</div><p>Send your resume to hr@theopeneyes.com with subject line.</p></a>	
 														</div>
@@ -320,12 +320,12 @@
 														</div>														
 													</div>
 													<div class="clearfix"></div>
-													<div class="col-lg-6 col-md-6 padding_left_0">
+													<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_left_0">
 														<div class="apply_detail">
 															<p>Send your resume to <a href="mailto:hr@theopeneyes.com">hr@theopeneyes.com</a> with below subject line. e.g. Your subject line should be like (Your Name)(Expertise)(Experience)(Currecnt Location) if your name is John Davis and you are applying for the post of Front-End Developer with 2 years of experience, your subject line should be (john davis)(Front-End Developer)(2-Yrs)(Vadodara).</p>
 														</div>
 													</div>
-													<div class="col-lg-6 col-md-6 padding_left_0">
+													<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_left_0">
 														<div class="apply_btn">
 															<a class="apply_now"><div class="apply_head">Apply Now</div><p>Send your resume to hr@theopeneyes.com with subject line.</p></a>	
 														</div>
@@ -409,12 +409,12 @@
 														</div>														
 													</div>
 													<div class="clearfix"></div>
-													<div class="col-lg-6 col-md-6 padding_left_0">
+													<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_left_0">
 														<div class="apply_detail">
 															<p>Send your resume to <a href="mailto:hr@theopeneyes.com">hr@theopeneyes.com</a> with below subject line. e.g. Your subject line should be like (Your Name)(Expertise)(Experience)(Currecnt Location) if your name is John Davis and you are applying for the post of Front-End Developer with 2 years of experience, your subject line should be (john davis)(Front-End Developer)(2-Yrs)(Vadodara).</p>
 														</div>
 													</div>
-													<div class="col-lg-6 col-md-6 padding_left_0">
+													<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_left_0">
 														<div class="apply_btn">
 															<a class="apply_now"><div class="apply_head">Apply Now</div><p>Send your resume to hr@theopeneyes.com with subject line.</p></a>	
 														</div>

@@ -428,12 +428,12 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
 		480:{
-            items:1
-        },
-		667:{
             items:2
         },
-        1000:{
+		767:{
+            items:2
+        },
+        992:{
             items:3
         },
 		1280:{

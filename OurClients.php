@@ -53,7 +53,7 @@
 													<img src="assets/images/partners/ted.png" alt="" class="img-responsive" /></a>
 												</div>
 											</div>
-											<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+											<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-2">
 												<div class="client_box">
 													<a href="http://jtaexperts.com/" target="_blank">
 													<img src="assets/images/partners/jta.png" alt="" class="img-responsive" /></a>
