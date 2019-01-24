@@ -1204,6 +1204,7 @@ margin: 15px auto;}
 
  @media (max-width:480px){
 .work_wrapper .row-project-box .afp,.work_wrapper .row-project-box .aere,.work_wrapper .row-project-box .ted,.work_wrapper .row-project-box .alli,.work_wrapper .row-project-box .lfb,.work_wrapper .row-project-box .atd{width:100%!important;}
+ .technology_link {float:left; clear:both; display:block; width:100%; margin:10px 0 0 0;} 
  }
  
  @media (max-width:360px){.our_services .intro .col-resume .resume-title{font-size:11px;}

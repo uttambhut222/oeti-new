@@ -1,6 +1,8 @@
 <?php include("header.php");?>
 <?php include("inquire_form.php"); ?>
 <div class="pagepiling portfoliodetail">
+<div class="pp-scrollable section work_wrapper">
+		<div class="scroll-wrap">
 	<div class="slider">
 		<div class="view_all_services">
 			<a href="Portfolio" class="banner_btn">View All</a>
@@ -264,6 +266,8 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 		</div>
 	</div>
 </div>
