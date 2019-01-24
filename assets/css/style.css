@@ -1146,6 +1146,7 @@ bottom: 14%;}
  .row-project-box .alli{padding: 0px;background:url(../images/bg/allibg.jpg) no-repeat;background-size:cover;}
  .row-project-box .ted{padding: 0px;background:url(../images/bg/tedxbg.jpg) no-repeat;background-size:cover;}
  .row-project-box .aere{padding: 0px;background:url(../images/bg/aerebg.jpg) no-repeat;background-size:cover;}
+ .row-project-box .view_more_box{padding: 0px;}
  
  .work_wrapper .row-project-box .afp,.work_wrapper .row-project-box .aere,.work_wrapper .row-project-box .ted,.work_wrapper .row-project-box .alli,.work_wrapper .row-project-box .lfb,.work_wrapper .row-project-box .atd{padding: 0px 15px;}
  
@@ -1198,6 +1199,7 @@ margin: 15px auto;}
 	 .pagepiling .video_content h2{font-size:24px;}
 	  .footer .country_logo{ position: relative!important;top: 0!important;left: 0px!important;}
 	  .roadmap__navigation > *{top:-7%;}
+	  .pagepiling .video_content{top:10%;}
 }
 
  @media (max-width:480px){
