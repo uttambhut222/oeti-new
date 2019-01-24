@@ -1078,6 +1078,8 @@ bottom: 14%;}
 .resume-content{padding:10px!important;}
 .resume-content{height:225px!important;}
 .why_us .resume-content{height:275px!important;}
+.boxed .intro .resume-content p{height:auto!important;}
+.boxed .intro .resume-content {height:auto!important;}
  .career .intro .career_boxes{position:relative;top:0;width:100%;transform:none;}
 	  .career .intro .career_section .career_heading h2{margin-bottom: 15px;text-align: center;}
 	  .career .intro .career_section .career_heading h2:after{display:none;}
@@ -1115,7 +1117,7 @@ bottom: 14%;}
 	 .menu-is-opened .menu{overflow-x: hidden;overflow-y: auto;}
 	 .about_us .boxed .intro .hideinxs{display:none;}
 	  .about_us .boxed .intro .visibleinxs{display:block;}
-	 
+	 .boxed .intro .resume-content p{height:auto!important;}
  .section-3 .title-uppercase{color:#000;}
  .why_us .intro .why_chooseus_wrap .resume-content,.boxed .intro .resume-content{height:auto!important;}
  .header_links{display:none;}
@@ -1204,7 +1206,6 @@ margin: 15px auto;}
  
  @media (max-width:360px){.our_services .intro .col-resume .resume-title{font-size:11px;}
  .our_services .intro .col-resume:hover .resume-title{padding:7px 20px;}
- .pp-scrollable{overflow:visible;}
 	.timeline .vertical-centred{padding-top:8rem!important;}
 	.timeline .roadmap{padding: 0px 0px 175px 0px;}
 	.timeline .title-uppercase{margin-bottom:0px;}
