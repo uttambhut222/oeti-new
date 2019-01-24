@@ -462,7 +462,7 @@ label.error{
 
 
 /*====== start landing page css =====*/	
-.pagepiling .boxed .intro .col-partner .partner-inner{height: 160px;transition: all .25s ease-in-out;background: rgba(255, 255, 255, 0.75);border: 1px solid #fff;}
+.pagepiling .boxed .intro .col-partner .partner-inner{transition: all .25s ease-in-out;background: rgba(255, 255, 255, 0.75);border: 1px solid #fff;}
 .pagepiling .boxed .intro .col-partner .partner-inner:hover{background: rgba(255, 255, 255, 1);border: 1px solid #222;}
 .pagepiling .boxed .intro .section_aboutus h2.title-uppercase,.pagepiling .boxed .intro .section_aboutus p{color:#fff;}
 .contcact_form{ width: 100%; right: 0; height: 100%;     background: rgba(234, 234, 234, 0.95); position: fixed; display: block; top: -100%;transition:all 0.5s ease-in 0s; overflow: hidden; visibility: hidden; z-index: 99999!important; }
@@ -968,7 +968,7 @@ video {background-size: cover;display: table-cell;vertical-align: middle;width: 
 .pagepiling .video_content{position: absolute;width: 100%;top: 35%;}
 .padding_left_0{padding-left:0px;}
 .footer .title_sponser{float: left;width: 100%;text-align: center;}
-.footer .title_sponser img{margin: 0 auto;width:350px;height:auto;background: #ffffff;padding: 2px 10px;border-radius: 10px;}
+.footer .title_sponser img{margin: 0 auto;width:350px;height:auto;background: #ffffff;padding:10px;border-radius: 10px;}
 .video_desc p{margin-bottom:15px;}
 .banner_btn{color:#0061AF; position:relative; z-index:9999; font-size:18px; line-height:18px; background:#fff; border:2px solid #fff; transition:all 0.4s linear 0s; text-decoration:none; padding:10px 15px; margin-bottom:30px; display:inline-block;}
 .banner_btn:hover{text-decoration:none; background:transparent; color:#fff; transition:all 0.4s linear 0s;}
@@ -6772,7 +6772,7 @@ border: 0px;}
 
 .col-partner img{
   max-width: 90%;
-  opacity: 0.75; margin:auto;}
+  opacity: 0.75; margin:auto;height:150px;}
 
 .col-partner:hover img{
   opacity: 1;
