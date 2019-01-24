@@ -1,6 +1,4 @@
-
 <div class="go_top"><i class="flaticon-up-arrow"></i></div>
-
 <div class="footer_bottom footer_fixed boxed">
 	<div class="col-md-9 col-sm-9 text-left">Copyrights &copy; 2019 OpenEyes Technologies Inc.</div>
 	<div class="col-md-3 col-sm-3 text-right">
