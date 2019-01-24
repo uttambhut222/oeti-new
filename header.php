@@ -1,5 +1,5 @@
 <?php
-     //settings
+     // //settings
     // $cache_ext  = '.html'; //file extension
     // $cache_time     = 3600;  //Cache file expires afere these seconds (1 hour = 3600 sec)
     // $cache_folder   = 'cache/'; //folder to store Cache files
@@ -54,8 +54,8 @@
 		<li class="dropdown">
 		  <a href="AboutUs" class="dropdown-toggle" data-toggle="dropdown">Who<b class="caret"></b></a>
 		  <ul class="dropdown-menu">
-		  <li><a href="Milestones"><i class="fa fa-angle-right"></i>About Us</a></li>
-			<li><a href="AboutUs"><i class="fa fa-angle-right"></i>Milestones</a></li>
+		  <li><a href="AboutUs"><i class="fa fa-angle-right"></i>About Us</a></li>
+			<li><a href="Milestones"><i class="fa fa-angle-right"></i>Milestones</a></li>
 				<li><a href="VisionMission"><i class="fa fa-angle-right"></i>Vision & Mission</a></li>
 				<li><a href="Family"><i class="fa fa-angle-right"></i>Family</a></li>
 		  </ul>

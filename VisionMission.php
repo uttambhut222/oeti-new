@@ -1,7 +1,7 @@
 <?php include("header.php");?>
 <?php include("inquire_form.php"); ?>
 <div class="pagepiling">
-	<div class="pp-scrollable about_us">
+	<div class="pp-scrollable section about_us">
 		<div class="scroll-wrap">
 		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(assets/images/bg/VisionMissionbg.jpg);background-attachment: fixed;"></div>
 			<div class="scrollable-content">

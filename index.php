@@ -17,7 +17,7 @@
 								<h5>welcome to</h5>
 								<h2 class="title-uppercase text-white">OpenEyes Technologies Inc.</h2>
 								<p>This could be the beginning of a beautiful relationship.</p>
-								<a href="Milestones" class="banner_btn">Learn More</a>
+								<a href="AboutUs" class="banner_btn">Learn More</a>
 								<div class="clearfix"></div>
 								<a href="#AboutOpenEyes" class="next-section"><i class="fa fa-angle-down"></i></a>
 							</div>
@@ -51,7 +51,7 @@
 												<p>At OpenEyes, we pride ourselves on offering our customers responsive, comptent and excellent services.</p>
 												<p>Our customers are the most important part of our business, and we work tirelessly to ensure your complete satisfaction, now and even ever after.</p>
 												<p>Our staffs of highly qualified professionals, with our new internal knowledge base system, ensure that deliveries of products are achieved within the time limits, without inconvenience or damage.</p>
-												<a href="Milestones" class="view_more">Learn More</a>
+												<a href="AboutUs" class="view_more">Learn More</a>
 											</div>
 										</div>
 									</div>

@@ -1,7 +1,7 @@
 <?php include("header.php");?>
 <?php include("inquire_form.php"); ?>
 <div class="pagepiling">
-	<div class="pp-scrollable our_process">
+	<div class="pp-scrollable section our_process">
 		<div class="scroll-wrap">
 			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(assets/images/bg/processbg.png);background-attachment: fixed;"></div>
 			<div class="scrollable-content position_contact">

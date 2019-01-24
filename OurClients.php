@@ -1,7 +1,7 @@
 <?php include("header.php");?>
 <?php include("inquire_form.php"); ?>
 <div class="pagepiling">
-	<div class="pp-scrollable our_clients">
+	<div class="pp-scrollable section our_clients">
 		<div class="scroll-wrap">
 		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/images/bg/ourclients.jpg);background-attachment: fixed;"></div>
 			<div class="scrollable-content">

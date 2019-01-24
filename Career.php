@@ -3,7 +3,7 @@
 <?php include("CareerForm.php"); ?>
 
 <div class="pagepiling">
-	<div class="pp-scrollable career">
+	<div class="pp-scrollable section career">
 		<div class="scroll-wrap">
 		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(assets/images/bg/career.jpg);background-attachment: fixed;"></div>
 			<div class="scrollable-content">
