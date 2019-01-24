@@ -1,12 +1,14 @@
 <?php include("header.php");?>
 <?php include("inquire_form.php"); ?>
+<style>#pp-nav{display:block;}</style>
 <div class="pagepiling">
 	<div data-anchor="welcomeoess" class="pp-scrollable text-white section section-1">
 		<div class="scroll-wrap">
 			<!-- <div class="section-bg" style="background-size: cover!important;background:url(assets/images/bg/bg.jpg);"></div> -->
-			<video class="video-fluid" controls="false" autoplay loop muted poster="assets/images/banner.jpg">
+			<video class="video-fluid" controls="false" autoplay playsinline loop muted poster="assets/images/banner.jpg">
 				<source src="assets/images/explore.mp4" type="video/mp4">
 				<source src="assets/images/explore.webm" type="video/webm">
+				<source src="assets/images/explore.mov" type="video/mov">
 			</video>
 
 			<div class="video_content">

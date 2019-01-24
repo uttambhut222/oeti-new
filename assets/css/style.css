@@ -1215,14 +1215,16 @@ margin: 15px auto;}
  }	  
 /*-------------Map Section----------------------*/
 .map_content{margin: 50px 0 0 0;float: left;width: 100%;}
-.map_content .map img{ max-height: 100%;}
+.map_content .map img{ height: 100%; width:100%}
 .map_content .map .usa_add1,.map_content .map .usa_add2,.map_content .map .india_add{margin-bottom: 30px;position:relative;font-family: 'Titillium Web', sans-serif;text-align: left;border: 1px solid #fff;padding: 15px 15px;border-radius: 10px;}
-.footer .country_logo{position: absolute;right: 15px;top: 15px;width: 64px;height: 64px;}
+.footer .country_logo{position: absolute;right: 15px;top: 15px;width: 60px;height: 45px;}
 .map_content .map div p{color: #fff;font-size: 17px;padding-bottom: 0px;line-height: 20px;margin-bottom: 10px;}
 .map_content .map div a{color: #fff; }
 .map_content .map div a:hover{color: #d6d6d6;text-decoration:none; }
 .map_content .map div strong{font-size: 20px;font-weight: 700;margin-bottom: 15px;display: block;}
 /*-------------End Map Section----------------------*/
+
+#pp-nav{display:none;}
 
 /*======= end common css ========*/
 
