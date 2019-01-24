@@ -995,7 +995,8 @@ video {background-size: cover;display: table-cell;vertical-align: middle;width: 
  @media (min-width:2200px){
 	 .ourwork_section.pp-scrollable .vertical-centred { padding-top:35rem;}
  }
-  @media (min-width:1920px){.ourwork_section.pp-scrollable .vertical-centred {
+  @media (min-width:1900px){
+	  .ourwork_section.pp-scrollable .vertical-centred {
     padding-top: 11.3rem;
   }}
  @media (max-width:1450px){
