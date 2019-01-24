@@ -134,9 +134,9 @@ $(document).ready(
 			var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
 			return results[1] || 0;
 		}
-	//	alert($.urlParam('id'));
+		//alert($.urlParam('id'));
 		var toIndex = $.urlParam('id');
-		$(".owl-carousel_services").trigger("to.owl.carousel", [toIndex, 1, true]);
+		$(".owl_carousel_services").trigger("to.owl.carousel", [toIndex, 1, true]);
 	 }
 
 
