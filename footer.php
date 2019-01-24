@@ -25,14 +25,18 @@
 </div>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/owl.carousel.js"></script>
+
 <script src="assets/js/sweetalert2.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
 
 <script src="assets/js/smoothscroll.js"></script>
 <script src="assets/js/jquery.validate.min.js"></script>
 <!-- <script src="assets/js/jquery-1.12.0.min.js"></script> -->
+<script src="assets/js/owl.carousel.js"></script>
 <script src="assets/js/jquery.pagepiling.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/index.js"></script>
+
 <script src="assets/js/jquery.roadmap.js"></script>
 <script src="assets/js/cookie-consent.js"></script>
 <script src="assets/js/accordion.js"></script>
@@ -96,8 +100,7 @@ if(window.location.href.indexOf("Process") > -1) {
             });
 	
 </script>
-<script src="assets/js/scripts.js"></script>
-<script src="assets/js/index.js"></script>
+
 </body>
 </html>
 

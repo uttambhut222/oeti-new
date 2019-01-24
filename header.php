@@ -30,11 +30,12 @@
 	<link type="image/x-icon" rel="shortcut icon" href="assets/images/favicon.ico"/>
 	<title>OpenEyes Technologies Inc.</title>
 	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+
 	<link rel="stylesheet" href="assets/css/owl.carousel.css">
 	<link rel="stylesheet" href="assets/css/timeline.css">
 	<link type="text/css" rel="stylesheet" href="assets/css/flaticon.css"/>
 	<link type="text/css" rel="stylesheet" href="assets/css/sweetalert2.min.css"/>
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
 </head>
 <body class="body-full-page">
 	<div class="loader">
