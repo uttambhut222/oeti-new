@@ -13,10 +13,7 @@
 							<div class="container">
 								<div class="intro overflow-hidden">
 									<div class="row">
-										<div class="col-md-12 visible-xs visible-sm">
-											<h2 class="title-uppercase">What we have done</h2>
-										</div>
-										<div class="row ourwork_head">
+										<div class="ourwork_head">
 											<p>We are proud to offer both customers and our employees with the most up-to-date and cutting-edge technologies and partnerships.</p>
 										</div>
 										<div class="clearfix"></div>
@@ -25,7 +22,7 @@
 											<div class="col-md-12">
 											<h2 class="title-uppercase text-white visible-xs visible-sm">What we have done</h2>
 											<div class="row-project-box row">
-												<div class="afp col-project-box col-sm-6 col-md-3 col-lg-3">
+												<div class="afp col-project-box col-md-3 col-lg-3 col-sm-6 col-xs-12">
 													<a href="PortfolioDetail?id=0" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/afp.png">
@@ -37,7 +34,7 @@
 														</div>
 													</a>
 												</div>
-												<div class="atd col-project-box col-sm-6 col-md-3 col-lg-3">
+												<div class="atd col-project-box col-md-3 col-lg-3 col-sm-6 col-xs-12">
 													<a href="PortfolioDetail?id=1" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/atd.png">
@@ -49,7 +46,7 @@
 														</div>
 													</a>
 												</div>
-												<div class="lfb col-project-box col-sm-6 col-md-3 col-lg-3">
+												<div class="lfb col-project-box col-md-3 col-lg-3 col-sm-6 col-xs-12">
 													<a href="PortfolioDetail?id=2" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/lf.png">
@@ -61,7 +58,7 @@
 														</div>
 													</a>
 												</div>
-												<div class="alli col-project-box col-sm-6 col-md-3 col-lg-3">
+												<div class="alli col-project-box col-md-3 col-lg-3 col-sm-6 col-xs-12">
 													<a href="PortfolioDetail?id=3" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/all.png">
@@ -73,7 +70,7 @@
 														</div>
 													</a>
 												</div>
-												<div class="ted col-project-box col-sm-6 col-md-3 col-lg-3">
+												<div class="ted col-project-box col-md-3 col-lg-3 col-sm-6 col-xs-12">
 													<a href="PortfolioDetail?id=4" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/ted.png">
@@ -85,7 +82,7 @@
 														</div>
 													</a>
 												</div>
-												<div class="aere col-project-box col-sm-6 col-md-3 col-lg-3">
+												<div class="aere col-project-box col-md-3 col-lg-3 col-sm-6 col-xs-12">
 													<a href="PortfolioDetail?id=5" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/aere.png">
@@ -97,7 +94,7 @@
 														</div>
 													</a>
 												</div>
-												<div class="afp col-project-box col-sm-6 col-md-3 col-lg-3">
+												<div class="afp col-project-box col-md-3 col-lg-3 col-sm-6 col-xs-12">
 													<a href="PortfolioDetail?id=6" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/afp.png">
@@ -109,7 +106,7 @@
 														</div>
 													</a>
 												</div>
-												<div class="atd col-project-box col-sm-6 col-md-3 col-lg-3">
+												<div class="atd col-project-box col-md-3 col-lg-3 col-sm-6 col-xs-12">
 													<a href="PortfolioDetail?id=7" class="project-box">
 														<div class="project-box-inner">
 														<img alt="" class="img-responsive" src="assets/images/partners/atd.png">

@@ -370,27 +370,27 @@
 										<div class="col-md-12">
 											<h2 class="title-uppercase visible-xs visible-sm text-white">Whom we serve</h2>
 											<div class="row-partners">
-												<div class="col-partner">
+												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
 													<div class="partner-inner"><a href="https://www.afponline.org/" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/afp.png"></a>
 													</div>
 												</div>
-												<div class="col-partner">
+												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
 													<div class="partner-inner"><a href="https://www.tedxtysons.com/" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/ted.png"></a>
 													</div>
 												</div>
-												<div class="col-partner">
+												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
 													<div class="partner-inner"><a href="http://td.org" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/atd.png"></a>
 													</div>
 												</div>
-												<div class="col-partner">
+												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
 													<div class="partner-inner"><a href="https://www.hrci.org/" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/hrci.png"></a>
 													</div>
 												</div>
-												<div class="col-partner">
+												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
 													<div class="partner-inner"><a href="http://www.aerexperts.com" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/aere.png"></a>
 													</div>
 												</div>
-												<div class="col-partner view_more_clients">
+												<div class="col-partner view_more_clients col-lg-4 col-md-4 col-sm-4 col-xs-6">
 													<div class="partner-inner view_all_clients">
 														<a href="OurClients">
 															<h5>For Complete list of Clients</h5>

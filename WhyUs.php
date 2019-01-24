@@ -17,7 +17,7 @@
 									</div>
 									<div class="clearfix"></div>									
 									<div class="row why_chooseus_wrap">
-										<div class="col-md-4 col-lg-4">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 											<div class=" whychooseus_box">
 												<h6 class="resume-title">
 													  Timely delivery
@@ -27,7 +27,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-4 col-lg-4">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 											<div class=" whychooseus_box">
 												<h6 class="resume-title">
 													  High Quality Standards
@@ -37,7 +37,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-4 col-lg-4">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 											<div class=" whychooseus_box">
 												<h6 class="resume-title">
 													  Better Support
@@ -48,7 +48,7 @@
 											</div>
 										</div>
 										<div class="clearfix"></div>
-										<div class="col-md-4 col-lg-4">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 											<div class=" whychooseus_box">
 												<h6 class="resume-title">
 													  Transparency
@@ -58,7 +58,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-4 col-lg-4">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 											<div class=" whychooseus_box">
 												<h6 class="resume-title">
 													  Best services at Reasonable Price
@@ -68,7 +68,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-4 col-lg-4">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 											<div class=" whychooseus_box">
 												<h6 class="resume-title">
 													  Creative and Innovative Ideas

@@ -1,11 +1,11 @@
 <?php include("header.php");?>
 <?php include("inquire_form.php"); ?>
-<div class="pagepiling">
+<div class="pagepiling portfoliodetail">
 	<div class="slider">
 		<div class="view_all_services">
 			<a href="Portfolio" class="banner_btn">View All</a>
 		</div>
-		<div class="owl-carousel_services">
+		<div class="owl_carousel_services">
 			<div class="owl-item">
 				<img src="assets/images/bg/afpbgdark.jpg" />
 				<div class="caption">

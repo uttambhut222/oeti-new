@@ -17,61 +17,55 @@
 									</div>
 									<div class="clearfix"></div>									
 									<div class="row our_clients_wrap">
-										<div class="col-md-3 col-sm-4 col-xs-6">
+										<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
 											<div class="client_box">
 												<a href="https://www.afponline.org/" target="_blank">
 												<img src="assets/images/partners/afp.png" alt="" class="img-responsive" /></a>
 											</div>
 										</div>
-										<div class="col-md-3 col-sm-4 col-xs-6">
+										<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
 											<div class="client_box">
 												<a href="http://www.aerexperts.com" target="_blank">
 												<img src="assets/images/partners/all.png" alt="" class="img-responsive" /></a>
 											</div>
 										</div>
-										<div class="col-md-3 col-sm-4 col-xs-6">
+										<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
 											<div class="client_box">
 												<a href="https://www.td.org/" target="_blank">
 												<img src="assets/images/partners/atd.png" alt="" class="img-responsive" /></a>
 											</div>
 										</div>
-										<div class="col-md-3 col-sm-4 col-xs-6">
+										<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
 											<div class="client_box">
 												<a href="https://www.hrci.org/" target="_blank">
 												<img src="assets/images/partners/hrci.png" alt="" class="img-responsive" /></a>
 											</div>
 										</div>
-									</div>
-									<div class="clearfix"></div>
-									<div class="row our_clients_wrap">
-										<div class="client_box2">
-											<div class="col-md-3 col-sm-4 col-xs-6">
+											<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
 												<div class="client_box">
 													<a href="http://www.aerexperts.com" target="_blank">
 													<img src="assets/images/partners/aere.png" alt="" class="img-responsive" /></a>
 												</div>
 											</div>
-											<div class="col-md-3 col-sm-4 col-xs-6">
+											<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
 												<div class="client_box">
 													<a href="https://www.tedxtysons.com/" target="_blank">
 													<img src="assets/images/partners/ted.png" alt="" class="img-responsive" /></a>
 												</div>
 											</div>
-											<div class="col-md-3 col-sm-4 col-xs-6">
+											<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
 												<div class="client_box">
 													<a href="http://jtaexperts.com/" target="_blank">
 													<img src="assets/images/partners/jta.png" alt="" class="img-responsive" /></a>
 												</div>
 											</div>
-											<div class="col-md-3 col-sm-4 col-xs-6">
+											<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
 												<div class="client_box">
 													<a href="http://learnfeedback.com/" target="_blank">
 													<img src="assets/images/partners/lf.png" alt="" class="img-responsive" /></a>
 												</div>
 											</div>
-										</div>
 									</div>
-									<div class="clearfix"></div>
 								</div>
 							</div>
 						</div>

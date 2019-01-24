@@ -21,7 +21,7 @@
 											<div class="clearfix"></div>
 											<div class="our_team_section">
 												<div class="row">
-												<div class="col-md-3">
+												<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/8.jpg">
 															<div class="employee_details">
@@ -30,7 +30,7 @@
 															</div>
 														</div>
 													</div>
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/2.jpg">
 															<div class="employee_details">
@@ -39,7 +39,7 @@
 															</div>
 														</div>
 													</div>
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/6.jpg">
 															<div class="employee_details">
@@ -48,7 +48,7 @@
 															</div>
 														</div>
 													</div>
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/1.jpg">
 															<div class="employee_details">
@@ -57,10 +57,7 @@
 															</div>
 														</div>
 													</div>
-												</div>
-												<div class="clearfix"></div>
-												<div class="row">
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/4.jpg">
 															<div class="employee_details">
@@ -69,7 +66,7 @@
 															</div>
 														</div>
 													</div>
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/11.jpg">
 															<div class="employee_details">
@@ -78,7 +75,7 @@
 															</div>
 														</div>
 													</div>
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/9.jpg">
 															<div class="employee_details">
@@ -87,7 +84,7 @@
 															</div>
 														</div>
 													</div>
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/12.jpg">
 															<div class="employee_details">
@@ -95,11 +92,8 @@
 																<span class="employee_designation">Php Developer</span>
 															</div>
 														</div>
-													</div>													
-												</div>
-												<div class="clearfix"></div>
-												<div class="row">													
-													<div class="col-md-3">
+													</div>												
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/3.jpg">
 															<div class="employee_details">
@@ -108,7 +102,7 @@
 															</div>
 														</div>
 													</div>
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/10.jpg">
 															<div class="employee_details">
@@ -117,7 +111,7 @@
 															</div>
 														</div>
 													</div>													
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/7.jpg">
 															<div class="employee_details">
@@ -126,7 +120,7 @@
 															</div>
 														</div>
 													</div>
-													<div class="col-md-3">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/5.jpg">
 															<div class="employee_details">
@@ -136,7 +130,6 @@
 														</div>
 													</div>
 												</div>
-												<div class="clearfix"></div>
 											</div>
 										</div>
 									</div>

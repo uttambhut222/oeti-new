@@ -1,4 +1,7 @@
-﻿// Back to Top 
+﻿
+
+
+// Back to Top 
 $(function(){
   $(window).scroll(function(){
     var scrolled = $(window).scrollTop();
@@ -12,6 +15,8 @@ $(function(){
 
 });
 // End Back to Top
+
+
 
 //portfolio script
 setInterval(function(){ 
@@ -88,7 +93,7 @@ $(document).ready(
 
 	
 	//owl-carousel
-	$('.owl-carousel_services').owlCarousel({
+	$('.owl_carousel_services').owlCarousel({
         loop:true,
         autoPlay: true,
         nav:true,
@@ -417,15 +422,19 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:true,
 	dots:false,
+	responsiveClass:true,
     responsive:{
         0:{
             items:1
         },
-        600:{
-            items:3
+		480:{
+            items:1
+        },
+		667:{
+            items:2
         },
         1000:{
-            items:4
+            items:3
         },
 		1280:{
 			items:4
@@ -433,3 +442,5 @@ $('.owl-carousel').owlCarousel({
     }
 })
 //end career slider
+
+

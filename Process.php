@@ -7,13 +7,13 @@
 			<div class="scrollable-content position_contact">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
-						<div class="vertical-title text-dark hidden-xs hidden-sm"><span>How we Work</span>
+						<div class="vertical-title text-white hidden-xs hidden-sm"><span>How we Work</span>
 						</div>
 						<div class="boxed">
 							<div class="container">
 								<div class="intro overflow-hidden">
 									<div class="row">
-										<div class="col-md-12 visible-xs visible-sm">
+										<div class="col-md-12 text-white visible-xs visible-sm">
 											<h2 class="title-uppercase">How we Work</h2>
 										</div>
 										<div class="row ourprocess_head">
@@ -27,35 +27,35 @@
 												  <div class="col-xs-12"> 
 													<!-- design process steps--> 
 													<!-- Nav tabs -->
-													<ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
-													  <li role="presentation" class="active"><a href="#Initiation" aria-controls="Initiation" role="tab" data-toggle="tab"><i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+													<ul id="tabs" class="nav nav-tabs process-model more-icon-preocess" role="tablist">
+													  <li role="presentation" class="active"><a href="#Initiation" aria-controls="Initiation" role="tab" data-toggle="tab"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><span>Initiation</span>
 														<!--<p>Initiation</p>-->
 														</a></li>
-													  <li role="presentation"><a href="#SystemConceptDevelopment" aria-controls="SystemConceptDevelopment" role="tab" data-toggle="tab"><i class="fa fa-file-code-o" aria-hidden="true"></i>
+													  <li role="presentation"><a href="#SystemConceptDevelopment" aria-controls="SystemConceptDevelopment" role="tab" data-toggle="tab"><i class="fa fa-file-code-o" aria-hidden="true"></i><span>System Concept Development</span>
 														<!--<p>System Concept Development</p>-->
 														</a></li>
-													  <li role="presentation"><a href="#Planning" aria-controls="Planning" role="tab" data-toggle="tab"><i class="fa fa-cog" aria-hidden="true"></i>
+													  <li role="presentation"><a href="#Planning" aria-controls="Planning" role="tab" data-toggle="tab"><i class="fa fa-cog" aria-hidden="true"></i><span>Planning</span>
 														<!--<p>Planning</p>-->
 														</a></li>
-													  <li role="presentation"><a href="#RequirementsAnalysis" aria-controls="RequirementsAnalysis" role="tab" data-toggle="tab"><i class="fa fa-file-text-o" aria-hidden="true"></i>
+													  <li role="presentation"><a href="#RequirementsAnalysis" aria-controls="RequirementsAnalysis" role="tab" data-toggle="tab"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>Requirements Analysis</span>
 														<!--<p>Requirements Analysis</p>-->
 														</a></li>
-													  <li role="presentation"><a href="#Design" aria-controls="Design" role="tab" data-toggle="tab"><i class="fa fa-globe" aria-hidden="true"></i>
+													  <li role="presentation"><a href="#Design" aria-controls="Design" role="tab" data-toggle="tab"><i class="fa fa-globe" aria-hidden="true"></i><span>Design</span>
 														<!--<p>Design</p>-->
 														</a></li>
-														<li role="presentation"><a href="#Development" aria-controls="Development" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i>
+														<li role="presentation"><a href="#Development" aria-controls="Development" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Development</span>
 														<!--<p>Development</p>-->
 														</a></li>
-														<li role="presentation"><a href="#IntegrationandTest" aria-controls="IntegrationandTest" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i>
+														<li role="presentation"><a href="#IntegrationandTest" aria-controls="IntegrationandTest" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Integration and Test</span>
 														<!--<p>Integration and Test</p>-->
 														</a></li>
-														<li role="presentation"><a href="#Implementation" aria-controls="Implementation" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i>
+														<li role="presentation"><a href="#Implementation" aria-controls="Implementation" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Implementation</span>
 														<!--<p>Implementation</p>-->
 														</a></li>
-														<li role="presentation"><a href="#OperationsandMaintenance" aria-controls="OperationsandMaintenance" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i>
+														<li role="presentation"><a href="#OperationsandMaintenance" aria-controls="OperationsandMaintenance" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Operations and Maintenance</span>
 														<!--<p>Operations and Maintenance</p>-->
 														</a></li>
-														<li role="presentation"><a href="#Disposition" aria-controls="Disposition" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i>
+														<li role="presentation"><a href="#Disposition" aria-controls="Disposition" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Disposition</span>
 														<!--<p>Disposition</p>-->
 														</a></li>
 													</ul>
@@ -64,6 +64,7 @@
 													<div class="tab-content">
 													  <div role="tabpanel" class="tab-pane active" id="Initiation">
 														<div class="design-process-content">
+															<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
 															<h3 class="semi-bold">Initiation</h3>
 															<p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 															<h6 class="tech_icons">Technology Used</h6>
@@ -76,6 +77,7 @@
 													  </div>
 													  <div role="tabpanel" class="tab-pane" id="SystemConceptDevelopment">
 														<div class="design-process-content">
+														<i class="fa fa-file-code-o" aria-hidden="true"></i>
 														  <h3 class="semi-bold">System Concept Development</h3>
 														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 														  <h6 class="tech_icons">Technology Used</h6>
@@ -89,6 +91,7 @@
 													  </div>
 													  <div role="tabpanel" class="tab-pane" id="Planning">
 														<div class="design-process-content">
+														<i class="fa fa-cog" aria-hidden="true"></i>
 														  <h3 class="semi-bold">Planning</h3>
 														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 														  <h6 class="tech_icons">Technology Used</h6>
@@ -107,6 +110,7 @@
 													  </div>
 													  <div role="tabpanel" class="tab-pane" id="RequirementsAnalysis">
 														<div class="design-process-content">
+														<i class="fa fa-file-text-o" aria-hidden="true"></i>
 														  <h3 class="semi-bold">Requirements Analysis</h3>
 														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 														  <h6 class="tech_icons">Technology Used</h6>
@@ -117,6 +121,7 @@
 													  </div>
 													  <div role="tabpanel" class="tab-pane" id="Design">
 														<div class="design-process-content">
+														<i class="fa fa-globe" aria-hidden="true"></i>
 														  <h3>Design</h3>
 														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 														  <h6 class="tech_icons">Technology Used</h6>
@@ -128,6 +133,7 @@
 													</div>
 													<div role="tabpanel" class="tab-pane" id="Development">
 														<div class="design-process-content">
+														<i class="fa fa-cogs" aria-hidden="true"></i>
 														  <h3>Development</h3>
 														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 														  <h6 class="tech_icons">Technology Used</h6>
@@ -150,6 +156,7 @@
 													</div>
 													<div role="tabpanel" class="tab-pane" id="Implementation">
 														<div class="design-process-content">
+														<i class="fa fa-cogs" aria-hidden="true"></i>
 														  <h3>Implementation</h3>
 														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 														  <h6 class="tech_icons">Technology Used</h6>
@@ -161,6 +168,7 @@
 													</div>
 													<div role="tabpanel" class="tab-pane" id="OperationsandMaintenance">
 														<div class="design-process-content">
+														<i class="fa fa-cogs" aria-hidden="true"></i>
 														  <h3>Operations and Maintenance</h3>
 														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 														  <h6 class="tech_icons">Technology Used</h6>
@@ -172,6 +180,7 @@
 													</div>
 													<div role="tabpanel" class="tab-pane" id="Disposition">
 														<div class="design-process-content">
+														<i class="fa fa-cogs" aria-hidden="true"></i>
 														  <h3>Disposition</h3>
 														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 														  <h6 class="tech_icons">Technology Used</h6>
@@ -182,6 +191,13 @@
 													  </div>
 													</div>
 												  </div>
+												  
+												<!-- Bootstrap Accordion -->
+												<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"></div>
+												<!-- /Bootstrap Accordion -->
+												<div class="clearfix"></div>
+			
+			
 												</div>
 											  </div>
 											</section>

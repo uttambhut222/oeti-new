@@ -16,7 +16,7 @@
 										<div class="col-md-12">
 											<h2 class="title-uppercase text-white visible-xs visible-sm">Who we are</h2>
 										</div>
-										<div class="col-md-7 col-lg-7">
+										<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
 											<div class="section_aboutus">
 												<h3>"Make every detail perfect and limit the number of details to perfect."</h2>
 												<p>At OpenEyes, we pride ourselves on offering our customers responsive, comptent and excellent services.</p>
@@ -25,7 +25,7 @@
 												<!-- <a href="history" class="banner_btn">Read More</a> -->
 											</div>
 										</div>
-										<div class="col-md-5 col-lg-5">
+										<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 											<div class="section_aboutus">
 												<img alt="" class="img-responsive" src="assets/images/bg/bg2-6.jpg">
 											</div>

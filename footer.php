@@ -35,6 +35,14 @@
 <script src="assets/js/jquery.pagepiling.js"></script>
 <script src="assets/js/jquery.roadmap.js"></script>
 <script src="assets/js/cookie-consent.js"></script>
+<script src="assets/js/accordion.js"></script>
+<script>
+$(document).ready(function() {
+//accordian for process page
+getAccordion("#tabs",993);
+//end accordian
+});
+</script>
 <script>
 	$( "#inquiry_submit" ).click( function () {
 		var recaptcha = document.forms[ "inquireform" ][ "g-recaptcha-response" ];

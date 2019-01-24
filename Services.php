@@ -23,7 +23,7 @@
 									</div>
 									<div class="row">
 										<div class="our_service_wrapper">
-											<div class="col-md-4 service_grid">
+											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 service_grid">
 												<div class="col-resume"> <!--active-sgrid-->
 													<h6 class="resume-title">
 													  CUSTOM SOFTWARE DEVELOPMENT
@@ -53,7 +53,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-md-4 service_grid">
+											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  service_grid">
 												<div class="col-resume">
 													<h6 class="resume-title">
 													  MOBILE APP DEVELOPMENT
@@ -83,7 +83,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-md-4 service_grid">
+											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  service_grid">
 												<div class="col-resume">
 													<h6 class="resume-title">
 													  UI/UX DESIGN STRATEGIES
@@ -113,8 +113,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="clearfix"></div>
-											<div class="col-md-4 service_grid">
+											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  service_grid">
 												<div class="col-resume">
 													<h6 class="resume-title">
 													  QUALITY ANALYSIS
@@ -138,7 +137,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-md-4 service_grid">
+											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  service_grid">
 												<div class="col-resume">
 													<h6 class="resume-title">
 													  CLOUD COMPUTING
@@ -158,7 +157,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-md-4 service_grid">
+											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12  service_grid">
 												<div class="col-resume">
 													<h6 class="resume-title">
 													  DATA ANALYTICS
@@ -177,9 +176,8 @@
 														</div>
 													</div>
 												</div>
-											</div>											
-											<div class="clearfix"></div>
-											<div class="col-md-4 col-md-offset-2 col-lg-offset-2 service_grid">
+											</div>	
+											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-md-offset-2 col-lg-offset-2 service_grid">
 												<div class="col-resume">
 													<h6 class="resume-title">
 													  US STAFFING
@@ -197,7 +195,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-md-4 service_grid">
+											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 service_grid">
 												<div class="col-resume">
 													<h6 class="resume-title">
 													  MANAGE SERVICES
