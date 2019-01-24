@@ -2,7 +2,7 @@
 
 function getAccordion(element_id,screen) 
 {
-    $(window).resize(function () { location.reload(); });
+ //   $(window).resize(function () { location.reload(); });
 
 	if ($(window).width() < screen) 
 	{
