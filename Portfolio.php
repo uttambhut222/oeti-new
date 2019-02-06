@@ -3,7 +3,7 @@
 <div class="pagepiling">
 	<div class="pp-scrollable section work_wrapper">
 		<div class="scroll-wrap">
-			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(assets/images/bg/workbg.jpeg);background-attachment: fixed;"></div>
+			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/workbg.jpeg);background-attachment: fixed;"></div>
 			<div class="scrollable-content position_contact">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">

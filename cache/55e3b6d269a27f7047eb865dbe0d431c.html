@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link type="image/x-icon" rel="shortcut icon" href="assets/images/favicon.ico"/>
+	<title>OpenEyes Technologies Inc.</title>
+	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/timeline.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/flaticon.css"/>
+	<link type="text/css" rel="stylesheet" href="assets/css/sweetalert2.min.css"/>
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+</head>
+<body class="body-full-page">
+	<div class="loader">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</div>
+	<div class="click-capture"></div>
+	
+	<!-- Sidebar Menu-->
+
+    <div class="menu"> 
+      <span class="close-menu icon-cross2 right-boxed"></span>	  
+	  <ul class="nav">
+		<li class="dropdown" id="who">
+		  <a href="AboutUs" class="dropdown-toggle hvr-sweep-to-right" data-toggle="dropdown">Who<b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+		  <li id="aboutus"><a href="AboutUs"><i class="fa fa-angle-right"></i>About Us</a></li>
+			<li id="milestone"><a href="Milestones"><i class="fa fa-angle-right"></i>Milestones</a></li>
+				<li id="visionmission"><a href="VisionMission"><i class="fa fa-angle-right"></i>Vision & Mission</a></li>
+				<li id="Family"><a href="Family"><i class="fa fa-angle-right"></i>Family</a></li>
+		  </ul>
+		</li>		
+		<li id="What">
+			<a href="Services" class="hvr-sweep-to-right">What</a>
+        </li>
+        <li id="Work">
+			<a href="Portfolio" class="hvr-sweep-to-right">Work</a>
+        </li>
+        <li id="How">
+			<a href="Process" class="hvr-sweep-to-right">How</a>
+        </li>
+		<li id="Whom">
+			<a href="OurClients" class="hvr-sweep-to-right">Whom</a>
+        </li>                          
+		<li class="dropdown" id="Why">
+		  <a href="WhyUs" class="dropdown-toggle hvr-sweep-to-right" data-toggle="dropdown">Why<b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+		  <li id="chooseus"><a href="WhyUs"><i class="fa fa-angle-right"></i>Choose Us</a></li>
+			<li id="career"><a href="Career"><i class="fa fa-angle-right"></i>Career</a></li>
+		  </ul>
+		</li>  
+		<li id="Where">
+		  <a href="index#ContactUs" class="hvr-sweep-to-right">Where</a>
+		</li> 		
+	  </ul> 	  
+    </div>	
+	<!-- End Sidebar Menu-->
+	
+	<header class="navbar navbar-2 navbar-white boxed">
+		<div class="navbar-bg"></div>
+		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<div class="content_form">
+			<a class="inquire_now">Contact us</a>
+		</div>
+		<!--<ul class="social_links header_links">
+			<li><a href="https://twitter.com/OpenEyesTech" target="_blank"><i class="flaticon-twitter-logo-silhouette"></i></a>
+			</li>
+			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a>
+			</li>
+		</ul>-->
+		<a class="brand" href="index#WelcomeOpenEyes">
+        <img class="brand-img" alt="" src="assets/images/brand.png">
+      </a>
+	</header>
+<div class="contcact_form">
+	<span class="close-menu icon-cross2 right-boxed"></span>
+	<div class="contact-info">
+		<form action="" method="post" id="inquireform">
+				<h2>Say Hi to us!</h2>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')"/>
+						<input type="text" name="MiddleName" id="MiddleName"/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="LastName" placeholder="*Last Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid Last Name')" oninput="setCustomValidity('')"/>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<select name="Topic" required>
+							<option value="" selected="">*Select a Topic</option>
+							<option value="Cloud Consulting">Cloud Consulting</option>
+							<option value="E-Commerce">E-Commerce</option>
+							<option value="IOT">IOT</option>
+							<option value="Mobile Apps">Mobile Apps</option>
+							<option value="Mobile Games">Mobile Games</option>
+							<option value="Other">Other</option>
+							<option value="UI / UX">UI / UX</option>
+							<option value="Wearables">Wearables</option>
+							<option value="Web Development">Web Development</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="Email" placeholder="*Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxlength=50 required oninvalid="this.setCustomValidity('Please enter your Email Address in valid format')" oninput="setCustomValidity('')"/>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="Phone" placeholder="*Phone Number" pattern="[0-9\-.\s]+" maxlength=13 required oninvalid="this.setCustomValidity('Please enter your Phone Number in xxx.xxx.xxxx format')" oninput="setCustomValidity('')"/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="CompanyName" placeholder="Company Name" maxlength=100/>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-lg-12 col-md-12">
+					<div class="form-group">
+						<textarea name="ProjectBrief" placeholder="*Brief about your inquiry" required oninvalid="this.setCustomValidity('Please enter Brief about your inquiry')" oninput="setCustomValidity('')"></textarea>
+					</div>
+				</div>				
+				<div class="clearfix"></div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<div class="g-recaptcha" data-sitekey="6LeGjHIUAAAAAJuV7KL2aoMQpKbgpdpR46TsWLJL"></div>
+						<span class='inquire_error' style="display:none; font-size:12px; color:red;">Captcha is Required.</span>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+
+				<button type="submit" id="inquiry_submit" name="inquire_submit" class="read_more">Submit</button>
+
+		</form>
+	</div>
+</div><div class="pagepiling">
+	<div class="pp-scrollable section why_us">
+		<div class="scroll-wrap">
+		<div class="section-bg" style="background-image:linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/whyusbg.jpg);background-attachment: fixed;"></div>
+			<div class="scrollable-content">
+				<div class="vertical-centred">
+					<div class="boxed boxed-inner">
+						<div class="vertical-title text-dark hidden-xs hidden-sm"><span>Why to choose us</span>
+						</div>
+						<div class="boxed">
+							<div class="container">
+								<div class="intro">
+									<div class="row whychooseus">
+										<p>Choosing the right kind of outsourcing partner can give you that extra edge over your competition. It can make all that important distinction between success and excellence. We believes in a company culture that uses collaboration, education, talent, and leadership to create a workforce that features multi-dimensional experience and skills.</p>
+									</div>
+									<div class="clearfix"></div>									
+									<div class="row why_chooseus_wrap">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+											<div class=" whychooseus_box">
+												<h6 class="resume-title">
+													  Timely delivery
+												</h6>											
+												<div class="resume-content">															
+													<p>OpenEyes Technologies is very much time conscious and understands the value of timely delivery of projects to its clients, which ensures them to meet their plans and reach market in time. We also believe in quick response to the clients.</p>															
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+											<div class=" whychooseus_box">
+												<h6 class="resume-title">
+													  High Quality Standards
+												</h6>											
+												<div class="resume-content">															
+													<p>While retaining competitive rates we never compromise with the quality of our services. Our quality assurance is reflected in all processes and activities.</p>															
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+											<div class=" whychooseus_box">
+												<h6 class="resume-title">
+													  Better Support
+												</h6>											
+												<div class="resume-content">															
+													<p>OpenEyes Technologies assures you the best possible support for mission critical applications.</p>															
+												</div>
+											</div>
+										</div>
+										<div class="clearfix"></div>
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+											<div class=" whychooseus_box">
+												<h6 class="resume-title">
+													  Transparency
+												</h6>											
+												<div class="resume-content">															
+													<p>OpenEyes Technologies maintains a high level of transparency in its entire process with its clients. We achieve this with the help of documentation. That is why you the investor, are less likely to face unpleasant surprises.</p>															
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+											<div class=" whychooseus_box">
+												<h6 class="resume-title">
+													  Best services at Reasonable Price
+												</h6>											
+												<div class="resume-content">															
+													<p>We provide the best services at reasonable cost to all our clients.</p>															
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+											<div class=" whychooseus_box">
+												<h6 class="resume-title">
+													  Creative and Innovative Ideas
+												</h6>											
+												<div class="resume-content">															
+													<p>We strive to ensure that innovation is not merely a watchword at OpenEyes Technologies but it is embodied in all our engagements. We ensure that our creative solutions provide our clients with the additional value each time.</p>															
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="go_top"><i class="flaticon-up-arrow"></i></div>
+<div class="footer_bottom footer_fixed boxed">
+	<div class="col-md-9 col-sm-9 text-left">Copyrights &copy; 2019 OpenEyes Technologies Inc.</div>
+	<div class="col-md-3 col-sm-3 text-right">
+		<ul class="social_links">
+			<li><a href="https://twitter.com/OpenEyesTech" target="_blank"><i class="flaticon-twitter-logo-silhouette"></i></a></li>
+			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a></li>
+		</ul>
+	</div>
+</div>
+<div class="clearfix"></div>
+<div id="cookie_directive_container" style="display: none">
+                <div class="container">
+                <div class="row" id="cookie_accept">
+                <div class="col-md-12">
+                    <a href="#" class="view_more pull-right">Close</a>
+                    <p>
+                      By using our website you are consenting to our use of cookies in accordance with our <a href="Cookie">cookie policy</a>.
+                    </p>
+                </div>
+              </div>
+        </div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/sweetalert2.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<!-- <script src="assets/js/jquery-1.12.0.min.js"></script> -->
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/jquery.pagepiling.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/index.js"></script>
+
+<script src="assets/js/jquery.roadmap.js"></script>
+<script src="assets/js/cookie-consent.js"></script>
+<script src="assets/js/accordion.js"></script>
+<script>
+$(document).ready(function() {
+
+if(window.location.href.indexOf("Process") > -1) {
+		getAccordion("#tabs",993);
+	 }
+	 });
+</script>
+<script>
+	$( "#inquiry_submit" ).click( function () {
+		var recaptcha = document.forms[ "inquireform" ][ "g-recaptcha-response" ];
+		recaptcha.required = true;
+		recaptcha.oninvalid = function ( e ) {
+			$( ".inquire_error" ).css( "display", "block" );
+		};
+	} )
+	var vids = $( "video" );
+	$.each( vids, function () {
+		this.controls = false;
+	} );
+	
+	//timeline js
+	var events = [{
+                    date: 'Aug 2018',
+                    content: 'New Office Launch <small>We keep moving forward, opening new doors, and doing new things, because we are curious and curiosity keeps leading us down new paths.</small>'
+                },
+                {
+                    date: 'Jan 2017',
+                    content: 'Staffing & Recruting Team <small>Launched staffing and recruitment services. We are highly professional and has expertise in finding the most qualified candidates available.</small>'
+                },
+                {
+                    date: 'Dec 2016',
+                    content: 'OpenEyes Software Solution <small>Launch of child company</small>'
+                },
+                {
+                    date: 'Oct 2013',
+                    content: 'OpenEyes Technologies, Inc <small>With success of OpenEyes in India and in continuation of growth with the changing world, the company renamed one more time</small><strong>- OpenEyes Technologies, Inc.</strong>'
+                },
+                {
+                    date: 'Apr 2009',
+                    content: 'OpenEyes Security Services <small>With the business ingenuity, BIPA has started a new venture in India in Security sector</small><strong>- OpenEyes Security Services.</strong>'
+                },
+                {
+                    date: 'Oct 2005',
+                    content: 'BIPA Systems, Inc  <small>Company got a new face and new name with the same staff and same result. Now its call</small><strong>- BIPA Systems, Inc.</strong>'
+                },
+                {
+                    date: 'Jan 2000',
+                    content: 'Company Startup  <small>New York - A startup has emerged by our mentor and current president with one of his close friends. They called it</small><strong>- Tzar TechnoKraft, Inc.</strong>'
+                }
+            ];
+
+            $('#my-timeline').roadmap(events, {
+                eventsPerSlide: 5,
+                slide: 1,
+                prevArrow: '<i class="fa fa-chevron-left"></i>',
+                nextArrow: '<i class="fa fa-chevron-right"></i>'
+            });
+	
+</script>
+
+</body>
+</html>
+

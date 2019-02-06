@@ -15,7 +15,7 @@
                 <div class="col-md-12">
                     <a href="#" class="view_more pull-right">Close</a>
                     <p>
-                      By using our website you are consenting to our use of cookies in accordance with our <a href="https://www.unilevercookiepolicy.com/en_gb/policy.aspx" target="_blank">cookie policy</a>.
+                      By using our website you are consenting to our use of cookies in accordance with our <a href="Cookie">cookie policy</a>.
                     </p>
                 </div>
               </div>
@@ -38,6 +38,17 @@
 <script src="assets/js/jquery.roadmap.js"></script>
 <script src="assets/js/cookie-consent.js"></script>
 <script src="assets/js/accordion.js"></script>
+
+
+<!-- start script for process slider -->
+<script type="text/javascript" src="assets/js/modernizr.js"></script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/tinyscrollbar.js"></script> 
+<script src="assets/js/metro-slider.js" type="text/javascript"></script> 
+<!-- end script for process slider -->
+
+
+<!--<script src="assets/js/jquery-3.3.1.slim.min.js"></script>-->
 <script>
 $(document).ready(function() {
 
@@ -103,7 +114,7 @@ if(window.location.href.indexOf("Process") > -1) {
 </html>
 
 <?php
-      if (!is_dir($cache_folder)) { //create a new folder if we need to
+/*     if (!is_dir($cache_folder)) { //create a new folder if we need to
          mkdir($cache_folder);
      }
      if(!$ignore){
@@ -111,6 +122,6 @@ if(window.location.href.indexOf("Process") > -1) {
          fwrite($fp, ob_get_contents()); //write contents of the output buffer in Cache file
          fclose($fp); //Close file pointer
      }
-     ob_end_flush(); //Flush and turn off output buffering
+     ob_end_flush(); //Flush and turn off output buffering  */
 
     ?>

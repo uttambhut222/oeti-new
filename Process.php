@@ -1,218 +1,169 @@
 <?php include("header.php");?>
 <?php include("inquire_form.php"); ?>
 <div class="pagepiling">
-	<div class="pp-scrollable section our_process">
+	<div class="pp-scrollable section why_us">
 		<div class="scroll-wrap">
-			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(assets/images/bg/processbg.png);background-attachment: fixed;"></div>
-			<div class="scrollable-content position_contact">
+		<div class="section-bg" style="background:url(assets/images/processpattern.png) repeat;background-attachment: fixed;"></div>
+			<div class="scrollable-content">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
-						<div class="vertical-title text-white hidden-xs hidden-sm"><span>How we Work</span>
+						<div class="vertical-title text-dark hidden-xs hidden-sm"><span>How we Work</span>
 						</div>
 						<div class="boxed">
 							<div class="container">
-								<div class="intro overflow-hidden">
-									<div class="row">
-										<div class="col-md-12 text-white visible-xs visible-sm">
-											<h2 class="title-uppercase">How we Work</h2>
-										</div>
-										<div class="row ourprocess_head">
-											<!--<p>Project Scope Defining the scope of the project is a critical step. One of the most common frustrations with Web projects is scope creep. By creating a well-defined project scope plan that outlines specific activities and deliverables, along with specific timelines, you will be able to clearly set expectations for your clients.</p>-->
-										</div>
-										<div class="clearfix"></div>
-										<!-- process Section -->
-										<section class="design-process-section" id="process-tab">
-											  <div class="container">
-												<div class="row">
-												  <div class="col-xs-12"> 
-													<!-- design process steps--> 
-													<!-- Nav tabs -->
-													<ul id="tabs" class="nav nav-tabs process-model more-icon-preocess" role="tablist">
-													  <li role="presentation" class="active"><a href="#Initiation" aria-controls="Initiation" role="tab" data-toggle="tab"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><span>Initiation</span>
-														<!--<p>Initiation</p>-->
-														</a></li>
-													  <li role="presentation"><a href="#SystemConceptDevelopment" aria-controls="SystemConceptDevelopment" role="tab" data-toggle="tab"><i class="fa fa-file-code-o" aria-hidden="true"></i><span>System Concept Development</span>
-														<!--<p>System Concept Development</p>-->
-														</a></li>
-													  <li role="presentation"><a href="#Planning" aria-controls="Planning" role="tab" data-toggle="tab"><i class="fa fa-cog" aria-hidden="true"></i><span>Planning</span>
-														<!--<p>Planning</p>-->
-														</a></li>
-													  <li role="presentation"><a href="#RequirementsAnalysis" aria-controls="RequirementsAnalysis" role="tab" data-toggle="tab"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>Requirements Analysis</span>
-														<!--<p>Requirements Analysis</p>-->
-														</a></li>
-													  <li role="presentation"><a href="#Design" aria-controls="Design" role="tab" data-toggle="tab"><i class="fa fa-globe" aria-hidden="true"></i><span>Design</span>
-														<!--<p>Design</p>-->
-														</a></li>
-														<li role="presentation"><a href="#Development" aria-controls="Development" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Development</span>
-														<!--<p>Development</p>-->
-														</a></li>
-														<li role="presentation"><a href="#IntegrationandTest" aria-controls="IntegrationandTest" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Integration and Test</span>
-														<!--<p>Integration and Test</p>-->
-														</a></li>
-														<li role="presentation"><a href="#Implementation" aria-controls="Implementation" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Implementation</span>
-														<!--<p>Implementation</p>-->
-														</a></li>
-														<li role="presentation"><a href="#OperationsandMaintenance" aria-controls="OperationsandMaintenance" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Operations and Maintenance</span>
-														<!--<p>Operations and Maintenance</p>-->
-														</a></li>
-														<li role="presentation"><a href="#Disposition" aria-controls="Disposition" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i><span>Disposition</span>
-														<!--<p>Disposition</p>-->
-														</a></li>
+								<div class="intro">
+								  <div class="vc_banner block">								
+										  <div class="vc_metro-wrapper">
+											<div class="vc_metro-slider-outer">
+											  <div class="viewport">
+												<div class="overview">
+												  <div class="vc_metro-slider">
+													<ul>
+													  <li class="odd">
+														<ul>
+														  <li class="box type-1 anim-slide-right"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_01.png">
+															<div class="mouse-over">
+															  <div class="content">
+																<div class="text">
+																  <h2> FIND OUT <span class="vc_main-color"> ABOUT US </span> </h2>
+																  <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+																 
+																</div>
+															  </div>
+															</div>
+															</a> </li>
+														</ul>
+													  </li>
+													  <li class="even">
+														<ul>
+														  <li class="box type-2 anim-slide-left"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_02.png">
+															<div class="mouse-over bg-none">
+															  <div class="content">
+																<div class="text">
+																  <h2> COLLECT <span class="vc_main-color"> CLIENTS NEEDS </span> </h2>
+																  <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.. </p>
+																</div>
+															  </div>
+															</div>
+															</a> </li>
+														  <li class="box type-3 anim-rotate"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_03.png">
+															<div class="mouse-over bg-none">
+															  <div class="content"> <img alt="example image" src="assets/images/metro-img/web_design_hover_03.png"> </div>
+															</div>
+															</a> </li>
+														  <li class="box type-3 none"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_04.png"> </a> </li>
+														  <li class="box type-3 anim-hover"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_05.png">
+															<div class="mouse-over bg-none">
+															  <div class="content"> <img alt="example image" src="assets/images/metro-img/web_design_hover_05.png"> </div>
+															</div>
+															</a> </li>
+														  <li class="box type-2  anim-slide-top"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_06.png">
+															<div class="mouse-over  bg-none">
+															  <div class="content">
+																<div class="text">
+																  <h2> PLAN TO MAXIMIZE <span class="vc_main-color"> WEBSITE PURPOSE </span> </h2>
+																  <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.. </p>
+																</div>
+															  </div>
+															</div>
+															</a> </li>
+														  <li class="box type-3 none"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_07.png"> </a> </li>
+														</ul>
+													  </li>
+													  <li class="odd">
+														<ul>
+														  <li class="box type-1  anim-slide-left"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_08.png">
+															<div class="mouse-over bg-none">
+															  <div class="content">
+																<div class="text">
+																  <h2> DESIGNING <span class="vc_main-color"> &amp; TEMPLATING </span> </h2>
+																  <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+																  
+																</div>
+															  </div>
+															</div>
+															</a> </li>
+														</ul>
+													  </li>
+													  <li class="even">
+														<ul>
+														  <li class="box type-2 anim-hover"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_09.png">
+															<div class="mouse-over">
+															  <div class="content">
+																<div class="text">
+																  <h2> Code <span class="vc_main-color"> Developing </span> </h2>
+																  <p> Hover With Alpha Background </p>
+																
+																</div>
+															  </div>
+															</div>
+															</a> </li>
+														  <li class="box type-3 anim-rotate"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_10.png">
+															<div class="mouse-over">
+															  <div class="content">
+																<div class="text">
+																  <h2> Boost <span class="vc_main-color"> Sales </span> </h2>
+																  <p> Flip with Alpha Background </p>
+																</div>
+															  </div>
+															</div>
+															</a> </li>
+														  <li class="box type-3 none"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_11.png"> </a> </li>
+														  <li class="box type-3 none"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_12.png"> </a> </li>
+														  <li class="box type-2  anim-slide-bottom"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_13.png">
+															<div class="mouse-over">
+															  <div class="content">
+																<div class="text">
+																  <h2> Testing Your <span class="vc_main-color"> Website </span> </h2>
+																  <p> Slide with Alpha Background </p>
+																</div>
+															  </div>
+															</div>
+															</a> </li>
+														  <li class="box type-3  anim-slide-left"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_14.png">
+															<div class="mouse-over bg-none">
+															  <div class="content"> <img alt="example image" src="assets/images/metro-img/web_design_hover_14.png"> </div>
+															</div>
+															</a> </li>
+														</ul>
+													  </li>
+													  <li class="odd">
+														<ul>
+														  <li class="box type-1 anim-rotate"> <a href="javascript:void(0)"> <img alt="example image" src="assets/images/metro-img/web_design_15.png">
+															<div class="mouse-over">
+															  <div class="content">
+																<div class="text">
+																  <h2> Your Website <span class="vc_main-color"> Live! </span> </h2>
+																  <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+																</div>
+															  </div>
+															</div>
+															</a> </li>
+														</ul>
+													  </li>
 													</ul>
-													<!-- end design process steps--> 
-													<!-- Tab panes -->
-													<div class="tab-content">
-													  <div role="tabpanel" class="tab-pane active" id="Initiation">
-														<div class="design-process-content">
-															<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-															<h3 class="semi-bold">Initiation</h3>
-															<p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-															<h6 class="tech_icons">Technology Used</h6>
-															<ul class="skill_icon">
-																<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Project"><img src="assets/images/services/project.png" alt="" class="img-responsive"></li>
-																<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Excel"><img src="assets/images/services/excel.png" alt="" class="img-responsive"></li>
-																<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="JIRA Software"><img src="assets/images/services/jira.png" alt="" class="img-responsive"></li>             
-															</ul>
-														 </div>
-													  </div>
-													  <div role="tabpanel" class="tab-pane" id="SystemConceptDevelopment">
-														<div class="design-process-content">
-														<i class="fa fa-file-code-o" aria-hidden="true"></i>
-														  <h3 class="semi-bold">System Concept Development</h3>
-														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-														  <h6 class="tech_icons">Technology Used</h6>
-														  <ul class="skill_icon">
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Visio"><img src="assets/images/services/visio.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Project"><img src="assets/images/services/project.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="HTML"><img src="assets/images/services/html.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="JIRA Software"><img src="assets/images/services/jira.png" alt="" class="img-responsive"></li>
-														  </ul>
-														</div>
-													  </div>
-													  <div role="tabpanel" class="tab-pane" id="Planning">
-														<div class="design-process-content">
-														<i class="fa fa-cog" aria-hidden="true"></i>
-														  <h3 class="semi-bold">Planning</h3>
-														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-														  <h6 class="tech_icons">Technology Used</h6>
-														  <ul class="skill_icon">
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Angular"><img src="assets/images/services/angular.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Codeigniter"><img src="assets/images/services/codeigniter.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="HTML"><img src="assets/images/services/html.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Bootstrap"><img src="assets/images/services/bootstrap.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="CSS"><img src="assets/images/services/css.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="GitHub"><img src="assets/images/services/github.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="NodeJS"><img src="assets/images/services/node.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="JIRA Software"><img src="assets/images/services/jira.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Dreamweaver"><img src="assets/images/services/dreamweaver.png" alt="" class="img-responsive"></li>
-														  </ul>
-														</div>
-													  </div>
-													  <div role="tabpanel" class="tab-pane" id="RequirementsAnalysis">
-														<div class="design-process-content">
-														<i class="fa fa-file-text-o" aria-hidden="true"></i>
-														  <h3 class="semi-bold">Requirements Analysis</h3>
-														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-														  <h6 class="tech_icons">Technology Used</h6>
-														  <ul class="skill_icon">
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="JIRA Software"><img src="assets/images/services/jira.png" alt="" class="img-responsive"></li>
-														  </ul>
-														  </div>
-													  </div>
-													  <div role="tabpanel" class="tab-pane" id="Design">
-														<div class="design-process-content">
-														<i class="fa fa-globe" aria-hidden="true"></i>
-														  <h3>Design</h3>
-														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-														  <h6 class="tech_icons">Technology Used</h6>
-														  <ul class="skill_icon">
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="inmotion"><img src="assets/images/services/inmotion.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="GoDaddy"><img src="assets/images/services/godaddy.png" alt="" class="img-responsive"></li>
-														  </ul>
-													  </div>
-													</div>
-													<div role="tabpanel" class="tab-pane" id="Development">
-														<div class="design-process-content">
-														<i class="fa fa-cogs" aria-hidden="true"></i>
-														  <h3>Development</h3>
-														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-														  <h6 class="tech_icons">Technology Used</h6>
-														  <ul class="skill_icon">
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Slack"><img src="assets/images/services/slack.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="JIRA Software"><img src="assets/images/services/jira.png" alt="" class="img-responsive"></li>
-														  </ul>
-													  </div>
-													</div>
-													<div role="tabpanel" class="tab-pane" id="IntegrationandTest">
-														<div class="design-process-content">
-														  <h3>Integration and Test</h3>
-														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-														  <h6 class="tech_icons">Technology Used</h6>
-														  <ul class="skill_icon">
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Slack"><img src="assets/images/services/slack.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="JIRA Software"><img src="assets/images/services/jira.png" alt="" class="img-responsive"></li>
-														  </ul>
-													  </div>
-													</div>
-													<div role="tabpanel" class="tab-pane" id="Implementation">
-														<div class="design-process-content">
-														<i class="fa fa-cogs" aria-hidden="true"></i>
-														  <h3>Implementation</h3>
-														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-														  <h6 class="tech_icons">Technology Used</h6>
-														  <ul class="skill_icon">
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Slack"><img src="assets/images/services/slack.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="JIRA Software"><img src="assets/images/services/jira.png" alt="" class="img-responsive"></li>
-														  </ul>
-													  </div>
-													</div>
-													<div role="tabpanel" class="tab-pane" id="OperationsandMaintenance">
-														<div class="design-process-content">
-														<i class="fa fa-cogs" aria-hidden="true"></i>
-														  <h3>Operations and Maintenance</h3>
-														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-														  <h6 class="tech_icons">Technology Used</h6>
-														  <ul class="skill_icon">
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Slack"><img src="assets/images/services/slack.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="JIRA Software"><img src="assets/images/services/jira.png" alt="" class="img-responsive"></li>
-														  </ul>
-													  </div>
-													</div>
-													<div role="tabpanel" class="tab-pane" id="Disposition">
-														<div class="design-process-content">
-														<i class="fa fa-cogs" aria-hidden="true"></i>
-														  <h3>Disposition</h3>
-														  <p class="padding_15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-														  <h6 class="tech_icons">Technology Used</h6>
-														  <ul class="skill_icon">
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Slack"><img src="assets/images/services/slack.png" alt="" class="img-responsive"></li>
-															<li title="" data-toggle="tooltip" data-placement="bottom" data-original-title="JIRA Software"><img src="assets/images/services/jira.png" alt="" class="img-responsive"></li>
-														  </ul>
-													  </div>
-													</div>
-												  </div>
-												  
-												<!-- Bootstrap Accordion -->
-												<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"></div>
-												<!-- /Bootstrap Accordion -->
-												<div class="clearfix"></div>
-			
-			
+												  </div>								 
 												</div>
 											  </div>
-											</section>
-										<div class="clearfix"></div>
-										<!-- End process Section -->
-									</div>
+											  <div class="scrollbar">
+												<div class="track">
+												  <div class="thumb vc_bg-color">
+													<div class="btn-slide"> </div>
+													<div class="end"> </div>
+												  </div>
+												</div>
+											  </div>
+											</div>
+										  </div>								
+								  </div>
+									<div class="clearfix"></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	</div>
-</div>
 </div>
 <?php include("footer.php"); ?>

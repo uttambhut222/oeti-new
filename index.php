@@ -29,7 +29,7 @@
 			</div>
 		</div>
 	</div>
-	<div data-anchor="AboutOpenEyes" class="pp-scrollable section section-2" style="background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(assets/images/bg/aboutbg.jpg);background-attachment: scroll;background-size:cover;">
+	<div data-anchor="AboutOpenEyes" class="pp-scrollable section section-2" style="background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/aboutbg.jpg);background-attachment: scroll;background-size:cover;">
 		<div class="scroll-wrap">
 			<div class="scrollable-content">
 				<div class="vertical-centred">
@@ -173,7 +173,7 @@
 	</div>
 	<div data-anchor="ourservices" class="pp-scrollable text-white section section-6">
 		<div class="scroll-wrap">
-			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(assets/images/bg/servicesbg.png);background-attachment: fixed;"></div>
+			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/servicesbg.png);background-attachment: fixed;"></div>
 			<div class="scrollable-content">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
@@ -307,8 +307,8 @@
 										<div class="col-md-4">
 											<div class="col-resume">
 												<h6 class="resume-title">
-                              CLOUD COMPUTING
-                            </h6>
+												  CLOUD COMPUTING
+												</h6>
 											
 												<div class="resume-content">
 													<div class="resume-inner">
@@ -325,11 +325,22 @@
 												</div>
 											</div>
 										</div>
+										
 										<div class="col-md-4">
+											<div class="Services_grid">
+												<a href="Services" class="view_all_services">
+													<h5>For Our More Services</h5>
+													<div class="service-category">Click here</div>
+													<div class="banner_btn"><i class="fa fa-plus"></i></div>
+												</a>
+											</div>
+										</div>										
+										
+										<!--<div class="col-md-4">
 											<div class="col-resume">
 												<h6 class="resume-title">
-                              DATA ANALYTICS
-                            </h6>
+												  DATA ANALYTICS
+												</h6>
 											
 												<div class="resume-content">
 													<div class="resume-inner">
@@ -345,7 +356,8 @@
 													</div>
 												</div>
 											</div>
-										</div>
+										</div>-->
+										
 										<div class="col-md-12 text-center"><a href="Services" class="view_more">View More</a>
 										</div>
 									</div>
@@ -359,7 +371,7 @@
 	</div>
 	<div data-anchor="ourclients" class="pp-scrollable section section-4">
 		<div class="scroll-wrap">
-		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/images/bg/ourclients.jpg);background-attachment: fixed;"></div>
+		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/images/bg/ourclients.jpg);background-attachment: fixed;"></div>
 			<div class="scrollable-content">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">

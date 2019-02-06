@@ -3,7 +3,7 @@
 <div class="pagepiling">
 	<div class="pp-scrollable section timeline">
 		<div class="scroll-wrap">
-		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(assets/images/bg/Milestonesbg.jpg);background-attachment: fixed;"></div>
+		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/Milestonesbg.jpg);background-attachment: fixed;"></div>
 			<div class="scrollable-content">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">

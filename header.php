@@ -1,5 +1,5 @@
 <?php
-     //settings
+/*     //settings
     $cache_ext  = '.html'; //file extension
     $cache_time     = 3600;  //Cache file expires afere these seconds (1 hour = 3600 sec)
     $cache_folder   = 'cache/'; //folder to store Cache files
@@ -18,7 +18,7 @@
     }
     //Turn on output buffering with gzip compression.
     ob_start('ob_gzhandler');
-    ######## Your Website Content Starts Below ######### 
+    ######## Your Website Content Starts Below ######### */ 
 	?>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -36,6 +36,13 @@
 	<link type="text/css" rel="stylesheet" href="assets/css/flaticon.css"/>
 	<link type="text/css" rel="stylesheet" href="assets/css/sweetalert2.min.css"/>
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	
+	
+	<!-- start style for process slider -->
+	<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+	<!-- end style for process slider -->
+	
+	
 </head>
 <body class="body-full-page">
 	<div class="loader">
@@ -51,36 +58,36 @@
     <div class="menu"> 
       <span class="close-menu icon-cross2 right-boxed"></span>	  
 	  <ul class="nav">
-		<li class="dropdown">
-		  <a href="AboutUs" class="dropdown-toggle" data-toggle="dropdown">Who<b class="caret"></b></a>
+		<li class="dropdown" id="who">
+		  <a href="AboutUs" class="dropdown-toggle hvr-sweep-to-right" data-toggle="dropdown">Who<b class="caret"></b></a>
 		  <ul class="dropdown-menu">
-		  <li><a href="AboutUs"><i class="fa fa-angle-right"></i>About Us</a></li>
-			<li><a href="Milestones"><i class="fa fa-angle-right"></i>Milestones</a></li>
-				<li><a href="VisionMission"><i class="fa fa-angle-right"></i>Vision & Mission</a></li>
-				<li><a href="Family"><i class="fa fa-angle-right"></i>Family</a></li>
+		  <li id="aboutus"><a href="AboutUs"><i class="fa fa-angle-right"></i>About Us</a></li>
+			<li id="milestone"><a href="Milestones"><i class="fa fa-angle-right"></i>Milestones</a></li>
+				<li id="visionmission"><a href="VisionMission"><i class="fa fa-angle-right"></i>Vision & Mission</a></li>
+				<li id="Family"><a href="Family"><i class="fa fa-angle-right"></i>Family</a></li>
 		  </ul>
 		</li>		
-		<li>
-			<a href="Services">What</a>
+		<li id="What">
+			<a href="Services" class="hvr-sweep-to-right">What</a>
         </li>
-        <li>
-			<a href="Portfolio">Work</a>
+        <li id="Work">
+			<a href="Portfolio" class="hvr-sweep-to-right">Work</a>
         </li>
-        <li>
-			<a href="Process">How</a>
+        <li id="How">
+			<a href="Process" class="hvr-sweep-to-right">How</a>
         </li>
-		 <li>
-			<a href="OurClients">Whom</a>
+		<li id="Whom">
+			<a href="OurClients" class="hvr-sweep-to-right">Whom</a>
         </li>                          
-		<li class="dropdown">
-		  <a href="WhyUs" class="dropdown-toggle" data-toggle="dropdown">Why<b class="caret"></b></a>
+		<li class="dropdown" id="Why">
+		  <a href="WhyUs" class="dropdown-toggle hvr-sweep-to-right" data-toggle="dropdown">Why<b class="caret"></b></a>
 		  <ul class="dropdown-menu">
-		  <li><a href="WhyUs"><i class="fa fa-angle-right"></i>Choose Us</a></li>
-			<li><a href="Career"><i class="fa fa-angle-right"></i>Career</a></li>
+		  <li id="chooseus"><a href="WhyUs"><i class="fa fa-angle-right"></i>Choose Us</a></li>
+			<li id="career"><a href="Career"><i class="fa fa-angle-right"></i>Career</a></li>
 		  </ul>
 		</li>  
-		<li>
-		  <a href="index#ContactUs">Where</a>
+		<li id="Where">
+		  <a href="index#ContactUs" class="hvr-sweep-to-right">Where</a>
 		</li> 		
 	  </ul> 	  
     </div>	
@@ -96,12 +103,12 @@
 		<div class="content_form">
 			<a class="inquire_now">Contact us</a>
 		</div>
-		<ul class="social_links header_links">
+		<!--<ul class="social_links header_links">
 			<li><a href="https://twitter.com/OpenEyesTech" target="_blank"><i class="flaticon-twitter-logo-silhouette"></i></a>
 			</li>
 			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a>
 			</li>
-		</ul>
+		</ul>-->
 		<a class="brand" href="index#WelcomeOpenEyes">
         <img class="brand-img" alt="" src="assets/images/brand.png">
       </a>
