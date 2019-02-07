@@ -11,7 +11,7 @@
 					<div class="boxed boxed-inner">
 						<div class="vertical-title text-white hidden-xs hidden-sm"><span>Why to choose us</span>
 						</div>
-						<div class="boxed">
+						<div class="boxed chooseus">
 							<div class="container">
 								<div class="intro">
 									<div class="row">

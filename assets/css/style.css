@@ -636,7 +636,7 @@ header .content_form .inquire_now{margin: 25px 60px 0px 0px;cursor:pointer;}
     height: 725px;
     position: absolute;
     border-radius: 100%;
-       top: -115px;
+       top: -30px;
     left: -55px;
     right: 0;
     margin: auto;
@@ -653,7 +653,7 @@ header .content_form .inquire_now{margin: 25px 60px 0px 0px;cursor:pointer;}
 		bottom:0;
 		border-radius:100%;
 		z-index:20;
-		margin: -50px auto;
+		margin: 30px auto;
 	}
 
 	.dotCircle  .itemDot{
@@ -929,7 +929,7 @@ border-color:#fff;
 		margin: auto;
 		/* background: #00000054; */
 		line-height: 0px;
-		padding: 8% 12%;
+		padding: 25% 10%;
 	}
 	.contentCircle .CirItem p{margin-bottom: 20px;
     font-weight: 500;}
@@ -1065,6 +1065,7 @@ border-color:#fff;
 .container.process_container{width:100%;}
 .boxed.process_boxed{padding:0px 10px;}
 .pp-scrollable .vertical-centred.process_verticle{padding-top:75px;}
+.boxed.chooseus{padding-bottom:150px;}
 /*====== end process section css =====*/
 
 
@@ -1104,21 +1105,16 @@ border-color:#fff;
 .owl-carousel .owl-nav div.owl-next{right:0px;left:auto;}
 /* .owl-carousel .owl-nav div.owl-prev{opacity: 0.75;font-size: 30px;font-weight: bold;width: 32px;height: 32px;display: inline-block;position: absolute;left: -50px;line-height: 34px;top: 40%;background-size: 100%;color: #0061af;background: #fff;text-align: center;} 
 .owl-carousel .owl-nav div.owl-next{opacity: 0.75;font-size: 30px;font-weight: bold;width: 32px;height: 32px;display: inline-block;position: absolute;right: -15px;top: 40%;background-size: 100%;color: #0061af;background: #fff;text-align: center;line-height: 34px;} 	 */
-.work_wrapper .owl_carousel_services .owl-item .caption{/* box-shadow:0 0 3px #f5f5f5;position: absolute;text-shadow:none;color:#000;top: 25%;text-align: left;background: rgba(255, 255, 255, 0.75);width: 40%;padding: 25px;left: 3%; */
-box-shadow: 0 0 3px #000000;
-    position: absolute;
-    text-shadow: none;
-    color: #fff;
-    top: 25%;
-    text-align: left;
-    background: rgba(0, 0, 0, 0.75);
-    width: 40%;
-    padding: 0px;
-    left: 3%;
-}
+.work_wrapper .owl_carousel_services .owl-item .caption{box-shadow:0 0 3px #f5f5f5;position: absolute;text-shadow:none;color:#000;top: 35%;text-align: left;background: rgba(255, 255, 255, 0.65);width: 40%;padding: 20px;left: 3%;}
 
 
+
+.work_wrapper .vc_metro-slider-outer .viewport{height:350px;}
 .work_wrapper .vc_metro-slider-outer .scrollbar{display:none;}
+.work_wrapper .owl_carousel_services .caption .vc_metro-slider img{width:100%;}
+
+
+
 
 
 .slider .owl_carousel_services .owl-item .technology_used ul li{display: inline-block;margin: 0px 0px 0px 8px;background: rgba(255, 255, 255, 0.5);;width: 32px;height: 32px;padding: 7px;border-radius: 50%;text-align: center;border: 1px dashed;}
@@ -1158,7 +1154,7 @@ box-shadow: 0 0 3px #000000;
 .slider	.view_all_services{position: fixed;bottom: 0%;left: 50%;z-index: 10;}
 .slider	.view_all_services .banner_btn{padding:6px 10px;opacity: 0.85;margin-bottom: 35px;}
 .boxed .row-project-box .view_more_box .view_all_works .banner_btn,.boxed .row-partners .view_more_clients .view_all_clients .banner_btn{opacity: 0.85;background: #a6ce39;color: #ffffff;border-radius: 50%;width: 35px;height: 35px;text-align: center;padding: 0px;line-height: 33px;}
-.boxed .row-project-box .view_more_box .view_all_works,.boxed .row-partners .view_more_clients .view_all_clients{transition: all 0.3s ease;border: 1px solid #fff;background: linear-gradient( rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65) );margin-top: 30px;text-align: center;padding: 12px 15px;}
+.boxed .row-project-box .view_more_box .view_all_works,.boxed .row-partners .view_more_clients .view_all_clients{transition: all 0.3s ease;border: 1px solid #fff;background: linear-gradient( rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65) );margin-top: 10px;text-align: center;padding: 12px 15px;}
 .boxed .row-partners .view_more_clients .view_all_clients h5{margin: 15px 0px;font-size: 18px;}
 .boxed .row-project-box .view_more_box .view_all_works.project-box{border:0px;transition: all 0.3s ease;padding:40px 0px;}
 .boxed .row-project-box .view_more_box .view_all_works.project-box h5{color:#222;}
@@ -1166,7 +1162,7 @@ box-shadow: 0 0 3px #000000;
 .boxed .row-project-box .view_more_box .view_all_works.project-box:hover{color:#fff;background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) );}
 .boxed .row-project-box .view_more_box .view_all_works .project-category,.boxed .row-partners .view_more_clients .view_all_clients .project-category{color: #222;font-weight: 600;margin-bottom: 14px;}
 .project-date{color:#a6ce39}
-.col-project-box{position:relative; margin-bottom:20px;}
+.col-project-box{position:relative; margin-bottom:10px;}
 .col-project-box .project-box-inner i{background: none;width: 40px;color:#a6ce39;height: 39px;text-align: center;line-height: 40px;font-size: 24px;border-radius: 50%;margin-bottom:15px;}
 .col-project-box .project-box-inner .work_detail i{background:#fff;width: 40px; color:#222;height: 39px; position:absolute; bottom:-20px; left:42%;text-align: center;line-height: 40px;font-size: 20px;border-radius: 50%;margin-bottom:0;}
 .col-project-box .project-box-inner	.banner_btn{border-radius: 50%;height: 45px;width: 45px;text-align: center;line-height: 42px;padding: 0px;}
@@ -1198,6 +1194,10 @@ box-shadow: 0 0 3px #000000;
 .our_team .intro .our_team_wrap .team_member_box:hover img{border: 2px solid #a6ce38;}
 .our_team .intro .our_team_wrap .team_member_box:hover .employee_details{background-color: rgb(255, 255, 255);border: 2px solid #a6ce38;}
 .our_team .intro .our_team_wrap .team_member_box:hover .employee_details h4{color:#a6ce38;}
+
+.our_team .intro .our_team_wrap,.our_services .our_service_wrapper{    padding-bottom: 45px;
+    float: left;
+    width: 100%;}    
 /*====== end ourteam section css =====*/
 
 /*====== start timeline section css =====*/
@@ -3251,7 +3251,7 @@ a.brand:focus{
   }
 
 .row-project-box{
-  margin-top: -30px;}
+  margin-top: 0px;}
 
 .col-project-box{
   margin-top: 30px;}
@@ -6240,7 +6240,7 @@ border: 0px;}
   padding: 0;}
 
 .pp-scrollable .vertical-centred{
-  padding-top: 11.3rem;
+  padding-top: 7rem;
   /* padding-bottom: 7rem; */}
 
 .scroll-wrap{
@@ -6269,7 +6269,7 @@ border: 0px;}
 .boxed-inner{
   position: relative;
   padding:0;
-  padding-bottom: 5rem;}
+  padding-bottom: 0rem;}
 
 .section-bg{
   position: absolute;
@@ -6450,10 +6450,10 @@ border: 0px;}
   }
 
 .row-project-box{
-  margin-top: -30px;}
+  margin-top: 0px;}
 
 .col-project-box{
-  margin-top: 30px;}
+  margin-top: 10px;}
 
 .project-box{
   display: block;
