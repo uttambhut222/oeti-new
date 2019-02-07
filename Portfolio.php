@@ -1,7 +1,9 @@
-<?php include("header.php");?>
+<?php include("head.php"); ?>
+<?php include("menu.php"); ?>
 <?php include("inquire_form.php"); ?>
 <div class="pagepiling">
 	<div class="pp-scrollable section work_wrapper">
+	<?php include("header.php");?>
 		<div class="scroll-wrap">
 			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/workbg.jpeg);background-attachment: fixed;"></div>
 			<div class="scrollable-content position_contact">

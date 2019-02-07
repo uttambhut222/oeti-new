@@ -119,6 +119,9 @@ $(document).ready(function() {
 	case '/Portfolio':
         $('#Work').addClass('active');
 	break;
+	case '/PortfolioDetail':
+        $('#Work').addClass('active');
+	break;
 	case '/Process':
         $('#How').addClass('active');
 	break;	

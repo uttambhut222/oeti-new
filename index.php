@@ -1,8 +1,10 @@
-<?php include("header.php");?>
+<?php include("head.php"); ?>
+<?php include("menu.php"); ?>
 <?php include("inquire_form.php"); ?>
 <style>#pp-nav{display:block;}</style>
 <div class="pagepiling">
 	<div data-anchor="welcomeoess" class="pp-scrollable text-white section section-1">
+	<?php include("header.php");?>
 		<div class="scroll-wrap">
 			<!-- <div class="section-bg" style="background-size: cover!important;background:url(assets/images/bg/bg.jpg);"></div> -->
 			<video class="video-fluid" controls="false" autoplay playsinline loop muted poster="assets/images/banner.jpg">

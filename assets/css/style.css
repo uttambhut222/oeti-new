@@ -503,7 +503,7 @@ header .content_form a.inquire_now{display:block;text-decoration:none;float: rig
 .open_db  > .dropdown-menu {
     display: block;
 }
-header .content_form .inquire_now{margin: 25px 30px 0px 0px;cursor:pointer;}
+header .content_form .inquire_now{margin: 25px 60px 0px 0px;cursor:pointer;}
 .navbar-toggle .icon-bar{width: 25px!important;height:3px!important;}
 .navbar-white .navbar-toggle .icon-bar {/* background: #0061af!important; */}
 .navbar-toggle{margin-top:35px!important;}
@@ -5420,7 +5420,9 @@ a.brand:focus{
   height: 100%;
   visibility: hidden;
   z-index: 99;}
-
+.menu_btn{position: fixed;
+  top:15px;
+right: 65px; z-index:999;}
 .menu{
   position: fixed;
   top:0;

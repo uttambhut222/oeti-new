@@ -36,41 +36,8 @@
 <script src="assets/js/index.js"></script>
 
 <script src="assets/js/jquery.roadmap.js"></script>
-<script src="assets/js/cookie-consent.js"></script>
-<script src="assets/js/accordion.js"></script>
-
-
-<!-- start script for process slider -->
-<script type="text/javascript" src="assets/js/modernizr.js"></script>
-<script type="text/javascript" src="assets/js/jquery.js"></script>
-<script type="text/javascript" src="assets/js/tinyscrollbar.js"></script> 
-<script src="assets/js/metro-slider.js" type="text/javascript"></script> 
-<!-- end script for process slider -->
-
-
-<!--<script src="assets/js/jquery-3.3.1.slim.min.js"></script>-->
 <script>
-$(document).ready(function() {
-
-if(window.location.href.indexOf("Process") > -1) {
-		getAccordion("#tabs",993);
-	 }
-	 });
-</script>
-<script>
-	$( "#inquiry_submit" ).click( function () {
-		var recaptcha = document.forms[ "inquireform" ][ "g-recaptcha-response" ];
-		recaptcha.required = true;
-		recaptcha.oninvalid = function ( e ) {
-			$( ".inquire_error" ).css( "display", "block" );
-		};
-	} )
-	var vids = $( "video" );
-	$.each( vids, function () {
-		this.controls = false;
-	} );
-	
-	//timeline js
+//timeline js
 	var events = [{
                     date: 'Aug 2018',
                     content: 'New Office Launch <small>We keep moving forward, opening new doors, and doing new things, because we are curious and curiosity keeps leading us down new paths.</small>'
@@ -107,6 +74,42 @@ if(window.location.href.indexOf("Process") > -1) {
                 prevArrow: '<i class="fa fa-chevron-left"></i>',
                 nextArrow: '<i class="fa fa-chevron-right"></i>'
             });
+</script>
+<script src="assets/js/cookie-consent.js"></script>
+<script src="assets/js/accordion.js"></script>
+
+
+<!-- start script for process slider -->
+<script type="text/javascript" src="assets/js/modernizr.js"></script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/tinyscrollbar.js"></script> 
+<script src="assets/js/metro-slider.js" type="text/javascript"></script> 
+<!-- end script for process slider -->
+
+
+<!--<script src="assets/js/jquery-3.3.1.slim.min.js"></script>-->
+<script>
+$(document).ready(function() {
+
+if(window.location.href.indexOf("Process") > -1) {
+		getAccordion("#tabs",993);
+	 }
+	 });
+</script>
+<script>
+	$( "#inquiry_submit" ).click( function () {
+		var recaptcha = document.forms[ "inquireform" ][ "g-recaptcha-response" ];
+		recaptcha.required = true;
+		recaptcha.oninvalid = function ( e ) {
+			$( ".inquire_error" ).css( "display", "block" );
+		};
+	} )
+	var vids = $( "video" );
+	$.each( vids, function () {
+		this.controls = false;
+	} );
+	
+	
 	
 </script>
 

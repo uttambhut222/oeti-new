@@ -1,7 +1,9 @@
-<?php include("header.php");?>
+<?php include("head.php"); ?>
+<?php include("menu.php"); ?>
 <?php include("inquire_form.php"); ?>
 <div class="pagepiling">
 	<div class="pp-scrollable section why_us">
+	<?php include("header.php");?>
 		<div class="scroll-wrap">
 		<div class="section-bg" style="background:url(assets/images/processpattern.png) repeat;background-attachment: fixed;"></div>
 			<div class="scrollable-content">
