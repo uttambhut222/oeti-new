@@ -10,6 +10,10 @@ let i=2;
 
 	
 	$(document).ready(function(){
+		$('.dotCircle').css({
+				"transform":"rotate("+(360)+"deg)",
+				"transition":"2s"
+			});
 		var radius = 500;
 		var fields = $('.itemDot');
 		var container = $('.dotCircle');
