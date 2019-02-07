@@ -1,7 +1,9 @@
-<?php include("header.php");?>
+<?php include("head.php"); ?>
+<?php include("menu.php"); ?>
 <?php include("inquire_form.php"); ?>
 <div class="pagepiling portfoliodetail">
 <div class="pp-scrollable section work_wrapper">
+<?php include("header.php");?>
 		<div class="scroll-wrap">
 	<div class="slider">
 		<div class="view_all_services">
