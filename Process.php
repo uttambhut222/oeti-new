@@ -5,12 +5,12 @@
 		<div class="scroll-wrap">
 		<div class="section-bg" style="background:url(assets/images/processpattern.png) repeat;background-attachment: fixed;"></div>
 			<div class="scrollable-content">
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
+				<div class="vertical-centred process_verticle">
+					<!--<div class="boxed boxed-inner">
 						<div class="vertical-title text-dark hidden-xs hidden-sm"><span>How we Work</span>
-						</div>
-						<div class="boxed">
-							<div class="container">
+						</div>-->
+						<div class="boxed process_boxed">
+							<div class="container process_container">
 								<div class="intro">
 								  <div class="vc_banner block">								
 										  <div class="vc_metro-wrapper">

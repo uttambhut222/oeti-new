@@ -537,7 +537,7 @@ header .content_form .inquire_now{margin: 25px 30px 0px 0px;cursor:pointer;}
   left: 0;
   right: 0;
   bottom: 0;
-  background: #0061af;
+  background: rgba(0, 97, 175, 0.65);
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -1032,9 +1032,39 @@ border-color:#fff;
 	
 	}
 	
-	@media only screen and (min-width: 1500px) {
-	
+	/* @media only screen and (min-width: 1500px) {
+		.contentCircle .CirItem{padding:0% 10%;}
+		.contentCircle{width: 450px;
+    height: 450px;}
+	.holderCircle:before {
+    width: 575px;
+    height: 575px;}
+	.holderCircle {
+    width: 450px;
+    height: 450px;}
+	.dotCircle .itemDot{line-height:80px;width:80px;height:80px;}
+	.dotCircle .itemDot::before{height:85px;width:85px;}
+	.dotCircle .itemDot::after{height:82px;width:82px;}
 	}
+	
+	@media only screen and (min-width: 2000px) {
+		.contentCircle .CirItem{padding:2% 10%;}
+		.contentCircle{width: 600px;
+    height: 600px;}
+	.holderCircle:before {
+    width: 725px;
+    height: 725px;}
+	.holderCircle {
+    width: 600px;
+    height: 600px;}
+	.dotCircle .itemDot{line-height:90px;width:90px;height:90px;}
+	.dotCircle .itemDot::before{height:90px;width:90px;}
+	.dotCircle .itemDot::after{height:87px;width:87px;}
+	} */
+	
+.container.process_container{width:100%;}
+.boxed.process_boxed{padding:0px 10px;}
+.pp-scrollable .vertical-centred.process_verticle{padding-top:75px;}
 /*====== end process section css =====*/
 
 
@@ -1074,7 +1104,23 @@ border-color:#fff;
 .owl-carousel .owl-nav div.owl-next{right:0px;left:auto;}
 /* .owl-carousel .owl-nav div.owl-prev{opacity: 0.75;font-size: 30px;font-weight: bold;width: 32px;height: 32px;display: inline-block;position: absolute;left: -50px;line-height: 34px;top: 40%;background-size: 100%;color: #0061af;background: #fff;text-align: center;} 
 .owl-carousel .owl-nav div.owl-next{opacity: 0.75;font-size: 30px;font-weight: bold;width: 32px;height: 32px;display: inline-block;position: absolute;right: -15px;top: 40%;background-size: 100%;color: #0061af;background: #fff;text-align: center;line-height: 34px;} 	 */
-.owl_carousel_services .owl-item .caption{box-shadow:0 0 3px #f5f5f5;position: absolute;text-shadow:none;color:#000;top: 25%;text-align: left;background: rgba(255, 255, 255, 0.75);width: 40%;padding: 25px;left: 3%;}
+.work_wrapper .owl_carousel_services .owl-item .caption{/* box-shadow:0 0 3px #f5f5f5;position: absolute;text-shadow:none;color:#000;top: 25%;text-align: left;background: rgba(255, 255, 255, 0.75);width: 40%;padding: 25px;left: 3%; */
+box-shadow: 0 0 3px #000000;
+    position: absolute;
+    text-shadow: none;
+    color: #fff;
+    top: 25%;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.75);
+    width: 40%;
+    padding: 0px;
+    left: 3%;
+}
+
+
+.work_wrapper .vc_metro-slider-outer .scrollbar{display:none;}
+
+
 .slider .owl_carousel_services .owl-item .technology_used ul li{display: inline-block;margin: 0px 0px 0px 8px;background: rgba(255, 255, 255, 0.5);;width: 32px;height: 32px;padding: 7px;border-radius: 50%;text-align: center;border: 1px dashed;}
 .slider .owl_carousel_services .owl-item .caption h3{    margin: 0px 0px 15px 0px;
     font-size: 22px;
@@ -1140,8 +1186,9 @@ border-color:#fff;
 
 /*====== start ourteam section css =====*/
 .our_team .intro .our_team_wrap .team_header h2{text-align:center;margin: 0px 0px 30px 0px;color: #a6ce38;font-weight: 400;font-size: 30px;letter-spacing: 1px;}
-.our_team .intro .our_team_wrap .team_header h3,.career .intro .career_wrapper .career_header h3{text-align:center;margin: 0px 0px 15px 0px;color: #a6ce38;font-weight: 400;font-size: 24px;letter-spacing: 1px;}
-.our_team .intro .our_team_wrap .team_header p,.career .intro .career_wrapper .career_header p{text-align:center;font-size: 15px;margin-bottom: 10px;line-height: 28px;color: #fff;}
+.our_team .intro .our_team_wrap .team_header h3,.career .intro .career_wrapper .career_header h3{text-align:center;margin: 0px 0px 15px 0px;color: #a6ce38;font-weight: 400;font-size: 22px;letter-spacing: 1px;}
+.our_team .intro .our_team_wrap .team_header p,.career .intro .career_wrapper .career_header p{text-align:center;font-size: 14px;margin-bottom: 10px;line-height: 28px;color: #fff;}
+.career .intro .career_wrapper .career_header p a{color:#a4cc3a;}
 .our_team .intro .our_team_wrap .team_member_box{transition: all 0.5s ease-in-out;text-align:center;cursor:pointer;}
 .our_team .intro .our_team_wrap .team_member_box img{transition: all 0.5s ease-in-out;background: hsl(0, 0%, 100%) none repeat scroll 0 0;border-radius: 50%;padding: 2px;position: relative;top: 50px;width: 100px;height:100px;border: 2px solid #0061af;}
 .our_team .intro .our_team_wrap .team_member_box .employee_details{transition: all 0.5s ease-in-out;background-color: rgba(255, 255, 255, 0.85);border: 2px solid #0061af;padding: 30px 5px 15px;}
@@ -1513,7 +1560,7 @@ body.overflow_body{overflow: hidden;}
     padding: 15px 0px;
     text-decoration: none;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 	border-bottom: 1px solid #fff;
     }
@@ -1532,7 +1579,8 @@ body.overflow_body{overflow: hidden;}
         border-top-color: #fff;
     }
 .career .intro .career_wrapper .right_list_box ul{background: rgba(255, 255, 255, 0.1);padding: 5px 15px;margin: 0px;}
-.career .intro .career_wrapper .right_list_box ul li{color: #fff;font-size:13px;}
+.career .intro .career_wrapper .right_list_box ul li{color: #fff;font-size:13px;font-weight: 100;}
+.career .intro .career_wrapper .right_list_box ul li strong{font-size:16px;}
 .career .intro .career_wrapper .right_list_box{border: 1px solid #ffffff;transition: all 0.3s ease;}
 .career .intro .career_wrapper .right_list_box:hover {border: 1px solid #0061af;}
 .career .intro .career_wrapper .right_list_box:hover .apply_btn{background: #0061af;}
@@ -6249,7 +6297,7 @@ border: 0px;}
 .vertical-title span{
   display: block;
   float: right;
-  font-size: 18px;}
+  font-size: 25px;}
 
 .section .intro{
   opacity: 0;

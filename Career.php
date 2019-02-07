@@ -86,7 +86,7 @@
 
 															</ul>
 															<div class="apply_btn">
-															<a class="apply_now"><div class="apply_head">Apply Now</div></a>	
+															<a data-val="Content Writer" class="apply_now" id="content_writer"><div class="apply_head">Apply Now</div></a>	
 														</div>
 														</div>														
 													</div>
@@ -159,7 +159,7 @@
 
 															</ul>
 															<div class="apply_btn">
-															<a class="apply_now"><div class="apply_head">Apply Now</div></a>	
+															<a data-val="US IT Recruiter" class="apply_now" id="usit_recruiter"><div class="apply_head">Apply Now</div></a>	
 														</div>
 														</div>														
 													</div>
@@ -240,7 +240,7 @@
 
 															</ul>
 														<div class="apply_btn">
-															<a class="apply_now"><div class="apply_head">Apply Now</div></a>	
+															<a data-val="Sr. PHP Developer" class="apply_now" id="php_developer"><div class="apply_head">Apply Now</div></a>	
 														</div>
 														</div>														
 													</div>
@@ -333,7 +333,7 @@
 
 															</ul>
 															<div class="apply_btn">
-															<a class="apply_now"><div class="apply_head">Apply Now</div></a>	
+															<a data-val="Lead Co-ordinator" class="apply_now" id="lead_coordinator"><div class="apply_head">Apply Now</div></a>	
 														</div>
 														</div>														
 													</div>
@@ -376,11 +376,11 @@
 						<div class="row">
 						  <div class="col-md-4 col-sm-4">
 							<div class="form-group">
-							  <select name="Position" required>
+							  <select name="Position" id="selectoption" required>
 								<option value="" selected="">*Position Applied For</option>
-								<option value="Sr. PHP Developer">Sr. PHP Developer</option>
-								<option value="Content Writer" >Content Writer</option>
+								<option value="Content Writer">Content Writer</option>
 								<option value="US IT Recruiter">US IT Recruiter</option>
+								<option value="Sr. PHP Developer">Sr. PHP Developer</option>
 								<option value="Lead Co-ordinator">Lead Co-ordinator</option>
 							  </select>
 							</div>
