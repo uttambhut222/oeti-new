@@ -117,7 +117,7 @@ if(window.location.href.indexOf("Process") > -1) {
 </html>
 
 <?php
-/*     if (!is_dir($cache_folder)) { //create a new folder if we need to
+if (!is_dir($cache_folder)) { //create a new folder if we need to
          mkdir($cache_folder);
      }
      if(!$ignore){
@@ -125,6 +125,6 @@ if(window.location.href.indexOf("Process") > -1) {
          fwrite($fp, ob_get_contents()); //write contents of the output buffer in Cache file
          fclose($fp); //Close file pointer
      }
-     ob_end_flush(); //Flush and turn off output buffering  */
+     ob_end_flush(); //Flush and turn off output buffering
 
     ?>

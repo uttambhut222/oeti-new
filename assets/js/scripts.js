@@ -18,7 +18,7 @@ let i=2;
 		var fields = $('.itemDot');
 		var container = $('.dotCircle');
 		var width = container.width();
- radius = width/1.65;
+ radius = width/2.35;
  
 		 var height = container.height();
 		var angle = 36, step = (2*Math.PI) / fields.length;
@@ -256,6 +256,9 @@ $(document).ready(
         nav:true,
         dots: false,
         margin: 0,
+		mouseDrag: false,
+		touchDrag: false,
+		pullDrag: false,
 		/* animateOut: 'fadeOut', */
         stopOnHover : true,
         responsiveClass:true,

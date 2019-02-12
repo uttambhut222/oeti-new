@@ -1,5 +1,5 @@
 <?php
-/*     //settings
+    //settings
     $cache_ext  = '.html'; //file extension
     $cache_time     = 3600;  //Cache file expires afere these seconds (1 hour = 3600 sec)
     $cache_folder   = 'cache/'; //folder to store Cache files
@@ -18,7 +18,7 @@
     }
     //Turn on output buffering with gzip compression.
     ob_start('ob_gzhandler');
-    ######## Your Website Content Starts Below ######### */ 
+    ######## Your Website Content Starts Below #########  
 	?>
 <!DOCTYPE HTML>
 <html lang="en">

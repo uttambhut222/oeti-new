@@ -114,7 +114,7 @@
 													<p>We strive to ensure that innovation is not merely a watchword at OpenEyes Technologies but it is embodied in all our engagements. We ensure that our creative solutions provide our clients with the additional value each time.</p>																												 
 													<img src="assets/images/whyus/w6.png" alt="" class="img-responsive process_vector">
 												</div>
-												<div class="CirItem active CirItem7">
+												<div class="CirItem CirItem7">
 													<h3>Timely delivery</h3>
 													<p>OpenEyes Technologies is very much time conscious and understands the value of timely delivery of projects to its clients, which ensures them to meet their plans and reach market in time. We also believe in quick response to the clients.</p>													
 													<img src="assets/images/whyus/w1.png" alt="" class="img-responsive process_vector">													

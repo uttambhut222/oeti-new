@@ -1,5 +1,5 @@
 var iFrequency = 5000; // slide movement period expressed in miliseconds
-var movement = 2; // how many movement/transition
+var movement = 0; // how many movement/transition
 var pauseOnHover = 1; // 1 = Pause on Hover, 0 = Not Pause on Hover   
 
 
