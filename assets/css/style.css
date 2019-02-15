@@ -1202,7 +1202,7 @@ border-color:#fff;
 
 
 
-
+.slider .owl_carousel_services .owl-item .caption .project_desc ul{margin-bottom:20px!important;}
 
 .slider .owl_carousel_services .owl-item .technology_used ul li{display: inline-block;margin: 0px 0px 0px 8px;background: rgba(255, 255, 255, 0.5);;width: 32px;height: 32px;padding: 7px;border-radius: 50%;text-align: center;border: 1px dashed;}
 .slider .owl_carousel_services .owl-item .caption h3{    margin: 0px 0px 10px 0px;
@@ -1223,9 +1223,9 @@ border-color:#fff;
 
 .slider .owl_carousel_services .owl-item .caption .project_desc ul li{    display: inline-block;
     margin: 0px 8px;
-    text-align: center;}
+    text-align: center; width:20%;}
 .slider .owl_carousel_services .owl-item .caption .project_desc ul li span{text-shadow:1px 1px 0px #9c9c9c;    font-weight: bold;
-    color: #ffffff;
+    color: #000;
     text-align: center;
     font-size: 20px;
     display: block;
@@ -1233,11 +1233,11 @@ border-color:#fff;
 .slider .owl_carousel_services .owl-item .caption .technology_used{    padding: 25px 0px 0px;
     float: left;
     width: 100%;}
-.slider .owl_carousel_services .owl-item .caption .project_desc ul li i{color: #222;
+.slider .owl_carousel_services .owl-item .caption .project_desc ul li i{color: #0061AF;
     font-size: 26px;}
 .slider .owl_carousel_services .owl-item .caption .project_desc ul li h6{text-shadow:1px 1px 0px #9c9c9c;    margin: 0px 0px;
     font-weight: normal;
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
     font-size: 14px;}
 .slider .owl_carousel_services .owl-item .caption .project_desc ul {text-align:center;margin-bottom:0px;}
