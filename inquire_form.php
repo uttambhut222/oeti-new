@@ -181,17 +181,17 @@ if ( isset( $_POST[ 'inquire_submit' ] ) ) {
 <div class="contcact_form">
 	<span class="close-menu icon-cross2 right-boxed"></span>
 	<div class="contact-info">
-		<form action="" method="post" id="inquireform">
+		<form method="post" id="inquireform">
 				<h2>Say Hi to us!</h2>
 				<div class="col-lg-6 col-md-6">
 					<div class="form-group">
-						<input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')"/>
+						<input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength="50" oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')"/>
 						<input type="text" name="MiddleName" id="MiddleName"/>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<div class="form-group">
-						<input type="text" name="LastName" placeholder="*Last Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength=50 oninvalid="this.setCustomValidity('Please enter your valid Last Name')" oninput="setCustomValidity('')"/>
+						<input type="text" name="LastName" placeholder="*Last Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength="50" oninvalid="this.setCustomValidity('Please enter your valid Last Name')" oninput="setCustomValidity('')"/>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -213,18 +213,18 @@ if ( isset( $_POST[ 'inquire_submit' ] ) ) {
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<div class="form-group">
-						<input type="text" name="Email" placeholder="*Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxlength=50 required oninvalid="this.setCustomValidity('Please enter your Email Address in valid format')" oninput="setCustomValidity('')"/>
+						<input type="text" name="Email" placeholder="*Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxlength="50" required oninvalid="this.setCustomValidity('Please enter your Email Address in valid format')" oninput="setCustomValidity('')"/>
 					</div>
 				</div>
 				<div class="clearfix"></div>
 				<div class="col-lg-6 col-md-6">
 					<div class="form-group">
-						<input type="text" name="Phone" placeholder="*Phone Number" pattern="[0-9\-.\s]+" maxlength=13 required oninvalid="this.setCustomValidity('Please enter your Phone Number in xxx.xxx.xxxx format')" oninput="setCustomValidity('')"/>
+						<input type="text" name="Phone" placeholder="*Phone Number" pattern="[0-9\-.\s]+" maxlength="13" required oninvalid="this.setCustomValidity('Please enter your Phone Number in xxx.xxx.xxxx format')" oninput="setCustomValidity('')"/>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<div class="form-group">
-						<input type="text" name="CompanyName" placeholder="Company Name" maxlength=100/>
+						<input type="text" name="CompanyName" placeholder="Company Name" maxlength="100" />
 					</div>
 				</div>
 				<div class="clearfix"></div>

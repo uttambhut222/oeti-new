@@ -1,11 +1,11 @@
-<?php include("head.php"); ?>
-<?php include("menu.php"); ?>
-<?php include("inquire_form.php"); ?>
+<?php include( "head.php"); ?>
+<?php include( "menu.php"); ?>
+<?php include( "inquire_form.php"); ?>
 <div class="pagepiling">
 	<div class="pp-scrollable section our_team">
-	<?php include("header.php");?>
+		<?php include( "header.php");?>
 		<div class="scroll-wrap">
-		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/teambg.jpg);background-attachment: fixed;"></div>
+			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/teambg.jpg);background-attachment: fixed;"></div>
 			<div class="scrollable-content">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
@@ -17,13 +17,13 @@
 									<div class="row">
 										<div class="our_team_wrap">
 											<div class="team_header">
-												<h3>"The people who work at OpenEyes share the vision and values of our community."</h3>											
+												<h3>"The people who work at OpenEyes share the vision and values of our community."</h3>	
 												<p>We’re driven by the idea that the best work is born from diligence, craftsmanship and fun. We brought together smart, talented thinkers and unleashed their combined creativity on the world.</p>
 											</div>
 											<div class="clearfix"></div>
 											<div class="our_team_section">
 												<div class="row">
-												<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/8.jpg">
 															<div class="employee_details">
@@ -94,7 +94,7 @@
 																<span class="employee_designation">Php Developer</span>
 															</div>
 														</div>
-													</div>												
+													</div>
 													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/3.jpg">
@@ -112,7 +112,7 @@
 																<span class="employee_designation">HR Executive</span>
 															</div>
 														</div>
-													</div>													
+													</div>
 													<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
 														<div class="team_member_box">
 															<img alt="" src="assets/images/team/7.jpg">
@@ -145,4 +145,4 @@
 		</div>
 	</div>
 </div>
-<?php include("footer.php"); ?>
+<?php include( "footer.php"); ?>

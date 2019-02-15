@@ -1,49 +1,5 @@
-jQuery(function($) {
-
-    checkCookie_eu();
-
-    function checkCookie_eu()
-    {
-
-        var consent = getCookie_eu("cookies_consent");
-
-        if (consent == null || consent == "" || consent == undefined)
-        {
-            // show notification bar
-            $('#cookie_directive_container').show();
-        }
-
-    }
-
-    function setCookie_eu(c_name,value,exdays)
-    {
-
-        var exdate = new Date();
-        exdate.setDate(exdate.getDate() + exdays);
-        var c_value = escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
-        document.cookie = c_name + "=" + c_value+"; path=/";
-
-        $('#cookie_directive_container').hide('slow');
-    }
-
-
-    function getCookie_eu(c_name)
-    {
-        var i,x,y,ARRcookies=document.cookie.split(";");
-        for (i=0;i<ARRcookies.length;i++)
-        {
-            x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
-            y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
-            x=x.replace(/^\s+|\s+$/g,"");
-            if (x==c_name)
-            {
-                return unescape(y);
-            }
-        }
-    }
-
-    $("#cookie_accept a").click(function(){
-        setCookie_eu("cookies_consent", 1, 30);
-    });
-
-});
+jQuery(function(e){function o(){var o=c("cookies_consent");(null==o||""==o||void 0==o)&&e("#cookie_directive_container").show()}function n(o,n,c){var i=new Date
+i.setDate(i.getDate()+c)
+var t=escape(n)+(null==c?"":"; expires="+i.toUTCString())
+document.cookie=o+"="+t+"; path=/",e("#cookie_directive_container").hide("slow")}function c(e){var o,n,c,i=document.cookie.split(";")
+for(o=0;o<i.length;o++)if(n=i[o].substr(0,i[o].indexOf("=")),c=i[o].substr(i[o].indexOf("=")+1),n=n.replace(/^\s+|\s+$/g,""),n==e)return unescape(c)}o(),e("#cookie_accept a").click(function(){n("cookies_consent",1,30)})})

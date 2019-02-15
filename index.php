@@ -1,18 +1,17 @@
-<?php include("head.php"); ?>
-<?php include("menu.php"); ?>
-<?php include("inquire_form.php"); ?>
-<style>#pp-nav{display:block;}</style>
+<?php include( "head.php"); ?>
+<?php include( "menu.php"); ?>
+<?php include( "inquire_form.php"); ?>
+<!-- <style>#pp-nav{display:block;}</style> -->
 <div class="pagepiling">
 	<div data-anchor="welcomeoess" class="pp-scrollable text-white section section-1">
-	<?php include("header.php");?>
+		<?php include( "header.php");?>
 		<div class="scroll-wrap">
 			<!-- <div class="section-bg" style="background-size: cover!important;background:url(assets/images/bg/bg.jpg);"></div> -->
-			<video class="video-fluid" controls="false" autoplay playsinline loop muted poster="assets/images/banner.jpg">
+			<video class="video-fluid" controls autoplay playsinline loop muted poster="assets/images/banner.jpg">
 				<source src="assets/images/explore.mp4" type="video/mp4">
-				<source src="assets/images/explore.webm" type="video/webm">
-				<source src="assets/images/explore.mov" type="video/mov">
+					<source src="assets/images/explore.webm" type="video/webm">
+						<source src="assets/images/explore.mov" type="video/mov">
 			</video>
-
 			<div class="video_content">
 				<div class="container">
 					<div class="row">
@@ -20,10 +19,8 @@
 							<div class="video_desc">
 								<h5>welcome to</h5>
 								<h2 class="title-uppercase text-white">OpenEyes Technologies Inc.</h2>
-								<p>This could be the beginning of a beautiful relationship.</p>
-								<a href="AboutUs" class="banner_btn">Learn More</a>
-								<div class="clearfix"></div>
-								<a href="#AboutOpenEyes" class="next-section"><i class="fa fa-angle-down"></i></a>
+								<p>This could be the beginning of a beautiful relationship.</p>	<a href="AboutUs" class="banner_btn">Learn More</a>
+								<div class="clearfix"></div>	<a href="#AboutOpenEyes" class="next-section"><i class="fa fa-angle-down"></i></a>
 							</div>
 						</div>
 					</div>
@@ -54,8 +51,7 @@
 											<div class="section_aboutus">
 												<p>At OpenEyes, we pride ourselves on offering our customers responsive, comptent and excellent services.</p>
 												<p>Our customers are the most important part of our business, and we work tirelessly to ensure your complete satisfaction, now and even ever after.</p>
-												<p>Our staffs of highly qualified professionals, with our new internal knowledge base system, ensure that deliveries of products are achieved within the time limits, without inconvenience or damage.</p>
-												<a href="AboutUs" class="view_more">Learn More</a>
+												<p>Our staffs of highly qualified professionals, with our new internal knowledge base system, ensure that deliveries of products are achieved within the time limits, without inconvenience or damage.</p>	<a href="AboutUs" class="view_more">Learn More</a>
 											</div>
 										</div>
 									</div>
@@ -75,8 +71,7 @@
 				<div class="section-bg" style="background-size: cover!important;background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(assets/images/bg/lfbbg.jpg) no-repeat;"></div>
 				<div class="section-bg" style="background-size: cover!important;background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(assets/images/bg/allibg.jpg) no-repeat;"></div>
 				<div class="section-bg" style="background-size: cover!important;background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(assets/images/bg/tedxbg.jpg) no-repeat;"></div>
-				<!--<div class="section-bg" style="background-size: cover!important;background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(assets/images/bg/aerebg.jpg) no-repeat;"></div>-->
-			</div>
+				<!--<div class="section-bg" style="background-size: cover!important;background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(assets/images/bg/aerebg.jpg) no-repeat;"></div>--></div>
 			<div class="scrollable-content">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
@@ -103,7 +98,7 @@
 													<a href="PortfolioDetail?id=1" class="project-box">
 														<div class="project-box-inner">
 															<h5>Assessment Tool</h5>
-															<div class="project-category">Scoring Tool for Assessing Team </div>
+															<div class="project-category">Scoring Tool for Assessing Team</div>
 															<p>ATD has several awards programs and recognizes organizations and individuals who are leading the talent development profession.</p>
 															<div class="read_more_link">Read More</div>
 														</div>
@@ -134,7 +129,7 @@
 														<div class="project-box-inner">
 															<h5>TEDxTysons</h5>
 															<div class="project-category">Coaching Services</div>
-															<p>TEDx is a program of local,self-organized events that bring people together to share a TED-like experience. </p>
+															<p>TEDx is a program of local,self-organized events that bring people together to share a TED-like experience.</p>
 															<div class="read_more_link">Read More</div>
 														</div>
 													</a>
@@ -152,7 +147,8 @@
 													<a href="Portfolio" class="view_all_works project-box">
 														<h5>For Complete Portfolio</h5>
 														<div class="project-category">Click here</div>
-														<div class="banner_btn"><i class="fa fa-plus"></i></div>
+														<div class="banner_btn"><i class="fa fa-plus"></i>
+														</div>
 													</a>
 												</div>
 											</div>
@@ -193,25 +189,31 @@
 												<h6 class="resume-title">
                               CUSTOM SOFTWARE DEVELOPMENT
                             </h6>
-											
 												<div class="resume-content">
 													<div class="resume-inner">
 														<div class="resume-row">
 															<p class="resume-study">We render web development services that combine technology with business concepts to help make your website user friendly. Our expertise in PHP, MySQL, JavaScript, AJAX, CodeIgnitor, Wordpress, MODX and Joomla.</p>
 															<ul class="resume-type">
-																<li title="Angular" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/angular.png">
+																<li title="Angular" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/angular.png">
 																</li>
-																<li title="Node JS" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/node.png">
+																<li title="Node JS" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/node.png">
 																</li>
-																<li title="Codeigniter" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/codeigniter.png">
+																<li title="Codeigniter" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/codeigniter.png">
 																</li>
-																<li title="Laravel" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/laravel.png">
+																<li title="Laravel" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/laravel.png">
 																</li>
-																<li title="MySQL" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/mysql.png">
+																<li title="MySQL" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/mysql.png">
 																</li>
-																<li title="MS SQL Server" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/sqlserver.png">
+																<li title="MS SQL Server" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/sqlserver.png">
 																</li>
-																<li title="Wordpress" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/wp.png">
+																<li title="Wordpress" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/wp.png">
 																</li>
 															</ul>
 														</div>
@@ -224,25 +226,31 @@
 												<h6 class="resume-title">
                               MOBILE APP DEVELOPMENT
                             </h6>
-											
 												<div class="resume-content">
 													<div class="resume-inner">
 														<div class="resume-row">
 															<p class="resume-study">With the advent of mobile technology, apps development industry has seen dramatic changes. We have trained app developers who have hands on experience in developing mobile apps for all kinds of platform, including Android and iOS.</p>
 															<ul class="resume-type">
-																<li title="iOS" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/ios.png">
+																<li title="iOS" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/ios.png">
 																</li>
-																<li title="Android" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/android.png">
+																<li title="Android" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/android.png">
 																</li>
-																<li title="Phonegap" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/phonegap.png">
+																<li title="Phonegap" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/phonegap.png">
 																</li>
-																<li title="Titanium" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/titanium.png">
+																<li title="Titanium" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/titanium.png">
 																</li>
-																<li title="Xamarin" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/xamarin.png">
+																<li title="Xamarin" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/xamarin.png">
 																</li>
-																<li title="Rackspace" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/rackspace.png">
+																<li title="Rackspace" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/rackspace.png">
 																</li>
-																<li title="Digital Ocean" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/do.png">
+																<li title="Digital Ocean" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/do.png">
 																</li>
 															</ul>
 														</div>
@@ -255,25 +263,31 @@
 												<h6 class="resume-title">
                               UI/UX DESIGN STRATEGIES
                             </h6>
-											
 												<div class="resume-content">
 													<div class="resume-inner">
 														<div class="resume-row">
 															<p class="resume-study">Website is often the first impression customers see of your company. With the help of modern design tools our web designers create appealing, exclusive designs that let you stand out from the crowd.</p>
 															<ul class="resume-type">
-																<li title="HTML" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/html.png">
+																<li title="HTML" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/html.png">
 																</li>
-																<li title="Bootstrap" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/bootstrap.png">
+																<li title="Bootstrap" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/bootstrap.png">
 																</li>
-																<li title="CSS" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/css.png">
+																<li title="CSS" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/css.png">
 																</li>
-																<li title="JS" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/js.png">
+																<li title="JS" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/js.png">
 																</li>
-																<li title="Dreamweaver" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/dw.png">
+																<li title="Dreamweaver" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/dw.png">
 																</li>
-																<li title="inVision" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/in.png">
+																<li title="inVision" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/in.png">
 																</li>
-																<li title="Photoshop" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/ps.png">
+																<li title="Photoshop" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/ps.png">
 																</li>
 															</ul>
 														</div>
@@ -286,19 +300,22 @@
 												<h6 class="resume-title">
                               QUALITY ANALYSIS
                             </h6>
-											
 												<div class="resume-content">
 													<div class="resume-inner">
 														<div class="resume-row">
-															<p class="resume-study">Unrivalled quality is the motto of our company and IT services provided by us are in-line with the industry standards. With the help of manual testing and automatic testing, our quality analysts check the websites to ensure proper functionality. </p>
+															<p class="resume-study">Unrivalled quality is the motto of our company and IT services provided by us are in-line with the industry standards. With the help of manual testing and automatic testing, our quality analysts check the websites to ensure proper functionality.</p>
 															<ul class="resume-type">
-																<li title="Jira" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/jira.png">
+																<li title="Jira" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/jira.png">
 																</li>
-																<li title="HP UFT" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/hp.png">
+																<li title="HP UFT" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/hp.png">
 																</li>
-																<li title="Selenium" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/selenium.png">
+																<li title="Selenium" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/selenium.png">
 																</li>
-																<li title="Slack" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/slack.png">
+																<li title="Slack" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/slack.png">
 																</li>
 															</ul>
 														</div>
@@ -311,15 +328,16 @@
 												<h6 class="resume-title">
 												  CLOUD COMPUTING
 												</h6>
-											
 												<div class="resume-content">
 													<div class="resume-inner">
 														<div class="resume-row">
 															<p class="resume-study">Cloud computing is shared pools of configurable computer system resources and higher-level services that can be rapidly provisioned with minimal management effort, often over the Internet.</p>
 															<ul class="resume-type">
-																<li title="Amazon Web Service" data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/aws.png">
+																<li title="Amazon Web Service" data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/aws.png">
 																</li>
-																<li title="MS Azure " data-toggle="tooltip" data-placement="bottom"><img alt="" class="img-responsive" src="assets/images/services/azure.png">
+																<li title="MS Azure " data-toggle="tooltip" data-placement="bottom">
+																	<img alt="" class="img-responsive" src="assets/images/services/azure.png">
 																</li>
 															</ul>
 														</div>
@@ -327,17 +345,16 @@
 												</div>
 											</div>
 										</div>
-										
 										<div class="col-md-4">
 											<div class="Services_grid">
 												<a href="Services" class="view_all_services">
 													<h5>For Our More Services</h5>
 													<div class="service-category">Click here</div>
-													<div class="banner_btn"><i class="fa fa-plus"></i></div>
+													<div class="banner_btn"><i class="fa fa-plus"></i>
+													</div>
 												</a>
 											</div>
-										</div>										
-										
+										</div>
 										<!--<div class="col-md-4">
 											<div class="col-resume">
 												<h6 class="resume-title">
@@ -359,7 +376,6 @@
 												</div>
 											</div>
 										</div>-->
-										
 										<div class="col-md-12 text-center"><a href="Services" class="view_more">View More</a>
 										</div>
 									</div>
@@ -373,7 +389,7 @@
 	</div>
 	<div data-anchor="ourclients" class="pp-scrollable section section-4">
 		<div class="scroll-wrap">
-		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/images/bg/ourclients.jpg);background-attachment: fixed;"></div>
+			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/images/bg/ourclients.jpg);background-attachment: fixed;"></div>
 			<div class="scrollable-content">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
@@ -387,23 +403,38 @@
 											<h2 class="title-uppercase visible-xs visible-sm text-white">Whom we serve</h2>
 											<div class="row-partners">
 												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
-													<div class="partner-inner"><a href="https://www.afponline.org/" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/afp.png"></a>
+													<div class="partner-inner">
+														<a href="https://www.afponline.org/" target="_blank">
+															<img alt="" class="img-responsive" src="assets/images/partners/afp.png">
+														</a>
 													</div>
 												</div>
 												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
-													<div class="partner-inner"><a href="https://www.tedxtysons.com/" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/ted.png"></a>
+													<div class="partner-inner">
+														<a href="https://www.tedxtysons.com/" target="_blank">
+															<img alt="" class="img-responsive" src="assets/images/partners/ted.png">
+														</a>
 													</div>
 												</div>
 												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
-													<div class="partner-inner"><a href="http://td.org" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/atd.png"></a>
+													<div class="partner-inner">
+														<a href="http://td.org" target="_blank">
+															<img alt="" class="img-responsive" src="assets/images/partners/atd.png">
+														</a>
 													</div>
 												</div>
 												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
-													<div class="partner-inner"><a href="https://www.hrci.org/" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/hrci.png"></a>
+													<div class="partner-inner">
+														<a href="https://www.hrci.org/" target="_blank">
+															<img alt="" class="img-responsive" src="assets/images/partners/hrci.png">
+														</a>
 													</div>
 												</div>
 												<div class="col-partner col-lg-4 col-md-4 col-sm-4 col-xs-6">
-													<div class="partner-inner"><a href="http://www.aerexperts.com" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/aere.png"></a>
+													<div class="partner-inner">
+														<a href="http://www.aerexperts.com" target="_blank">
+															<img alt="" class="img-responsive" src="assets/images/partners/aere.png">
+														</a>
 													</div>
 												</div>
 												<div class="col-partner view_more_clients col-lg-4 col-md-4 col-sm-4 col-xs-6">
@@ -411,18 +442,17 @@
 														<a href="OurClients">
 															<h5>For Complete list of Clients</h5>
 															<div class="project-category">Click here</div>
-															<div class="banner_btn"><i class="fa fa-plus"></i></div>
+															<div class="banner_btn"><i class="fa fa-plus"></i>
+															</div>
 														</a>
 													</div>
 												</div>
 												<!-- <div class="col-partner">
 													<div class="partner-inner"><a href="https://www.tedxtysons.com" target="_blank"><img alt="" class="img-responsive" src="assets/images/partners/ted.png"></a>
 													</div>
-												</div> -->
-											</div>
+												</div> --></div>
 											<!--<div class="text-center"> <a href="client" class="read_more">View More</a>
-											</div>-->
-										</div>
+											</div>--></div>
 									</div>
 								</div>
 							</div>
@@ -450,32 +480,37 @@
 										<!-- Map Section -->
 										<div class="footer map_content">
 											<div class="map footer_top">
-
 												<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 													<div class="usa_add2">
-														<div class="country_logo"><img alt="" src="assets/images/united-states-of-america.png">
+														<div class="country_logo">
+															<img alt="" src="assets/images/united-states-of-america.png">
 														</div><strong>USA</strong>
-														<p>1629 K St NW #300<br>Washington DC 20006</p>
-														<!--<p>Telephone : <a href="tel:+1 202.349.5858">+1 202.349.5858</a><br>Email : <a href="mailto:dc@theopeneyes.com">dc@theopeneyes.com</a>-->
-														</p>
+														<p>1629 K St NW #300
+															<br>Washington DC 20006</p>
+														<!--<p>Telephone : <a href="tel:+1 202.349.5858">+1 202.349.5858</a><br>Email : <a href="mailto:dc@theopeneyes.com">dc@theopeneyes.com</a>
+														</p>-->
 													</div>
 												</div>
 												<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 													<div class="usa_add1">
-														<div class="country_logo"><img alt="" src="assets/images/united-states-of-america.png">
+														<div class="country_logo">
+															<img alt="" src="assets/images/united-states-of-america.png">
 														</div><strong>USA</strong>
-														<p>46907 Wesleyan Ct<br>Sterling VA 20164</p>
-														<!--<p>Telephone : <a href="tel:+1 703.957.9525">+1 703.957.9525</a><br>Email : <a href="mailto:virginia@theopeneyes.com">virginia@theopeneyes.com</a>-->
-														</p>
+														<p>46907 Wesleyan Ct
+															<br>Sterling VA 20164</p>
+														<!--<p>Telephone : <a href="tel:+1 703.957.9525">+1 703.957.9525</a><br>Email : <a href="mailto:virginia@theopeneyes.com">virginia@theopeneyes.com</a>
+														</p>-->
 													</div>
 												</div>
 												<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-offset-0 col-md-offset-0 col-sm-offset-3">
 													<div class="india_add">
-														<div class="country_logo"><img alt="" src="assets/images/india.png">
+														<div class="country_logo">
+															<img alt="" src="assets/images/india.png">
 														</div><strong>INDIA</strong>
-														<p>#405, 4th Floor, Iscon Atria 1<br>Gotri Road, Vadodara 390021</p>
-														<!--<p>Telephone : <a href="tel:+91 265.298.EYES">+91 265.298.EYES</a><br>Email : <a href="mailto:info@theopeneyes.com">info@theopeneyes.com</a>-->
-														</p>
+														<p>#405, 4th Floor, Iscon Atria 1
+															<br>Gotri Road, Vadodara 390021</p>
+														<!--<p>Telephone : <a href="tel:+91 265.298.EYES">+91 265.298.EYES</a><br>Email : <a href="mailto:info@theopeneyes.com">info@theopeneyes.com</a>
+														</p>-->
 													</div>
 												</div>
 											</div>
@@ -486,7 +521,6 @@
 												</div>
 											</div>
 											<div class="clearfix"></div>
-
 										</div>
 										<div class="clearfix"></div>
 										<!-- End Map Section -->
@@ -496,9 +530,8 @@
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	</div>
 </div>
-<?php include("footer.php"); ?>
+<?php include( "footer.php"); ?>

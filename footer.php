@@ -80,10 +80,10 @@
 
 
 <!-- start script for process slider -->
-<script type="text/javascript" src="assets/js/modernizr.js"></script>
-<script type="text/javascript" src="assets/js/jquery.js"></script>
-<script type="text/javascript" src="assets/js/tinyscrollbar.js"></script> 
-<script src="assets/js/metro-slider.js" type="text/javascript"></script> 
+<script src="assets/js/modernizr.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/tinyscrollbar.js"></script> 
+<script src="assets/js/metro-slider.js"></script> 
 <!-- end script for process slider -->
 
 

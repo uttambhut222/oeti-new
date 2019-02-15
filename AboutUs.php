@@ -1,11 +1,11 @@
-<?php include("head.php"); ?>
-<?php include("menu.php"); ?>
-<?php include("inquire_form.php"); ?>
+<?php include( "head.php"); ?>
+<?php include( "menu.php"); ?>
+<?php include( "inquire_form.php"); ?>
 <div class="pagepiling">
 	<div class="pp-scrollable section about_us">
-	<?php include("header.php");?>
+		<?php include( "header.php");?>
 		<div class="scroll-wrap">
-		<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/about_us.jpg);background-attachment: fixed;"></div>
+			<div class="section-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(assets/images/bg/about_us.jpg);background-attachment: fixed;"></div>
 			<div class="scrollable-content">
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
@@ -31,8 +31,7 @@
 											<div class="section_aboutus">
 												<img alt="" class="img-responsive" src="assets/images/bg/bg2-6.jpg">
 											</div>
-										</div>-->
-									</div>
+										</div>--></div>
 									<div class="clearfix"></div>
 								</div>
 							</div>
@@ -43,4 +42,4 @@
 		</div>
 	</div>
 </div>
-<?php include("footer.php"); ?>
+<?php include( "footer.php"); ?>
