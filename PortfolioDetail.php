@@ -10,6 +10,8 @@
 				</div>
 				<div class="owl_carousel_services">
 					<div class="owl-item">
+					<div class="overlay">
+                </div>
 						<img class="img-responsive" src="assets/images/bg/afpbgdark.jpg" />
 						<div class="caption">
 							<h3>Association for Financial Professionals</h3>
@@ -40,8 +42,62 @@
 								<h6>Lines of Code</h6>
 							</li>
 						</ul>
+					</div>					
+					
+					<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-							<div class="vc_banner block">
+					
+							<!-- <div class="vc_banner block">
 								<div class="vc_metro-wrapper">
 									<div class="vc_metro-slider-outer">
 										<div class="viewport">
@@ -56,7 +112,7 @@
 																		<div class="mouse-over">
 																			<div class="content">
 																				<div class="text">
-																					<h2>Started <span>12th Dec 2016</span></h2>
+																					<h2>Started </h2>
 																				</div>
 																			</div>
 																		</div>
@@ -66,25 +122,13 @@
 														</li>
 														<li class="even">
 															<ul>
-																<li class="box type-2 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_02.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Client Discussion <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
 																<li class="box type-2 anim-slide-top ml_100">
 																	<a href="javascript:void(0)">
 																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_06.png">
 																		<div class="mouse-over  bg-none">
 																			<div class="content">
 																				<div class="text">
-																					<h2>Wireframed & Prototyped <span>12th Dec 2016</span></h2>
+																					<h2>Wireframed & Prototyped </h2>
 																				</div>
 																			</div>
 																		</div>
@@ -110,7 +154,7 @@
 																		<div class="mouse-over bg-none">
 																			<div class="content">
 																				<div class="text">
-																					<h2>Complete Designing <span>12th Dec 2016</span></h2>
+																					<h2>Complete Designing </h2>
 																				</div>
 																			</div>
 																		</div>
@@ -126,20 +170,10 @@
 																		<div class="mouse-over">
 																			<div class="content">
 																				<div class="text">
-																					<h2>Developed <span>12th Dec 2016</span></h2>
+																					<h2>Developed </h2>
 																				</div>
 																			</div>
 																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_11.png">
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_12.png">
 																	</a>
 																</li>
 																<li class="box type-2 anim-slide-bottom ms_5">
@@ -148,18 +182,8 @@
 																		<div class="mouse-over">
 																			<div class="content">
 																				<div class="text">
-																					<h2>Website Tested <span>12th Dec 2016</span></h2>
+																					<h2>Website Tested </h2>
 																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 anim-slide-left ms_6">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_14.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<img alt="example image" src="assets/images/portfoliodetail-img/web_design_hover_14.png">
 																			</div>
 																		</div>
 																	</a>
@@ -174,7 +198,7 @@
 																		<div class="mouse-over">
 																			<div class="content">
 																				<div class="text">
-																					<h2>Launched Date<span>12th Dec 2016</span></h2>
+																					<h2>Launched Date</h2>
 																				</div>
 																			</div>
 																		</div>
@@ -196,7 +220,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 							
 					<div class="technology_used">
 						<div class="technology_title pull-left">
@@ -220,6 +244,8 @@
 						</div>
 					</div>
 					<div class="owl-item">
+					<div class="overlay">
+                </div>
 						<img class="img-responsive" src="assets/images/bg/atdbgdark.jpg" />
 						<div class="caption">
 							<h3>Association for Talent Development</h3>
@@ -251,162 +277,58 @@
 							</li>
 						</ul>
 					</div>
-							<div class="vc_banner block">
-								<div class="vc_metro-wrapper">
-									<div class="vc_metro-slider-outer">
-										<div class="viewport">
-											<div class="overview">
-												<div class="vc_metro-slider afp_content">
-													<ul>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-right ms_1">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Started <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_02.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Client Discussion <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-top ml_100">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_06.png">
-																		<div class="mouse-over  bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Wireframed & Prototyped <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none ms_2">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_07.png">
-																	</a>
-																</li>
-																<li class="box type-3 none ms_3">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_04.png">
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Complete Designing <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-hover ms_4">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Developed <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_11.png">
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_12.png">
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-bottom ms_5">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Website Tested <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 anim-slide-left ms_6">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_14.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<img alt="example image" src="assets/images/portfoliodetail-img/web_design_hover_14.png">
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-rotate ms_7">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Launched Date<span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div class="scrollbar">
-											<div class="track">
-												<div class="thumb vc_bg-color">
-													<div class="btn-slide"></div>
-													<div class="end"></div>
-												</div>
-											</div>
-										</div>
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
 									</div>
 								</div>
 							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
 					<div class="technology_used">
 						<div class="technology_title pull-left">
@@ -430,6 +352,8 @@
 						</div>
 					</div>
 					<div class="owl-item">
+					<div class="overlay">
+                </div>
 						<img class="img-responsive" src="assets/images/bg/lfbbgdark.jpg" />
 						<div class="caption">
 							<h3>Assessment, Education & Research Experts</h3>
@@ -459,162 +383,58 @@
 							</li>
 						</ul>
 					</div>
-							<div class="vc_banner block">
-								<div class="vc_metro-wrapper">
-									<div class="vc_metro-slider-outer">
-										<div class="viewport">
-											<div class="overview">
-												<div class="vc_metro-slider afp_content">
-													<ul>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-right ms_1">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Started <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_02.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Client Discussion <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-top ml_100">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_06.png">
-																		<div class="mouse-over  bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Wireframed & Prototyped <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none ms_2">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_07.png">
-																	</a>
-																</li>
-																<li class="box type-3 none ms_3">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_04.png">
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Complete Designing <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-hover ms_4">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Developed <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_11.png">
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_12.png">
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-bottom ms_5">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Website Tested <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 anim-slide-left ms_6">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_14.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<img alt="example image" src="assets/images/portfoliodetail-img/web_design_hover_14.png">
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-rotate ms_7">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Launched Date<span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div class="scrollbar">
-											<div class="track">
-												<div class="thumb vc_bg-color">
-													<div class="btn-slide"></div>
-													<div class="end"></div>
-												</div>
-											</div>
-										</div>
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
 									</div>
 								</div>
 							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="technology_used">
 						<div class="technology_title pull-left">
 							<strong>Major Technology Used :</strong>
@@ -637,6 +457,8 @@
 						</div>
 					</div>
 					<div class="owl-item">
+					<div class="overlay">
+                </div>
 						<img class="img-responsive" src="assets/images/bg/allibgdark.jpg" />
 						<div class="caption">
 							<h3>Assessment, Education & Research Experts</h3>
@@ -667,162 +489,58 @@
 							</li>
 						</ul>
 					</div>
-							<div class="vc_banner block">
-								<div class="vc_metro-wrapper">
-									<div class="vc_metro-slider-outer">
-										<div class="viewport">
-											<div class="overview">
-												<div class="vc_metro-slider afp_content">
-													<ul>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-right ms_1">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Started <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_02.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Client Discussion <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-top ml_100">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_06.png">
-																		<div class="mouse-over  bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Wireframed & Prototyped <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none ms_2">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_07.png">
-																	</a>
-																</li>
-																<li class="box type-3 none ms_3">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_04.png">
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Complete Designing <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-hover ms_4">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Developed <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_11.png">
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_12.png">
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-bottom ms_5">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Website Tested <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 anim-slide-left ms_6">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_14.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<img alt="example image" src="assets/images/portfoliodetail-img/web_design_hover_14.png">
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-rotate ms_7">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Launched Date<span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div class="scrollbar">
-											<div class="track">
-												<div class="thumb vc_bg-color">
-													<div class="btn-slide"></div>
-													<div class="end"></div>
-												</div>
-											</div>
-										</div>
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
 									</div>
 								</div>
 							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="technology_used">
 						<div class="technology_title pull-left">
 							<strong>Major Technology Used :</strong>
@@ -845,6 +563,8 @@
 						</div>
 					</div>
 					<div class="owl-item">
+					<div class="overlay">
+                </div>
 						<img class="img-responsive" src="assets/images/bg/tedxbgdark.jpg" />
 						<div class="caption">
 							<h3>TEDxTysons</h3>
@@ -874,162 +594,58 @@
 							</li>
 						</ul>
 					</div>
-							<div class="vc_banner block">
-								<div class="vc_metro-wrapper">
-									<div class="vc_metro-slider-outer">
-										<div class="viewport">
-											<div class="overview">
-												<div class="vc_metro-slider afp_content">
-													<ul>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-right ms_1">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Started <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_02.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Client Discussion <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-top ml_100">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_06.png">
-																		<div class="mouse-over  bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Wireframed & Prototyped <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none ms_2">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_07.png">
-																	</a>
-																</li>
-																<li class="box type-3 none ms_3">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_04.png">
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Complete Designing <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-hover ms_4">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Developed <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_11.png">
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_12.png">
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-bottom ms_5">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Website Tested <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 anim-slide-left ms_6">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_14.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<img alt="example image" src="assets/images/portfoliodetail-img/web_design_hover_14.png">
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-rotate ms_7">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Launched Date<span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div class="scrollbar">
-											<div class="track">
-												<div class="thumb vc_bg-color">
-													<div class="btn-slide"></div>
-													<div class="end"></div>
-												</div>
-											</div>
-										</div>
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
 									</div>
 								</div>
 							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
 					<div class="technology_used">
 						<div class="technology_title pull-left">
@@ -1053,6 +669,8 @@
 						</div>
 					</div>
 					<div class="owl-item">
+					<div class="overlay">
+                </div>
 						<img class="img-responsive" src="assets/images/bg/aerebgdark.jpg" />
 						<div class="caption">
 							<h3>Assessment, Education & Research Experts</h3>
@@ -1083,162 +701,58 @@
 							</li>
 						</ul>
 					</div>					
-							<div class="vc_banner block">
-								<div class="vc_metro-wrapper">
-									<div class="vc_metro-slider-outer">
-										<div class="viewport">
-											<div class="overview">
-												<div class="vc_metro-slider afp_content">
-													<ul>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-right ms_1">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Started <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_02.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Client Discussion <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-top ml_100">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_06.png">
-																		<div class="mouse-over  bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Wireframed & Prototyped <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none ms_2">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_07.png">
-																	</a>
-																</li>
-																<li class="box type-3 none ms_3">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_04.png">
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-slide-left">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Complete Designing <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="even">
-															<ul>
-																<li class="box type-2 anim-hover ms_4">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Developed <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_11.png">
-																	</a>
-																</li>
-																<li class="box type-3 none">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_12.png">
-																	</a>
-																</li>
-																<li class="box type-2 anim-slide-bottom ms_5">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Website Tested <span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-																<li class="box type-3 anim-slide-left ms_6">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_14.png">
-																		<div class="mouse-over bg-none">
-																			<div class="content">
-																				<img alt="example image" src="assets/images/portfoliodetail-img/web_design_hover_14.png">
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li class="odd">
-															<ul>
-																<li class="box type-1 anim-rotate ms_7">
-																	<a href="javascript:void(0)">
-																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
-																		<div class="mouse-over">
-																			<div class="content">
-																				<div class="text">
-																					<h2>Launched Date<span>12th Dec 2016</span></h2>
-																				</div>
-																			</div>
-																		</div>
-																	</a>
-																</li>
-															</ul>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div class="scrollbar">
-											<div class="track">
-												<div class="thumb vc_bg-color">
-													<div class="btn-slide"></div>
-													<div class="end"></div>
-												</div>
-											</div>
-										</div>
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
 									</div>
 								</div>
 							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 <div class="technology_used">
 						<div class="technology_title pull-left">
 							<strong>Major Technology Used :</strong>

@@ -17,7 +17,7 @@
         exit(); //no need to proceed further, exit the flow.
     }
     //Turn on output buffering with gzip compression.
-    ob_start('ob_gzhandler');
+    ob_start('ob_gzhandler'); 
     ######## Your Website Content Starts Below #########
 	?>
 <!DOCTYPE HTML>
