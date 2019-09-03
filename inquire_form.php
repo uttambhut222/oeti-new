@@ -77,6 +77,7 @@ if ( isset( $_POST[ 'inquire_submit' ] ) ) {
 							title: "Something went wrong. Try again later.",
 							type: "error",
 							showConfirmButton: true,
+							timer: 50000,
 						}, function () {
 							window.location = "";
 						} );
@@ -135,6 +136,7 @@ if ( isset( $_POST[ 'inquire_submit' ] ) ) {
 							title: "Something went wrong. Try again later.",
 							type: "error",
 							showConfirmButton: true,
+							timer: 50000,
 						}, function () {
 							window.location = "";
 						} );
@@ -150,7 +152,7 @@ if ( isset( $_POST[ 'inquire_submit' ] ) ) {
 							title: "Thank you for your enquiry",
 							type: "success",
 							showConfirmButton: false,
-							timer: 5000,
+							timer: 50000,
 						}, function () {
 							window.location = "";
 						} );
@@ -167,6 +169,7 @@ if ( isset( $_POST[ 'inquire_submit' ] ) ) {
 						title: "Something went wrong. Try again later.",
 						type: "error",
 						showConfirmButton: true,
+						timer: 50000,
 					}, function () {
 						window.location = "";
 					} );
