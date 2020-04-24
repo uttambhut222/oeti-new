@@ -38,7 +38,7 @@
 			   <div class="mix all Project col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/afp.jpg" class="img-responsive" alt="" />
-                       <a href="afp_detail"><div class="overlay_box">
+                       <a href="afp"><div class="overlay_box">
 						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>AFP</h3><div class="category">Assessment Tool</div></div>
 						   
@@ -48,7 +48,7 @@
 			  <div class="mix all Product col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/atd.jpg" class="img-responsive" alt="" />
-                       <a href="atd_detail"><div class="overlay_box">
+                       <a href="atd"><div class="overlay_box">
 						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>ATD</h3><div class="category">Assessment Tool</div></div>
 						   
@@ -58,7 +58,7 @@
 			  <div class="mix all Product col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/lfb.jpg" class="img-responsive" alt="" />
-                       <a href="learnfeedback_detail"><div class="overlay_box">
+                       <a href="learnfeedback"><div class="overlay_box">
 						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>Learn Feedback</h3><div class="category">Straehle Feedback Inventory</div></div>
 						   
@@ -68,7 +68,7 @@
 			  <div class="mix all Product col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/alli.jpg" class="img-responsive" alt="" />
-                       <a href="allinstitute_detail"><div class="overlay_box">
+                       <a href="allinstitute"><div class="overlay_box">
 						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>All Institute</h3><div class="category">Coaching Services</div></div>
 						   
@@ -78,7 +78,7 @@
 			  <div class="mix all Project col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/tedx.jpg" class="img-responsive" alt="" />
-                       <a href="tedxtysons_detail"><div class="overlay_box">
+                       <a href="tedxtysons"><div class="overlay_box">
 						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>TedxTysons</h3><div class="category">Coaching Services</div></div>
 						  
@@ -88,7 +88,7 @@
 			  <div class="mix all Project col-md-3 col-sm-4 col-xs-6">
 				   <div class="gallery_block">
 					   <img src="images/aere.jpg" class="img-responsive" alt="" />
-                       <a href="aere_detail"><div class="overlay_box">
+                       <a href="aere"><div class="overlay_box">
 						   <i class="flaticon-external-link-symbol"></i>
                            	<div class="content"><h3>AERE</h3><div class="category">Event</div></div>
 						   

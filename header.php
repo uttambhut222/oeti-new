@@ -54,7 +54,7 @@
 								  <ul class="dropdown-menu">
 									<li id="history"><a href="history">History<p>We keep moving forward, opening new doors, and doing new things.</p></a></li>
 									<li id="visionmission"><a href="visionmission">Vision &amp; Mission<p>Gain insight and find opportunities together with OpenEyes as your trusted advisor.</p></a></li>
-									<li id="team"><a href="team">Team<p>At OpenEyes Technologies, our employees are our greatest asset.</p></a></li>
+									<!-- <li id="team"><a href="team">Team<p>At OpenEyes Technologies, our employees are our greatest asset.</p></a></li> -->
 								  </ul>
 								</li>
 								<li id="what"><a href="service"><span>W</span>hat</a></li>
@@ -72,8 +72,9 @@
 							  <div class="clearfix"></div>
 							</div>
 						<div class="clearfix"></div>
-					  	</nav>
-						<a href="javascript:void(0);" class="inquire_now"><i class="flaticon-conversation"></i>Inquire Now</a>
+						  </nav>
+						  <a href="resources" class="inquire_now resources"><i class="flaticon-file"></i>Resources</a>
+						<a href="javascript:void(0);" class="inquire_now" id="inquire_now"><i class="flaticon-conversation"></i>Inquire Now</a>
         			</div>
 				</div>
 			</div>

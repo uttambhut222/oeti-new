@@ -67,22 +67,22 @@ $(document).ready(function() {
 	case '/work':
         $('#work').addClass('active');
 	break;
-	case '/afp_detail':
+	case '/afp':
         $('#work').addClass('active');
 	break;
-	case '/atd_detail':
+	case '/atd':
         $('#work').addClass('active');
 	break;
-	case '/learnfeedback_detail':
+	case '/learnfeedback':
         $('#work').addClass('active');
 	break;
-	case '/aere_detail':
+	case '/aere':
         $('#work').addClass('active');
 	break;
-	case '/allinstitute_detail':
+	case '/allinstitute':
         $('#work').addClass('active');
 	break;
-	case '/tedxtysons_detail':
+	case '/tedxtysons':
         $('#work').addClass('active');
 	break;
 			
@@ -126,7 +126,7 @@ $(document).ready(function() {
 	if ( url === '/' || url === '/index'){ 
     	$("#where_btn").click(function() {
 			$('html, body').animate({
-				scrollTop: $("#contact").offset().top
+				scrollTop: $("#ContactUs").offset().top
 			}, 2000);
 		});
 	   $("#where_btn_inner").click(function() {
@@ -140,7 +140,7 @@ $(document).ready(function() {
 	}
    else {
 	   $("#where_btn").click(function() {
-    	window.location.replace("index#contact");
+    	window.location.replace("index#ContactUs");
 	   });
 
 	   $("#where_btn_inner").click(function() {
@@ -151,7 +151,7 @@ $(document).ready(function() {
 // End Header Contact Scroll
 
 // Inquiry Form
-$(".inquire_now").click(function() {
+$("#inquire_now").click(function() {
 	$('.form_widget').addClass("active");
 	$('body').addClass("overflow_body");
 });

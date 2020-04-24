@@ -1,4 +1,4 @@
-<?php include("header.php");?>
+﻿<?php include("header.php");?>
 
 <!-- Inquire Form -->
 <?php include("inquire_form.php"); ?>
@@ -27,14 +27,10 @@
 			  <div class="col-md-4 col-sm-6 col-xs-6">
 				  <div class="service_inner">
 					  <div class="img_icon"><img src="images/development.png" alt="" class="img-responsive" /></div>
-					  <h4>WEB DEVELOPMENT</h4>
+					  <h4>CUSTOM SOFTWARE DEVELOPMENT</h4>
 					  <p class="padding_30">We render web development services that combine technology with business concepts to help make your website user friendly. With expertise in PHP, MySQL, JavaScript, AJAX, CodeIgnitor, Wordpress, MODX and Joomla, our web developers create for you the website.<br><!--<a href="web_development" class="more_details">More details</a>--></p>
 					  <ul class="skill_icon">
-						  <li title="Angular" data-toggle="tooltip" data-placement="top"><img src="images/angular.png" alt="" class="img-responsive" /></li>
-          				  <li title="Codeigniter" data-toggle="tooltip" data-placement="top"><img src="images/codeigniter.png" alt="" class="img-responsive" /></li>
-						  <li title="HTML" data-toggle="tooltip" data-placement="top"><img src="images/html.png" alt="" class="img-responsive" /></li>
-						  <li title="Bootstrap" data-toggle="tooltip" data-placement="top"><img src="images/bootstrap.png" alt="" class="img-responsive" /></li>
-						  <li title="CSS" data-toggle="tooltip" data-placement="top"><img src="images/css.png" alt="" class="img-responsive" /></li>
+						  <li title="Angular" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/angular.png"></li>									<li title="Node JS" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/node.png"></li>									<li title="Codeigniter" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/codeigniter.png"></li>									<li title="Laravel" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/laravel.png"></li>									<li title="MySQL" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/mysql.png"></li>									<li title="MS SQL Server" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/sqlserver.png"></li>									<li title="Wordpress" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/wp.png"></li>								 
         			</ul>
 				  </div>
 			  </div>
@@ -44,8 +40,7 @@
 					  <h4>MOBILE APP DEVELOPMENT</h4>
             		  <p class="padding_30">With the advent of mobile technology, apps development industry has seen dramatic changes. At OpenEyes Technologies, we have trained app developers who have hands on experience in developing mobile apps for all kinds of platform, including Android and iOS.<br><!--<a href="app_development" class="more_details">More details</a>--></p>
 					  <ul class="skill_icon">
-						  <li title="iOS" data-toggle="tooltip" data-placement="top"><img src="images/ios.png" alt="" class="img-responsive" /></li>
-						  <li title="Android" data-toggle="tooltip" data-placement="top"><img src="images/android.png" alt="" class="img-responsive" /></li>
+						  <li title="iOS" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/ios.png"></li>									<li title="Android" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/android.png"></li>									<li title="Phonegap" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/phonegap.png"></li>									<li title="Titanium" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/titanium.png"></li>									<li title="Xamarin" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/xamarin.png"></li>									<li title="Rackspace" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/rackspace.png"></li>									<li title="Digital Ocean" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/do.png"></li>								  
 					  </ul>
 				  </div>
 			  </div>
@@ -54,19 +49,7 @@
 					  <div class="img_icon"><img src="images/ui.png" alt="" class="img-responsive" /></div>
 					  <h4>UI/UX DESIGN STRATEGIES</h4>
             		  <p class="padding_30">Website is often the first impression customers see of your company, and with our web designing services we ensure you can give your best. With the help of modern design tools our web designers create appealing, exclusive designs that let you stand out from the crowd.<br><!--<a href="ux_design" class="more_details">More details</a>--></p>
-					  <ul class="skill_icon">
-						  <li title="inVision" data-toggle="tooltip" data-placement="top"><img src="images/invision.png" alt="" class="img-responsive" /></li>
-						  <li title="Photoshop" data-toggle="tooltip" data-placement="top"><img src="images/photoshop.png" alt="" class="img-responsive" /></li>
-					  </ul>
-				  </div>
-			  </div>
-			  <div class="col-md-4 col-sm-6 col-xs-6">
-				  <div class="service_inner"> 
-					  <div class="img_icon"><img src="images/cs.png" alt="" class="img-responsive" /></div>
-					  <h4>CUSTOMER SERVICE</h4>
-            		  <p class="padding_30">We strongly believe that for any business to succeed, it must be able to listen to its customers and identify areas for continuous improvement - and this can only be achieved if you have a World class customer service team that are passionate about what we do.<br><!--<a href="customer_service" class="more_details">More details</a>--></p>
-					  <ul class="skill_icon">
-						  <li title="Slack" data-toggle="tooltip" data-placement="top"><img src="images/slack.png" alt="" class="img-responsive" /></li>
+					  <ul class="skill_icon"><li title="Bootstrap" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/bootstrap.png"></li>									<li title="CSS" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/css.png"></li>									<li title="JS" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/js.png"></li>									<li title="Dreamweaver" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/dw.png"></li>									<li title="inVision" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/in.png"></li>									<li title="Photoshop" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/ps.png"></li>								 
 					  </ul>
 				  </div>
 			  </div>
@@ -76,14 +59,14 @@
 					  <h4>QUALITY ANALYSIS</h4>
             		  <p class="padding_30">Unrivalled quality is the motto of our company and IT services provided by us are in-line with the industry standards. With the help of manual testing and automatic testing, our quality analysts check the websites to ensure proper functionality. <br><!--<a href="quality_analysis" class="more_details">More details</a>--></p>
 					  <ul class="skill_icon">
-						  <li title="Jira" data-toggle="tooltip" data-placement="top"><img src="images/jira.png" alt="" class="img-responsive" /></li>
+						 <li title="Jira" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/jira.png"></li>									<li title="HP UFT" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/hp.png"></li>									<li title="Selenium" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/selenium.png"></li>									<li title="Slack" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/slack.png"></li>								 
 					  </ul>
 				  </div>
-			  </div>
+			  </div>			  			  <div class="col-md-4 col-sm-6 col-xs-6">				  <div class="service_inner"> 					  <div class="img_icon"><img src="images/cc.png" alt="" class="img-responsive" /></div>					  <h4>CLOUD COMPUTING</h4>            		  <p class="padding_30">Cloud computing is shared pools of configurable computer system resources and higher-level services that can be rapidly provisioned with minimal management effort, often over the Internet.<br><!--<a href="customer_service" class="more_details">More details</a>--></p>					  <ul class="skill_icon"><li title="Amazon Web Service" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/AWS.png"></li>									<li title="MS Azure " data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/azure.png"></li>								 					  </ul>				  </div>			  </div>			  			  <div class="col-md-4 col-sm-6 col-xs-6">				  <div class="service_inner"> 					  <div class="img_icon"><img src="images/da.png" alt="" class="img-responsive" /></div>					  <h4>DATA ANALYTICS</h4>            		  <p class="padding_30">Data analysis is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making.<br><!--<a href="customer_service" class="more_details">More details</a>--></p>					  <ul class="skill_icon"><li title="Power PI" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/pi.png"></li>									  <li title="Tableau" data-toggle="tooltip" data-placement="top"><img alt="" class="img-responsive" src="images/tableau.png"></li>								 					  </ul>				  </div>			  </div>			  <div class="col-md-4 col-sm-6 col-xs-6">				  <div class="service_inner"> 					  <div class="img_icon"><img src="images/cs.png" alt="" class="img-responsive" /></div>					  <h4>US STAFFING</h4>            		  <p class="padding_30">We strongly believe that for any business to succeed, it must be able to listen to its customers and identify areas for continuous improvement - and this can only be achieved if you have a World class customer service team that are passionate about what we do.<br><!--<a href="customer_service" class="more_details">More details</a>--></p>					  <ul class="skill_icon">						  <li title="Slack" data-toggle="tooltip" data-placement="top"><img src="images/slack.png" alt="" class="img-responsive" /></li>					  </ul>				  </div>			  </div>			  
 			  <div class="col-md-4 col-sm-6 col-xs-6">
 				  <div class="service_inner"> 
 					  <div class="img_icon"><img src="images/finance.png" alt="" class="img-responsive" /></div>
-					  <h4>FINANCIAL SERVICES</h4>
+					  <h4>MANAGE SERVICES</h4>
             		  <p class="padding_30">Life and business are about moving forward. We will keep looking for new ways to make things better with new ideas, new solutions and new approaches to make things easier for our customers. That way, we can all stay a step ahead.<br><!--<a href="financial_services" class="more_details">More details</a>--></p>
 					  <ul class="skill_icon">
 						  <li title="Angular" data-toggle="tooltip" data-placement="top"><img src="images/angular.png" alt="" class="img-responsive" /></li>
