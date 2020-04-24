@@ -1,0 +1,1054 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link type="image/x-icon" rel="shortcut icon" href="assets/images/favicon.ico"/>
+	<title>OpenEyes Technologies Inc.</title>
+	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/timeline.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/flaticon.css"/>
+	<link type="text/css" rel="stylesheet" href="assets/css/sweetalert2.min.css"/>
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	
+	
+	<!-- start style for process slider -->
+	<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+	<!-- end style for process slider -->
+	
+	
+</head>
+<body class="body-full-page">
+	<div class="loader">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</div>
+	<div class="click-capture"></div>
+	
+	
+	
+	<!-- Sidebar Menu-->
+<button type="button" class="navbar-toggle menu_btn" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</button>
+<div class="menu"> <span class="close-menu icon-cross2 right-boxed"></span>	
+	<ul class="nav">
+		<li class="dropdown" id="who"> <a href="AboutUs" class="dropdown-toggle hvr-sweep-to-right" data-toggle="dropdown">Who<b class="caret"></b></a>
+			<ul class="dropdown-menu">
+				<li id="aboutus"><a href="AboutUs"><i class="fa fa-angle-right"></i>About Us</a>
+				</li>
+				<li id="milestone"><a href="Milestones"><i class="fa fa-angle-right"></i>Milestones</a>
+				</li>
+				<li id="visionmission"><a href="VisionMission"><i class="fa fa-angle-right"></i>Vision & Mission</a>
+				</li>
+				<li id="Family"><a href="Family"><i class="fa fa-angle-right"></i>Family</a>
+				</li>
+			</ul>
+		</li>
+		<li id="What">	<a href="Services" class="hvr-sweep-to-right">What</a>
+		</li>
+		<li id="Work">	<a href="Portfolio" class="hvr-sweep-to-right">Work</a>
+		</li>
+		<li id="How">	<a href="Process" class="hvr-sweep-to-right">How</a>
+		</li>
+		<li id="Whom">	<a href="OurClients" class="hvr-sweep-to-right">Whom</a>
+		</li>
+		<li class="dropdown" id="Why"> <a href="WhyUs" class="dropdown-toggle hvr-sweep-to-right" data-toggle="dropdown">Why<b class="caret"></b></a>
+			<ul class="dropdown-menu">
+				<li id="chooseus"><a href="WhyUs"><i class="fa fa-angle-right"></i>Choose Us</a>
+				</li>
+				<li id="career"><a href="Career"><i class="fa fa-angle-right"></i>Career</a>
+				</li>
+			</ul>
+		</li>
+		<li id="Where"> <a href="index#ContactUs" class="hvr-sweep-to-right">Where</a>
+		</li>
+	</ul>
+</div>
+<!-- End Sidebar Menu-->
+<div class="contcact_form">
+	<span class="close-menu icon-cross2 right-boxed"></span>
+	<div class="contact-info">
+		<form method="post" id="inquireform">
+				<h2>Say Hi to us!</h2>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="FirstName" placeholder="*First Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength="50" oninvalid="this.setCustomValidity('Please enter your valid First Name')" oninput="setCustomValidity('')"/>
+						<input type="text" name="MiddleName" id="MiddleName"/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="LastName" placeholder="*Last Name" pattern="[A-Za-z\/\s\.']{2,50}" required maxlength="50" oninvalid="this.setCustomValidity('Please enter your valid Last Name')" oninput="setCustomValidity('')"/>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<select name="Topic" required>
+							<option value="" selected="">*Select a Topic</option>
+							<option value="Cloud Consulting">Cloud Consulting</option>
+							<option value="E-Commerce">E-Commerce</option>
+							<option value="IOT">IOT</option>
+							<option value="Mobile Apps">Mobile Apps</option>
+							<option value="Mobile Games">Mobile Games</option>
+							<option value="Other">Other</option>
+							<option value="UI / UX">UI / UX</option>
+							<option value="Wearables">Wearables</option>
+							<option value="Web Development">Web Development</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="Email" placeholder="*Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxlength="50" required oninvalid="this.setCustomValidity('Please enter your Email Address in valid format')" oninput="setCustomValidity('')"/>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="Phone" placeholder="*Phone Number" pattern="[0-9\-.\s]+" maxlength="13" required oninvalid="this.setCustomValidity('Please enter your Phone Number in xxx.xxx.xxxx format')" oninput="setCustomValidity('')"/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="CompanyName" placeholder="Company Name" maxlength="100" />
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-lg-12 col-md-12">
+					<div class="form-group">
+						<textarea name="ProjectBrief" placeholder="*Brief about your inquiry" required oninvalid="this.setCustomValidity('Please enter Brief about your inquiry')" oninput="setCustomValidity('')"></textarea>
+					</div>
+				</div>				
+				<div class="clearfix"></div>
+				<div class="col-lg-6 col-md-6">
+					<div class="form-group">
+						<div class="g-recaptcha" data-sitekey="6LeGjHIUAAAAAJuV7KL2aoMQpKbgpdpR46TsWLJL"></div>
+						<span class='inquire_error' style="display:none; font-size:12px; color:red;">Captcha is Required.</span>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+
+				<button type="submit" id="inquiry_submit" name="inquire_submit" class="read_more">Submit</button>
+
+		</form>
+	</div>
+</div><div class="pagepiling portfoliodetail">
+	<div class="pp-scrollable section work_wrapper">
+		
+	<header class="navbar navbar-2 navbar-white boxed">
+		<div class="navbar-bg"></div>
+		
+		<div class="content_form">
+			<a class="inquire_now">Contact us</a>
+		</div>
+		<!--<ul class="social_links header_links">
+			<li><a href="https://twitter.com/OpenEyesTech" target="_blank"><i class="flaticon-twitter-logo-silhouette"></i></a>
+			</li>
+			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a>
+			</li>
+		</ul>-->
+		<a class="brand" href="index#WelcomeOpenEyes">
+        <img class="brand-img" alt="" src="assets/images/brand.png">
+      </a>
+	</header>		<div class="scroll-wrap">
+			<div class="slider">
+				<div class="view_all_services">	<a href="Portfolio" class="banner_btn">View All</a>
+				</div>
+				<div class="owl_carousel_services">
+					<div class="owl-item">
+					<div class="overlay">
+                </div>
+						<img class="img-responsive" src="assets/images/bg/afpbgdark.jpg" />
+						<div class="caption">
+							<h3>Association for Financial Professionals</h3>
+					<h4>AFP CORPORATE TRAINING SKILLS ASSESSMENT</h4>
+					<p>AFP established and administers the <strong>Certified Treasury Professional
+						</strong> and <strong>Certified Corporate FP&A Professional credentials,</strong>
+						which set standards of excellence in finance.</p>
+					<div class="project_desc">
+						<ul>
+							<li>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								<span>96</span>
+								<h6>Men Hours</h6>
+							</li>
+							<li>
+								<i class="fa fa-users" aria-hidden="true"></i>
+								<span>12</span>
+								<h6>Team Members</h6>
+							</li>
+							<li>
+								<i class="fa fa-coffee" aria-hidden="true"></i>
+								<span>24</span>
+								<h6>Cups of Coffee</h6>
+							</li>
+							<li>
+								<i class="fa fa-file-code-o" aria-hidden="true"></i>
+								<span>4200</span>
+								<h6>Lines of Code</h6>
+							</li>
+						</ul>
+					</div>					
+					
+					<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+							<!-- <div class="vc_banner block">
+								<div class="vc_metro-wrapper">
+									<div class="vc_metro-slider-outer">
+										<div class="viewport">
+											<div class="overview">
+												<div class="vc_metro-slider afp_content">
+													<ul>
+														<li class="odd">
+															<ul>
+																<li class="box type-1 anim-slide-right ms_1">
+																	<a href="javascript:void(0)">
+																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+																		<div class="mouse-over">
+																			<div class="content">
+																				<div class="text">
+																					<h2>Started </h2>
+																				</div>
+																			</div>
+																		</div>
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="even">
+															<ul>
+																<li class="box type-2 anim-slide-top ml_100">
+																	<a href="javascript:void(0)">
+																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_06.png">
+																		<div class="mouse-over  bg-none">
+																			<div class="content">
+																				<div class="text">
+																					<h2>Wireframed & Prototyped </h2>
+																				</div>
+																			</div>
+																		</div>
+																	</a>
+																</li>
+																<li class="box type-3 none ms_2">
+																	<a href="javascript:void(0)">
+																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_07.png">
+																	</a>
+																</li>
+																<li class="box type-3 none ms_3">
+																	<a href="javascript:void(0)">
+																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_04.png">
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="odd">
+															<ul>
+																<li class="box type-1 anim-slide-left">
+																	<a href="javascript:void(0)">
+																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+																		<div class="mouse-over bg-none">
+																			<div class="content">
+																				<div class="text">
+																					<h2>Complete Designing </h2>
+																				</div>
+																			</div>
+																		</div>
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="even">
+															<ul>
+																<li class="box type-2 anim-hover ms_4">
+																	<a href="javascript:void(0)">
+																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+																		<div class="mouse-over">
+																			<div class="content">
+																				<div class="text">
+																					<h2>Developed </h2>
+																				</div>
+																			</div>
+																		</div>
+																	</a>
+																</li>
+																<li class="box type-2 anim-slide-bottom ms_5">
+																	<a href="javascript:void(0)">
+																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+																		<div class="mouse-over">
+																			<div class="content">
+																				<div class="text">
+																					<h2>Website Tested </h2>
+																				</div>
+																			</div>
+																		</div>
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="odd">
+															<ul>
+																<li class="box type-1 anim-rotate ms_7">
+																	<a href="javascript:void(0)">
+																		<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+																		<div class="mouse-over">
+																			<div class="content">
+																				<div class="text">
+																					<h2>Launched Date</h2>
+																				</div>
+																			</div>
+																		</div>
+																	</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="scrollbar">
+											<div class="track">
+												<div class="thumb vc_bg-color">
+													<div class="btn-slide"></div>
+													<div class="end"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div> -->
+							
+					<div class="technology_used">
+						<div class="technology_title pull-left">
+							<strong>Major Technology Used :</strong>
+						</div>
+						<div class="technology_link pull-right">
+							<ul>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Angular"><img src="assets/images/services/angular.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Codeigniter"><img src="assets/images/services/codeigniter.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="HTML"><img src="assets/images/services/html.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Bootstrap"><img src="assets/images/services/bootstrap.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="CSS"><img src="assets/images/services/css.png"
+									 alt="" class="img-responsive"></li>
+							</ul>
+						</div>
+					</div>
+						</div>
+					</div>
+					<div class="owl-item">
+					<div class="overlay">
+                </div>
+						<img class="img-responsive" src="assets/images/bg/atdbgdark.jpg" />
+						<div class="caption">
+							<h3>Association for Talent Development</h3>
+					<h4>Association for Talent Development</h4>
+					<p>ATD established and administers the <strong>Certified Treasury Professional
+						</strong> and <strong>Certified Corporate FP&A Professional credentials,</strong>
+						which set standards of excellence in finance.</p>
+					<div class="project_desc">
+						<ul>
+							<li>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								<span>48</span>
+								<h6>Men Hours</h6>
+							</li>
+							<li>
+								<i class="fa fa-users" aria-hidden="true"></i>
+								<span>8</span>
+								<h6>Team Members</h6>
+							</li>
+							<li>
+								<i class="fa fa-coffee" aria-hidden="true"></i>
+								<span>16</span>
+								<h6>Cups of Coffee</h6>
+							</li>
+							<li>
+								<i class="fa fa-file-code-o" aria-hidden="true"></i>
+								<span>2612</span>
+								<h6>Lines of Code</h6>
+							</li>
+						</ul>
+					</div>
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="technology_used">
+						<div class="technology_title pull-left">
+							<strong>Major Technology Used :</strong>
+						</div>
+						<div class="technology_link pull-right">
+							<ul>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Angular"><img src="assets/images/services/angular.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Codeigniter"><img src="assets/images/services/codeigniter.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="HTML"><img src="assets/images/services/html.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Bootstrap"><img src="assets/images/services/bootstrap.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="CSS"><img src="assets/images/services/css.png"
+									 alt="" class="img-responsive"></li>
+							</ul>
+						</div>
+					</div>
+						</div>
+					</div>
+					<div class="owl-item">
+					<div class="overlay">
+                </div>
+						<img class="img-responsive" src="assets/images/bg/lfbbgdark.jpg" />
+						<div class="caption">
+							<h3>Assessment, Education & Research Experts</h3>
+					<h4>Learn Feedback</h4>
+					<p>Learnfeedback is a program built to assess, train, monitor, and coach individuals in your organization.</p>
+					<div class="project_desc">
+						<ul>
+							<li>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								<span>84</span>
+								<h6>Men Hours</h6>
+							</li>
+							<li>
+								<i class="fa fa-users" aria-hidden="true"></i>
+								<span>4</span>
+								<h6>Team Members</h6>
+							</li>
+							<li>
+								<i class="fa fa-coffee" aria-hidden="true"></i>
+								<span>16</span>
+								<h6>Cups of Coffee</h6>
+							</li>
+							<li>
+								<i class="fa fa-file-code-o" aria-hidden="true"></i>
+								<span>3450</span>
+								<h6>Lines of Code</h6>
+							</li>
+						</ul>
+					</div>
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="technology_used">
+						<div class="technology_title pull-left">
+							<strong>Major Technology Used :</strong>
+						</div>
+						<div class="technology_link pull-right">
+							<ul>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Angular"><img src="assets/images/services/angular.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Codeigniter"><img src="assets/images/services/codeigniter.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="HTML"><img src="assets/images/services/html.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Bootstrap"><img src="assets/images/services/bootstrap.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="CSS"><img src="assets/images/services/css.png"
+									 alt="" class="img-responsive"></li>
+							</ul>
+						</div>
+					</div>
+						</div>
+					</div>
+					<div class="owl-item">
+					<div class="overlay">
+                </div>
+						<img class="img-responsive" src="assets/images/bg/allibgdark.jpg" />
+						<div class="caption">
+							<h3>Assessment, Education & Research Experts</h3>
+					<h4>Applied Lifelong Learning Institute</h4>
+					<p>They provide a learning opportunity that is engaging, meaningful, and aligned to real-world work situations
+						across the career lifespan.</p>
+					<div class="project_desc">
+						<ul>
+							<li>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								<span>120</span>
+								<h6>Men Hours</h6>
+							</li>
+							<li>
+								<i class="fa fa-users" aria-hidden="true"></i>
+								<span>12</span>
+								<h6>Team Members</h6>
+							</li>
+							<li>
+								<i class="fa fa-coffee" aria-hidden="true"></i>
+								<span>24</span>
+								<h6>Cups of Coffee</h6>
+							</li>
+							<li>
+								<i class="fa fa-file-code-o" aria-hidden="true"></i>
+								<span>4720</span>
+								<h6>Lines of Code</h6>
+							</li>
+						</ul>
+					</div>
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="technology_used">
+						<div class="technology_title pull-left">
+							<strong>Major Technology Used :</strong>
+						</div>
+						<div class="technology_link pull-right">
+							<ul>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Angular"><img src="assets/images/services/angular.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Codeigniter"><img src="assets/images/services/codeigniter.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="HTML"><img src="assets/images/services/html.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Bootstrap"><img src="assets/images/services/bootstrap.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="CSS"><img src="assets/images/services/css.png"
+									 alt="" class="img-responsive"></li>
+							</ul>
+						</div>
+					</div>
+						</div>
+					</div>
+					<div class="owl-item">
+					<div class="overlay">
+                </div>
+						<img class="img-responsive" src="assets/images/bg/tedxbgdark.jpg" />
+						<div class="caption">
+							<h3>TEDxTysons</h3>
+					<h4>TEDxTysons</h4>
+					<p>TEDx is a program of local,self-organized events that bring people together to share a TED-like experience.</p>
+					<div class="project_desc">
+						<ul>
+							<li>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								<span>46</span>
+								<h6>Men Hours</h6>
+							</li>
+							<li>
+								<i class="fa fa-users" aria-hidden="true"></i>
+								<span>3</span>
+								<h6>Team Members</h6>
+							</li>
+							<li>
+								<i class="fa fa-coffee" aria-hidden="true"></i>
+								<span>10</span>
+								<h6>Cups of Coffee</h6>
+							</li>
+							<li>
+								<i class="fa fa-file-code-o" aria-hidden="true"></i>
+								<span>2560</span>
+								<h6>Lines of Code</h6>
+							</li>
+						</ul>
+					</div>
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="technology_used">
+						<div class="technology_title pull-left">
+							<strong>Major Technology Used :</strong>
+						</div>
+						<div class="technology_link pull-right">
+							<ul>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Angular"><img src="assets/images/services/angular.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Codeigniter"><img src="assets/images/services/codeigniter.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="HTML"><img src="assets/images/services/html.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Bootstrap"><img src="assets/images/services/bootstrap.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="CSS"><img src="assets/images/services/css.png"
+									 alt="" class="img-responsive"></li>
+							</ul>
+						</div>
+					</div>
+						</div>
+					</div>
+					<div class="owl-item">
+					<div class="overlay">
+                </div>
+						<img class="img-responsive" src="assets/images/bg/aerebgdark.jpg" />
+						<div class="caption">
+							<h3>Assessment, Education & Research Experts</h3>
+					<h4>Assessment, Education & Research Experts</h4>
+					<p>AERE provides assessment, education, and research consulting services to organizations specializing in
+						assessment, licensure, certification, employment selection, survey research, and data analysis.</p>
+					<div class="project_desc">
+						<ul>
+							<li>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+								<span>52</span>
+								<h6>Men Hours</h6>
+							</li>
+							<li>
+								<i class="fa fa-users" aria-hidden="true"></i>
+								<span>6</span>
+								<h6>Team Members</h6>
+							</li>
+							<li>
+								<i class="fa fa-coffee" aria-hidden="true"></i>
+								<span>12</span>
+								<h6>Cups of Coffee</h6>
+							</li>
+							<li>
+								<i class="fa fa-file-code-o" aria-hidden="true"></i>
+								<span>3200</span>
+								<h6>Lines of Code</h6>
+							</li>
+						</ul>
+					</div>					
+							<div class="hr_portfolio_process">
+						<div class="hr_pp_block hr_pp_one">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_01.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Wireframed & Prototyped </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_two">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_08.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Complete Designing </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_three">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_09.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Developed </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_four">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_13.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Tested </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hr_pp_block hr_pp_five">
+							<img alt="example image" src="assets/images/portfoliodetail-img/web_design_15.png">
+							<div class="mouse-over">
+								<div class="content">
+									<div class="text">
+										<h2>Website Live </h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+<div class="technology_used">
+						<div class="technology_title pull-left">
+							<strong>Major Technology Used :</strong>
+						</div>
+						<div class="technology_link pull-right">
+							<ul>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Angular"><img src="assets/images/services/angular.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Codeigniter"><img src="assets/images/services/codeigniter.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="HTML"><img src="assets/images/services/html.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="Bootstrap"><img src="assets/images/services/bootstrap.png"
+									 alt="" class="img-responsive"></li>
+								<li title="" data-toggle="tooltip" data-placement="top" data-original-title="CSS"><img src="assets/images/services/css.png"
+									 alt="" class="img-responsive"></li>
+							</ul>
+						</div>
+					</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="go_top"><i class="flaticon-up-arrow"></i></div>
+<div class="footer_bottom footer_fixed boxed">
+	<div class="col-md-9 col-sm-9 text-left">Copyrights &copy; 2019 OpenEyes Technologies Inc.</div>
+	<div class="col-md-3 col-sm-3 text-right">
+		<ul class="social_links">
+			<li><a href="https://twitter.com/OpenEyesTech" target="_blank"><i class="flaticon-twitter-logo-silhouette"></i></a></li>
+			<li><a href="https://www.linkedin.com/company/13243146/" target="_blank"><i class="flaticon-linkedin"></i></a></li>
+		</ul>
+	</div>
+</div>
+<div class="clearfix"></div>
+<div id="cookie_directive_container" style="display: none">
+                <div class="container">
+                <div class="row" id="cookie_accept">
+                <div class="col-md-12">
+                    <a href="#" class="view_more pull-right">Close</a>
+                    <p>
+                      By using our website you are consenting to our use of cookies in accordance with our <a href="Cookie">cookie policy</a>.
+                    </p>
+                </div>
+              </div>
+        </div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/sweetalert2.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<!-- <script src="assets/js/jquery-1.12.0.min.js"></script> -->
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/jquery.pagepiling.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/index.js"></script>
+
+<script src="assets/js/jquery.roadmap.js"></script>
+<script>
+//timeline js
+	var events = [{
+                    date: 'Aug 2018',
+                    content: 'New Office Launch <small>We keep moving forward, opening new doors, and doing new things, because we are curious and curiosity keeps leading us down new paths.</small>'
+                },
+                {
+                    date: 'Jan 2017',
+                    content: 'Staffing & Recruting Team <small>Launched staffing and recruitment services. We are highly professional and has expertise in finding the most qualified candidates available.</small>'
+                },
+                {
+                    date: 'Dec 2016',
+                    content: 'OpenEyes Software Solution <small>Launch of child company</small>'
+                },
+                {
+                    date: 'Oct 2013',
+                    content: 'OpenEyes Technologies, Inc <small>With success of OpenEyes in India and in continuation of growth with the changing world, the company renamed one more time</small><strong>- OpenEyes Technologies, Inc.</strong>'
+                },
+                {
+                    date: 'Apr 2009',
+                    content: 'OpenEyes Security Services <small>With the business ingenuity, BIPA has started a new venture in India in Security sector</small><strong>- OpenEyes Security Services.</strong>'
+                },
+                {
+                    date: 'Oct 2005',
+                    content: 'BIPA Systems, Inc  <small>Company got a new face and new name with the same staff and same result. Now its call</small><strong>- BIPA Systems, Inc.</strong>'
+                },
+                {
+                    date: 'Jan 2000',
+                    content: 'Company Startup  <small>New York - A startup has emerged by our mentor and current president with one of his close friends. They called it</small><strong>- Tzar TechnoKraft, Inc.</strong>'
+                }
+            ];
+
+            $('#my-timeline').roadmap(events, {
+                eventsPerSlide: 5,
+                slide: 1,
+                prevArrow: '<i class="fa fa-chevron-left"></i>',
+                nextArrow: '<i class="fa fa-chevron-right"></i>'
+            });
+</script>
+<script src="assets/js/cookie-consent.js"></script>
+<script src="assets/js/accordion.js"></script>
+
+
+<!-- start script for process slider -->
+<script src="assets/js/modernizr.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/tinyscrollbar.js"></script> 
+<script src="assets/js/metro-slider.js"></script> 
+<!-- end script for process slider -->
+
+
+<!--<script src="assets/js/jquery-3.3.1.slim.min.js"></script>-->
+<script>
+$(document).ready(function() {
+
+if(window.location.href.indexOf("Process") > -1) {
+		getAccordion("#tabs",993);
+	 }
+	 });
+</script>
+<script>
+	$( "#inquiry_submit" ).click( function () {
+		var recaptcha = document.forms[ "inquireform" ][ "g-recaptcha-response" ];
+		recaptcha.required = true;
+		recaptcha.oninvalid = function ( e ) {
+			$( ".inquire_error" ).css( "display", "block" );
+		};
+	} )
+	var vids = $( "video" );
+	$.each( vids, function () {
+		this.controls = false;
+	} );
+	
+	
+	
+</script>
+
+</body>
+</html>
+
